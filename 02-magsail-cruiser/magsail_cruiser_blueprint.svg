@@ -1,0 +1,202 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#16406B" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="gridMajor" width="125" height="125" patternUnits="userSpaceOnUse">
+      <rect width="125" height="125" fill="url(#grid)"/>
+      <path d="M 125 0 L 0 0 0 125" fill="none" stroke="#1E5288" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#6FC3FF"/>
+    </marker>
+    <marker id="warrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#DCEBFA"/>
+    </marker>
+    <marker id="dim" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M1,1 L9,9 M5,0 L5,10" stroke="#DCEBFA" stroke-width="1" fill="none"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="1000" fill="#0B2A4A"/>
+  <rect width="1400" height="1000" fill="url(#gridMajor)"/>
+  <rect x="20" y="20" width="1360" height="960" fill="none" stroke="#DCEBFA" stroke-width="2"/>
+  <rect x="28" y="28" width="1344" height="944" fill="none" stroke="#DCEBFA" stroke-width="0.8"/>
+
+  <text x="50" y="70" fill="#DCEBFA" font-size="30" letter-spacing="4" font-weight="bold">MAGSAIL CRUISER — MS-1 "AEOLUS"</text>
+  <text x="50" y="96" fill="#6FC3FF" font-size="14" letter-spacing="2">SUPERCONDUCTING MAGNETIC-SAIL FREIGHTER · PLAN VIEW ON WIND · TACKING GEOMETRY · SHEET 1 OF 5</text>
+  <line x1="50" y1="110" x2="1350" y2="110" stroke="#6FC3FF" stroke-width="1"/>
+
+  <!-- ======== SOLAR WIND ARROWS (incoming, deflecting) ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1">
+    <path d="M 60 300 h 90 q 60 -6 100 -46" marker-end="url(#warrow)"/>
+    <path d="M 60 380 h 70 q 50 -4 78 -30" marker-end="url(#warrow)"/>
+    <path d="M 60 460 h 60" marker-end="url(#warrow)"/>
+    <path d="M 60 540 h 70 q 50 4 78 30" marker-end="url(#warrow)"/>
+    <path d="M 60 620 h 90 q 60 6 100 46" marker-end="url(#warrow)"/>
+    <text x="62" y="282" fill="#6FC3FF" font-size="11" stroke="none">SOLAR WIND ~450 km/s</text>
+  </g>
+
+  <!-- ======== MAGNETOPAUSE BOUNDARY ======== -->
+  <path d="M 240 180 Q 150 460 240 740" stroke="#6FC3FF" stroke-width="1.2" stroke-dasharray="8 6" fill="none"/>
+  <text x="150" y="720" fill="#6FC3FF" font-size="11" transform="rotate(-75 160 700)">MAGNETOPAUSE (INFLATED)</text>
+
+  <!-- ======== MAIN PLAN VIEW ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="2">
+    <!-- HTS coil hoop -->
+    <circle cx="480" cy="460" r="195"/>
+    <circle cx="480" cy="460" r="187" stroke-width="0.8" stroke-dasharray="3 4"/>
+
+    <!-- field lines (dipole, dashed ellipses) -->
+    <ellipse cx="480" cy="460" rx="270" ry="120" stroke-width="0.8" stroke-dasharray="6 5"/>
+    <ellipse cx="480" cy="460" rx="330" ry="175" stroke-width="0.7" stroke-dasharray="6 5"/>
+
+    <!-- rigging spokes -->
+    <g stroke-width="1">
+      <line x1="480" y1="460" x2="480" y2="265"/><line x1="480" y1="460" x2="480" y2="655"/>
+      <line x1="480" y1="460" x2="285" y2="460"/><line x1="480" y1="460" x2="675" y2="460"/>
+      <line x1="480" y1="460" x2="342" y2="322"/><line x1="480" y1="460" x2="618" y2="322"/>
+      <line x1="480" y1="460" x2="342" y2="598"/><line x1="480" y1="460" x2="618" y2="598"/>
+    </g>
+
+    <!-- plasma injectors on hoop (4) -->
+    <g>
+      <circle cx="480" cy="265" r="11"/><circle cx="480" cy="655" r="11"/>
+      <circle cx="285" cy="460" r="11"/><circle cx="675" cy="460" r="11"/>
+      <path d="M 480 254 l -5 -12 m 5 12 l 5 -12 M 480 666 l -5 12 m 5 -12 l 5 12" stroke-width="1"/>
+    </g>
+
+    <!-- current direction ticks on hoop -->
+    <g stroke="#6FC3FF" stroke-width="1.4">
+      <path d="M 610 320 a 195 195 0 0 1 55 85" marker-end="url(#arrow)"/>
+      <path d="M 350 600 a 195 195 0 0 1 -55 -85" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- central bus -->
+    <rect x="440" y="420" width="80" height="80" rx="10"/>
+    <!-- cryocooler radiators -->
+    <path d="M 440 434 h -26 m 26 14 h -26 m 26 14 h -26" stroke-width="1.4"/>
+    <path d="M 520 434 h 26 m -26 14 h 26 m -26 14 h 26" stroke-width="1.4"/>
+    <!-- solar array -->
+    <line x1="480" y1="420" x2="480" y2="396"/>
+    <rect x="446" y="372" width="68" height="24"/>
+    <path d="M 463 372 v24 M 480 372 v24 M 497 372 v24" stroke-width="0.7"/>
+    <!-- cargo dock -->
+    <rect x="462" y="500" width="36" height="18"/>
+    <path d="M 468 518 v 8 m 24 -8 v 8 M 462 526 h 36" stroke-width="1"/>
+    <!-- tilt actuator gimbals -->
+    <circle cx="440" cy="460" r="6"/><circle cx="520" cy="460" r="6"/>
+  </g>
+
+  <!-- ======== TACKING INSET (top right) ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.2">
+    <rect x="950" y="140" width="390" height="250" fill="#0E3357" stroke="#6FC3FF"/>
+    <text x="966" y="164" fill="#6FC3FF" font-size="12" letter-spacing="2" stroke="none">FIG. B — TACKING: TILT = THRUST VECTOR</text>
+    <!-- wind arrows -->
+    <path d="M 975 230 h 55" marker-end="url(#warrow)" stroke-width="1"/>
+    <path d="M 975 270 h 55" marker-end="url(#warrow)" stroke-width="1"/>
+    <path d="M 975 310 h 55" marker-end="url(#warrow)" stroke-width="1"/>
+    <!-- tilted sail (ellipse) -->
+    <ellipse cx="1145" cy="270" rx="18" ry="70" transform="rotate(25 1145 270)"/>
+    <!-- thrust vectors -->
+    <path d="M 1145 270 l 110 0" stroke="#6FC3FF" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <path d="M 1145 270 l 70 -52" stroke="#6FC3FF" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <path d="M 1255 270 L 1215 218" stroke-dasharray="4 3" stroke-width="0.8"/>
+    <g fill="#DCEBFA" font-size="10" stroke="none">
+      <text x="975" y="215">WIND</text>
+      <text x="1238" y="292">DRAG F</text>
+      <text x="1198" y="205">LIFT F'</text>
+      <text x="966" y="368" fill="#6FC3FF">TILT DIPOLE ±25° → SPIRAL IN / OUT, NO PROPELLANT</text>
+    </g>
+  </g>
+
+  <!-- ======== DETAIL A: HTS cable cross-section ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.4">
+    <circle cx="1120" cy="565" r="82" stroke="#6FC3FF"/>
+    <circle cx="1120" cy="565" r="58"/>
+    <circle cx="1120" cy="565" r="42" stroke-dasharray="4 3" stroke-width="1"/>
+    <circle cx="1120" cy="565" r="26"/>
+    <rect x="1108" y="553" width="24" height="24" stroke-width="1"/>
+    <path d="M 1108 559 h24 M 1108 565 h24 M 1108 571 h24" stroke-width="0.7"/>
+    <g fill="#DCEBFA" font-size="9.5" stroke="none">
+      <text x="1120" y="512" text-anchor="middle">MLI WRAP</text>
+      <text x="1120" y="535" text-anchor="middle">JACKET</text>
+      <text x="1188" y="565">CRYO CH.</text>
+      <text x="1120" y="600" text-anchor="middle">REBCO STACK</text>
+    </g>
+    <text x="1120" y="675" fill="#6FC3FF" font-size="12" text-anchor="middle" stroke="none">DETAIL A — HTS CABLE SECTION, 65 K OPERATING</text>
+    <line x1="672" y1="452" x2="1040" y2="548" stroke="#6FC3FF" stroke-width="0.9" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- ======== CALLOUTS ======== -->
+  <g stroke="#6FC3FF" stroke-width="1" fill="none">
+    <line x1="560" y1="290" x2="640" y2="205" marker-start="url(#arrow)"/>
+    <line x1="480" y1="254" x2="390" y2="195" marker-start="url(#arrow)"/>
+    <line x1="447" y1="427" x2="330" y2="740" marker-start="url(#arrow)"/>
+    <line x1="405" y1="385" x2="285" y2="240" marker-start="url(#arrow)"/>
+    <line x1="480" y1="372" x2="565" y2="250" marker-start="url(#arrow)"/>
+    <line x1="240" y1="430" x2="205" y2="380" marker-start="url(#arrow)"/>
+    <line x1="526" y1="460" x2="700" y2="700" marker-start="url(#arrow)"/>
+    <line x1="480" y1="526" x2="600" y2="735" marker-start="url(#arrow)"/>
+  </g>
+  <g fill="#DCEBFA" font-size="13">
+    <g><circle cx="648" cy="196" r="12" fill="none" stroke="#6FC3FF"/><text x="648" y="201" text-anchor="middle">1</text></g>
+    <g><circle cx="380" cy="188" r="12" fill="none" stroke="#6FC3FF"/><text x="380" y="193" text-anchor="middle">2</text></g>
+    <g><circle cx="322" cy="748" r="12" fill="none" stroke="#6FC3FF"/><text x="322" y="753" text-anchor="middle" font-size="12">3</text></g>
+    <g><circle cx="276" cy="231" r="12" fill="none" stroke="#6FC3FF"/><text x="276" y="236" text-anchor="middle">4</text></g>
+    <g><circle cx="572" cy="240" r="12" fill="none" stroke="#6FC3FF"/><text x="572" y="245" text-anchor="middle">5</text></g>
+    <g><circle cx="197" cy="371" r="12" fill="none" stroke="#6FC3FF"/><text x="197" y="376" text-anchor="middle">6</text></g>
+    <g><circle cx="710" cy="710" r="12" fill="none" stroke="#6FC3FF"/><text x="710" y="715" text-anchor="middle">7</text></g>
+    <g><circle cx="592" cy="722" r="12" fill="none" stroke="#6FC3FF"/><text x="592" y="727" text-anchor="middle" font-size="12">8</text></g>
+  </g>
+
+  <!-- dimension -->
+  <g stroke="#DCEBFA" stroke-width="1" fill="#DCEBFA">
+    <line x1="285" y1="695" x2="675" y2="695" marker-start="url(#dim)" marker-end="url(#dim)"/>
+    <line x1="285" y1="460" x2="285" y2="705" stroke-dasharray="4 3" stroke-width="0.7"/>
+    <line x1="675" y1="460" x2="675" y2="705" stroke-dasharray="4 3" stroke-width="0.7"/>
+    <text x="480" y="717" text-anchor="middle" font-size="14">COIL DIAMETER 2,000 m (DRAWN NOT TO SCALE)</text>
+  </g>
+
+  <!-- ======== PARTS LIST ======== -->
+  <g font-size="13" fill="#DCEBFA">
+    <rect x="50" y="760" width="620" height="196" fill="#0E3357" stroke="#6FC3FF" stroke-width="1"/>
+    <text x="66" y="785" fill="#6FC3FF" font-size="14" letter-spacing="2" font-weight="bold">PARTS &amp; SYSTEMS INDEX</text>
+    <line x1="66" y1="794" x2="654" y2="794" stroke="#6FC3FF" stroke-width="0.7"/>
+    <text x="66" y="814">1 — HTS COIL HOOP: 2 km dia, 100 kA persistent current, see DETAIL A</text>
+    <text x="66" y="834">2 — PLASMA INJECTORS (x4): argon feed, M2P2 field inflation</text>
+    <text x="66" y="854">3 — CENTRAL BUS: cryocoolers hold hoop at 65 K, avionics, comms</text>
+    <text x="66" y="874">4 — RIGGING SPOKES (x8): kevlar tension lines, spin-deployed</text>
+    <text x="66" y="894">5 — SOLAR ARRAY: 30 kW, powers cryo plant + injectors</text>
+    <text x="66" y="914">6 — MAGNETOPAUSE: effective sail 40-80 km dia when inflated</text>
+    <text x="66" y="934">7 — TILT ACTUATOR GIMBALS: dipole steering = thrust vectoring</text>
+    <text x="66" y="951">8 — CARGO DOCK: 20 t container berth, micro-g freight</text>
+  </g>
+
+  <text x="1350" y="750" fill="#6FC3FF" font-size="11" text-anchor="end" letter-spacing="1">DESIGNED BY: W.A. SANDUN PRIYANKARA WIJERATHNE · sandunwijerathne51@gmail.com · github.com/sandunwijerathne</text>
+
+  <!-- ======== TITLE BLOCK ======== -->
+  <g font-size="12" fill="#DCEBFA">
+    <rect x="700" y="760" width="650" height="196" fill="#0E3357" stroke="#DCEBFA" stroke-width="1.5"/>
+    <line x1="700" y1="806" x2="1350" y2="806" stroke="#DCEBFA"/>
+    <line x1="700" y1="852" x2="1350" y2="852" stroke="#DCEBFA"/>
+    <line x1="700" y1="898" x2="1350" y2="898" stroke="#DCEBFA"/>
+    <line x1="1030" y1="760" x2="1030" y2="956" stroke="#DCEBFA"/>
+    <text x="716" y="780" fill="#6FC3FF" letter-spacing="1">PROJECT</text>
+    <text x="716" y="798" font-size="14" font-weight="bold">OFF-WORLD CIVILISATION TOOLKIT</text>
+    <text x="1046" y="780" fill="#6FC3FF">DRAWING NO.</text>
+    <text x="1046" y="798" font-size="14" font-weight="bold">MS-1-GA-001 · REV A</text>
+    <text x="716" y="826" fill="#6FC3FF">UNIT DESIGNATION</text>
+    <text x="716" y="844" font-weight="bold">MS-1 "AEOLUS" — GENERAL ARRANGEMENT</text>
+    <text x="1046" y="826" fill="#6FC3FF">SCALE</text>
+    <text x="1046" y="844" font-weight="bold">SCHEMATIC / NTS</text>
+    <text x="716" y="872" fill="#6FC3FF">DEPLOYMENT ENVIRONMENT</text>
+    <text x="716" y="890" font-weight="bold">HELIOCENTRIC 0.7 - 5 AU, 15-YEAR SERVICE LIFE</text>
+    <text x="1046" y="872" fill="#6FC3FF">MASS (DRY)</text>
+    <text x="1046" y="890" font-weight="bold">18,500 kg</text>
+    <text x="716" y="918" fill="#6FC3FF">FUNCTION</text>
+    <text x="716" y="936" font-weight="bold">PROPELLANTLESS SOLAR-WIND FREIGHT TUG</text>
+    <text x="1046" y="918" fill="#6FC3FF">STATUS</text>
+    <text x="1046" y="936" font-weight="bold">CONCEPT — DOES NOT EXIST (YET)</text>
+  </g>
+</svg>
