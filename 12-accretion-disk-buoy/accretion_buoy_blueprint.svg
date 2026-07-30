@@ -1,0 +1,166 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#16406B" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="gridMajor" width="125" height="125" patternUnits="userSpaceOnUse">
+      <rect width="125" height="125" fill="url(#grid)"/>
+      <path d="M 125 0 L 0 0 0 125" fill="none" stroke="#1E5288" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#6FC3FF"/>
+    </marker>
+    <marker id="dim" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M1,1 L9,9 M5,0 L5,10" stroke="#DCEBFA" stroke-width="1" fill="none"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="1000" fill="#0B2A4A"/>
+  <rect width="1400" height="1000" fill="url(#gridMajor)"/>
+  <rect x="20" y="20" width="1360" height="960" fill="none" stroke="#DCEBFA" stroke-width="2"/>
+  <rect x="28" y="28" width="1344" height="944" fill="none" stroke="#DCEBFA" stroke-width="0.8"/>
+
+  <text x="50" y="70" fill="#DCEBFA" font-size="27" letter-spacing="3" font-weight="bold">ACCRETION-DISK BUOY — AB-1 "HALCYON"</text>
+  <text x="50" y="96" fill="#6FC3FF" font-size="14" letter-spacing="2">RADIATION-HARDENED PLASMA PROBE SWARM · SYSTEM SCHEMATIC · BUOY DETAIL · SHEET 1 OF 5</text>
+  <line x1="50" y1="110" x2="1350" y2="110" stroke="#6FC3FF" stroke-width="1"/>
+
+  <!-- ======== MAIN SCHEMATIC: black hole + disk + orbits ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="2">
+    <!-- black hole -->
+    <circle cx="470" cy="440" r="34" fill="#0B2A4A"/>
+    <circle cx="470" cy="440" r="34" stroke-width="2.5"/>
+    <!-- accretion disk (ellipses, edge-on-ish) -->
+    <ellipse cx="470" cy="440" rx="230" ry="60" stroke-width="1.6"/>
+    <ellipse cx="470" cy="440" rx="180" ry="46" stroke-width="1" stroke-dasharray="6 5"/>
+    <ellipse cx="470" cy="440" rx="120" ry="30" stroke-width="1" stroke-dasharray="4 4"/>
+    <!-- disk spin arrows -->
+    <path d="M 660 452 a 200 55 0 0 1 -60 42" stroke="#6FC3FF" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <text x="640" y="520" fill="#6FC3FF" font-size="9" stroke="none">HOT PLASMA, MRI TURBULENCE</text>
+    <!-- relativistic jet (axis) -->
+    <path d="M 470 406 L 460 300 M 470 406 L 480 300" stroke-width="1.4"/>
+    <path d="M 470 474 L 460 580 M 470 474 L 480 580" stroke-width="1.4"/>
+    <text x="490" y="300" fill="#6FC3FF" font-size="9" stroke="none">JET</text>
+
+    <!-- buoy elongated orbits (dip in + retreat) -->
+    <ellipse cx="600" cy="440" rx="330" ry="150" stroke-width="1" stroke-dasharray="8 6"/>
+    <ellipse cx="560" cy="440" rx="290" ry="210" stroke-width="0.8" stroke-dasharray="8 6" transform="rotate(28 470 440)"/>
+
+    <!-- buoys on orbits -->
+    <g>
+      <rect x="900" y="432" width="18" height="16"/>
+      <rect x="288" y="360" width="18" height="16" transform="rotate(20 297 368)"/>
+      <rect x="720" y="590" width="18" height="16"/>
+      <rect x="820" y="300" width="18" height="16"/>
+    </g>
+    <text x="930" y="444" fill="#DCEBFA" font-size="9" stroke="none">BUOY (SACRIFICIAL SENSOR)</text>
+
+    <!-- sample-point flashes near disk -->
+    <g stroke="#6FC3FF" stroke-width="1">
+      <path d="M 690 452 l 10 6 m -10 -6 l 10 -6 m -10 6 l 12 0"/>
+    </g>
+
+    <!-- relay craft (far, well-shielded) -->
+    <g>
+      <rect x="1120" y="430" width="40" height="28" rx="4"/>
+      <path d="M 1120 438 l -18 -6 v 24 l 18 -6" stroke-width="1.4"/>
+      <rect x="1132" y="410" width="20" height="12"/>
+    </g>
+    <text x="1140" y="484" fill="#DCEBFA" font-size="9" text-anchor="middle" stroke="none">RELAY CRAFT (SAFE DISTANCE)</text>
+    <!-- data relay arrows outward -->
+    <path d="M 918 440 h 190" stroke="#6FC3FF" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+    <path d="M 1160 444 h 90" stroke="#6FC3FF" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+    <text x="1180" y="430" fill="#6FC3FF" font-size="8.5" stroke="none">→ HOME</text>
+  </g>
+
+  <!-- ======== BUOY DETAIL (top right) ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.4">
+    <circle cx="1150" cy="620" r="90" stroke="#6FC3FF"/>
+    <!-- shielding shells -->
+    <circle cx="1150" cy="620" r="60"/>
+    <circle cx="1150" cy="620" r="44" stroke-dasharray="4 3" stroke-width="0.9"/>
+    <circle cx="1150" cy="620" r="26"/>
+    <!-- core -->
+    <rect x="1138" y="608" width="24" height="24"/>
+    <path d="M 1144 616 h12 M 1144 624 h12" stroke-width="0.6"/>
+    <!-- probe booms -->
+    <line x1="1150" y1="560" x2="1150" y2="540" stroke-width="1"/>
+    <circle cx="1150" cy="536" r="4"/>
+    <line x1="1210" y1="620" x2="1230" y2="620" stroke-width="1"/>
+    <circle cx="1234" cy="620" r="4"/>
+    <g fill="#DCEBFA" font-size="8.5" stroke="none">
+      <text x="1150" y="576" text-anchor="middle">MAG PROBE</text>
+      <text x="1150" y="624" text-anchor="middle" font-size="8">CORE</text>
+      <text x="1150" y="690" text-anchor="middle">HEAVY SHIELD SHELLS</text>
+    </g>
+    <text x="1150" y="730" fill="#6FC3FF" font-size="12" text-anchor="middle" stroke="none">DETAIL A — HARDENED BUOY</text>
+    <line x1="909" y1="440" x2="1062" y2="600" stroke="#6FC3FF" stroke-width="0.9" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- ======== ORBIT PROFILE INSET (left-bottom) ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.2">
+    <rect x="60" y="620" width="330" height="180" fill="#0E3357" stroke="#6FC3FF"/>
+    <text x="76" y="644" fill="#6FC3FF" font-size="11" letter-spacing="1" stroke="none">FIG. B — DIP-AND-RETREAT ORBIT</text>
+    <!-- radiation-dose curve over orbit -->
+    <polyline points="80,760 140,760 200,690 220,690 280,760 360,760" stroke="#DCEBFA" stroke-width="1.6"/>
+    <line x1="80" y1="660" x2="80" y2="770" stroke-width="0.8"/>
+    <line x1="80" y1="770" x2="370" y2="770" stroke-width="0.8"/>
+    <g fill="#DCEBFA" font-size="8.5" stroke="none">
+      <text x="150" y="785">SAMPLE (BRIEF)</text>
+      <text x="210" y="682" text-anchor="middle">PEAK DOSE</text>
+      <text x="330" y="785" text-anchor="end">TRANSMIT + COOL</text>
+    </g>
+  </g>
+
+  <!-- ======== CALLOUTS ======== -->
+  <g stroke="#6FC3FF" stroke-width="1" fill="none">
+    <line x1="470" y1="474" x2="470" y2="850" marker-start="url(#arrow)"/>
+    <line x1="580" y1="440" x2="640" y2="850" marker-start="url(#arrow)"/>
+    <line x1="909" y1="448" x2="820" y2="850" marker-start="url(#arrow)"/>
+    <line x1="1140" y1="458" x2="1000" y2="850" marker-start="url(#arrow)"/>
+  </g>
+  <g fill="#DCEBFA" font-size="13">
+    <g><circle cx="470" cy="862" r="12" fill="none" stroke="#6FC3FF"/><text x="470" y="867" text-anchor="middle">1</text></g>
+    <g><circle cx="640" cy="862" r="12" fill="none" stroke="#6FC3FF"/><text x="640" y="867" text-anchor="middle">2</text></g>
+    <g><circle cx="820" cy="862" r="12" fill="none" stroke="#6FC3FF"/><text x="820" y="867" text-anchor="middle">3</text></g>
+    <g><circle cx="1000" cy="862" r="12" fill="none" stroke="#6FC3FF"/><text x="1000" y="867" text-anchor="middle">4</text></g>
+  </g>
+
+  <!-- ======== PARTS LIST ======== -->
+  <g font-size="12" fill="#DCEBFA">
+    <rect x="440" y="620" width="480" height="180" fill="#0E3357" stroke="#6FC3FF" stroke-width="1"/>
+    <text x="456" y="645" fill="#6FC3FF" font-size="13" letter-spacing="2" font-weight="bold">PARTS &amp; SYSTEMS INDEX</text>
+    <line x1="456" y1="654" x2="904" y2="654" stroke="#6FC3FF" stroke-width="0.7"/>
+    <text x="456" y="676">1 — BLACK HOLE + ACCRETION DISK: hot plasma, MRI turbulence, jets</text>
+    <text x="456" y="698">2 — SAMPLE ZONE: buoy dips into outer disk, reads density + B-field</text>
+    <text x="456" y="720">3 — BUOY SWARM: many sacrificial hardened sensors, see DETAIL A</text>
+    <text x="456" y="742">4 — RELAY CHAIN: shielded craft at safe distance, aggregate + beam home</text>
+    <text x="456" y="774" font-size="10.5" fill="#6FC3FF">SCIENCE: first in-situ data from accretion physics (else only inferred)</text>
+  </g>
+
+  <text x="1350" y="790" fill="#6FC3FF" font-size="11" text-anchor="end" letter-spacing="1">DESIGNED BY: W.A. SANDUN PRIYANKARA WIJERATHNE · sandunwijerathne51@gmail.com · github.com/sandunwijerathne</text>
+
+  <!-- ======== TITLE BLOCK ======== -->
+  <g font-size="12" fill="#DCEBFA">
+    <rect x="440" y="808" width="910" height="148" fill="#0E3357" stroke="#DCEBFA" stroke-width="1.5"/>
+    <line x1="440" y1="844" x2="1350" y2="844" stroke="#DCEBFA"/>
+    <line x1="440" y1="880" x2="1350" y2="880" stroke="#DCEBFA"/>
+    <line x1="440" y1="920" x2="1350" y2="920" stroke="#DCEBFA"/>
+    <line x1="900" y1="808" x2="900" y2="956" stroke="#DCEBFA"/>
+    <text x="456" y="828" fill="#6FC3FF" letter-spacing="1">PROJECT</text>
+    <text x="456" y="838" font-size="12" font-weight="bold">OFF-WORLD CIVILISATION TOOLKIT</text>
+    <text x="916" y="828" fill="#6FC3FF">DRAWING NO.</text>
+    <text x="916" y="838" font-size="12" font-weight="bold">AB-1-GA-001 · REV A</text>
+    <text x="456" y="864" fill="#6FC3FF">UNIT DESIGNATION</text>
+    <text x="456" y="874" font-weight="bold" font-size="11">AB-1 "HALCYON" — GENERAL ARRANGEMENT</text>
+    <text x="916" y="864" fill="#6FC3FF">HOST</text>
+    <text x="916" y="874" font-weight="bold" font-size="11">ACCRETING BLACK HOLE</text>
+    <text x="456" y="900" fill="#6FC3FF">MEASURES</text>
+    <text x="456" y="910" font-weight="bold" font-size="11">PLASMA DENSITY · B-FIELD · PARTICLE SPECTRA</text>
+    <text x="916" y="900" fill="#6FC3FF">ARCHITECTURE</text>
+    <text x="916" y="910" font-weight="bold" font-size="11">SACRIFICIAL SWARM + RELAYS</text>
+    <text x="456" y="940" fill="#6FC3FF">FUNCTION</text>
+    <text x="456" y="950" font-weight="bold" font-size="11">FIRST IN-SITU STUDY OF BLACK-HOLE WEATHER</text>
+    <text x="916" y="940" fill="#6FC3FF">STATUS</text>
+    <text x="916" y="950" font-weight="bold" font-size="10">CONCEPT — FAR HORIZON, PHYSICS REAL</text>
+  </g>
+</svg>
