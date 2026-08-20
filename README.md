@@ -1,6 +1,6 @@
 # Off-World Civilisation Toolkit
 
-**Twenty machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, and AI robots. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
+**Twenty-five machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials and habitats that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
 
 Each concept folder contains a short article; flagship concepts additionally include a full research-paper-style concept study (PDF, Harvard referencing), an engineering blueprint sheet (SVG), and detailed image-generation prompts.
 
@@ -37,6 +37,13 @@ Each concept folder contains a short article; flagship concepts additionally inc
 ### AI Robots
 19. **[The Myrmidon Swarm](19-myrmidon-swarm/)** — A ship's hull should heal like skin.
 20. **[The Deep-Down Cryobot](20-deep-down-cryobot/)** — Somewhere under Europa's ice, there is an ocean holding twice the water of all Earth's seas, warmed by tidal flexing, in contact with a rocky floor — every ingredient of life's recipe, sealed under kilometres of ice for four billion years.
+
+### Materials, Habitats & Human Factors
+21. **[The Regolith Sinter Dome](21-regolith-sinter-dome/)** — The first true lunar building won't be delivered. It will be baked in place.
+22. **[The Ice-Shell Habitat](22-ice-shell-habitat/)** — The water you drink is the wall that keeps you alive.
+23. **[The Self-Healing Pressure Skin](23-self-healing-skin/)** — A hull that seals itself before anyone even knows it was pierced.
+24. **[The Basalt Fibre Spinnery](24-basalt-fibre-spinnery/)** — A steel mill for worlds with no iron industry, fed on the commonest rock in the solar system.
+25. **[The Variable-Gravity Sleep Centrifuge](25-variable-gravity-sleep-centrifuge/)** — Cheating the slow decay of weightlessness by sleeping your way back to Earth's pull, one night at a time.
 
 ## Author
 
