@@ -1,0 +1,186 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#16406B" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="gridMajor" width="125" height="125" patternUnits="userSpaceOnUse">
+      <rect width="125" height="125" fill="url(#grid)"/>
+      <path d="M 125 0 L 0 0 0 125" fill="none" stroke="#1E5288" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#6FC3FF"/>
+    </marker>
+    <marker id="warrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#DCEBFA"/>
+    </marker>
+    <marker id="dim" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M1,1 L9,9 M5,0 L5,10" stroke="#DCEBFA" stroke-width="1" fill="none"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="1000" fill="#0B2A4A"/>
+  <rect width="1400" height="1000" fill="url(#gridMajor)"/>
+  <rect x="20" y="20" width="1360" height="960" fill="none" stroke="#DCEBFA" stroke-width="2"/>
+  <rect x="28" y="28" width="1344" height="944" fill="none" stroke="#DCEBFA" stroke-width="0.8"/>
+
+  <text x="50" y="70" fill="#DCEBFA" font-size="27" letter-spacing="2" font-weight="bold">INSECT PROTEIN REACTOR — IP-1 "GREGOR"</text>
+  <text x="50" y="96" fill="#6FC3FF" font-size="14" letter-spacing="2">WASTE-TO-PROTEIN FARM · PROCESS FLOW · TRAY DETAIL · VOLUME II · SHEET 1 OF 5</text>
+  <line x1="50" y1="110" x2="1350" y2="110" stroke="#6FC3FF" stroke-width="1"/>
+
+  <!-- ======== MAIN PROCESS FLOW ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="2">
+    <!-- 1. crop waste in -->
+    <rect x="110" y="300" width="120" height="80" rx="6"/>
+    <g stroke-width="1"><path d="M 130 340 l 20 -20 l 10 14 l 16 -18 M 170 350 l 14 -12"/></g>
+    <text x="170" y="292" fill="#6FC3FF" font-size="10" text-anchor="middle" stroke="none">CROP WASTE + SCRAPS</text>
+    <text x="170" y="398" fill="#DCEBFA" font-size="8.5" text-anchor="middle" stroke="none">STEMS, LEAVES, RESIDUE</text>
+    <path d="M 230 340 l 60 0" stroke="#6FC3FF" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <text x="260" y="332" fill="#6FC3FF" font-size="8" text-anchor="middle" stroke="none">FEED PREP</text>
+
+    <!-- 2. rearing reactor (tray stack) -->
+    <rect x="300" y="260" width="260" height="200" rx="8" fill="#0E3357"/>
+    <rect x="300" y="260" width="260" height="200" rx="8"/>
+    <!-- trays -->
+    <g stroke-width="1.2">
+      <rect x="320" y="280" width="220" height="34"/>
+      <rect x="320" y="322" width="220" height="34"/>
+      <rect x="320" y="364" width="220" height="34"/>
+      <rect x="320" y="406" width="220" height="34"/>
+    </g>
+    <!-- larvae marks -->
+    <g stroke="#6FC3FF" stroke-width="1.2">
+      <path d="M 340 297 q 6 -4 12 0 M 370 297 q 6 -4 12 0 M 400 297 q 6 -4 12 0 M 470 297 q 6 -4 12 0"/>
+      <path d="M 340 339 q 6 -4 12 0 M 380 339 q 6 -4 12 0 M 460 339 q 6 -4 12 0 M 500 339 q 6 -4 12 0"/>
+      <path d="M 350 381 q 6 -4 12 0 M 410 381 q 6 -4 12 0 M 480 381 q 6 -4 12 0"/>
+      <path d="M 340 423 q 6 -4 12 0 M 400 423 q 6 -4 12 0 M 470 423 q 6 -4 12 0 M 510 423 q 6 -4 12 0"/>
+    </g>
+    <text x="430" y="252" fill="#6FC3FF" font-size="11" text-anchor="middle" stroke="none">REARING REACTOR (STACKED TRAYS)</text>
+    <text x="430" y="480" fill="#DCEBFA" font-size="8.5" text-anchor="middle" stroke="none">TEMP + HUMIDITY CONTROLLED · SEALED</text>
+
+    <!-- 3. harvest -> protein -->
+    <path d="M 560 320 l 80 0" stroke="#6FC3FF" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <text x="600" y="312" fill="#6FC3FF" font-size="8" text-anchor="middle" stroke="none">HARVEST</text>
+    <rect x="640" y="290" width="120" height="70" rx="6"/>
+    <path d="M 656 314 h88 M 656 328 h88 M 656 342 h60" stroke-width="0.6"/>
+    <text x="700" y="282" fill="#DCEBFA" font-size="9.5" text-anchor="middle" stroke="none">PROCESS → PROTEIN FLOUR</text>
+    <text x="700" y="378" fill="#6FC3FF" font-size="8.5" text-anchor="middle" stroke="none">DRIED, MILLED, BLENDED</text>
+    <path d="M 760 325 l 70 0" stroke="#6FC3FF" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <text x="850" y="328" fill="#DCEBFA" font-size="10" stroke="none">→ CREW DIET</text>
+
+    <!-- 4. frass -> crops -->
+    <path d="M 430 460 l 0 60" stroke="#6FC3FF" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <rect x="370" y="520" width="120" height="50" rx="6"/>
+    <g fill="#DCEBFA"><circle cx="396" cy="538" r="2.5"/><circle cx="416" cy="548" r="2.5"/><circle cx="440" cy="536" r="2.5"/><circle cx="460" cy="550" r="2.5"/></g>
+    <text x="430" y="512" fill="#6FC3FF" font-size="9" text-anchor="middle" stroke="none">FRASS (INSECT DROPPINGS)</text>
+    <path d="M 490 545 l 80 0" stroke="#6FC3FF" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <text x="600" y="548" fill="#DCEBFA" font-size="10" stroke="none">→ FERTILISES CROPS</text>
+    <!-- loop back arrow small -->
+    <text x="600" y="566" fill="#6FC3FF" font-size="8" stroke="none">(WHICH FEED THE INSECTS)</text>
+  </g>
+
+  <!-- ======== EFFICIENCY INSET (top right) ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.2">
+    <rect x="900" y="140" width="440" height="210" fill="#0E3357" stroke="#6FC3FF"/>
+    <text x="918" y="166" fill="#6FC3FF" font-size="12" letter-spacing="1" stroke="none">FIG. B — YOU CANNOT BRING A COW</text>
+    <line x1="918" y1="176" x2="1322" y2="176" stroke="#6FC3FF" stroke-width="0.7"/>
+    <!-- cow -->
+    <g stroke-width="1.4">
+      <ellipse cx="980" cy="220" rx="34" ry="18"/>
+      <line x1="956" y1="236" x2="956" y2="256"/><line x1="1004" y1="236" x2="1004" y2="256"/>
+      <path d="M 1012 210 q 10 -2 12 6"/>
+    </g>
+    <text x="980" y="278" fill="#DCEBFA" font-size="8" text-anchor="middle" stroke="none">TONNES · YEARS ·</text>
+    <text x="980" y="290" fill="#6FC3FF" font-size="8" text-anchor="middle" stroke="none">HUGE FEED + WATER ✗</text>
+    <!-- vs insects -->
+    <g stroke="#DCEBFA" stroke-width="1.2">
+      <path d="M 1180 210 q 8 -6 16 0 M 1180 226 q 8 -6 16 0 M 1180 242 q 8 -6 16 0 M 1210 210 q 8 -6 16 0 M 1210 226 q 8 -6 16 0"/>
+    </g>
+    <text x="1200" y="278" fill="#DCEBFA" font-size="8" text-anchor="middle" stroke="none">GRAMS · DAYS ·</text>
+    <text x="1200" y="290" fill="#6FC3FF" font-size="8" text-anchor="middle" stroke="none">EATS WASTE ✓</text>
+    <text x="918" y="320" fill="#DCEBFA" font-size="9" stroke="none">INSECTS: HIGH FEED EFFICIENCY, LITTLE WATER/SPACE</text>
+    <text x="918" y="340" fill="#6FC3FF" font-size="9" stroke="none">FAO-ENDORSED SUSTAINABLE PROTEIN (van Huis 2013)</text>
+  </g>
+
+  <!-- ======== TRAY DETAIL A ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.4">
+    <circle cx="1120" cy="560" r="92" stroke="#6FC3FF"/>
+    <rect x="1056" y="548" width="128" height="30"/>
+    <!-- feed layer -->
+    <rect x="1056" y="566" width="128" height="12" fill="#16406B"/>
+    <text x="1120" y="596" fill="#DCEBFA" font-size="8" text-anchor="middle" stroke="none">FEED (CROP WASTE)</text>
+    <!-- larvae -->
+    <g stroke="#6FC3FF" stroke-width="1.4"><path d="M 1070 558 q 6 -4 12 0 M 1096 558 q 6 -4 12 0 M 1122 558 q 6 -4 12 0 M 1148 558 q 6 -4 12 0"/></g>
+    <text x="1120" y="540" fill="#DCEBFA" font-size="8" text-anchor="middle" stroke="none">LARVAE EAT + GROW</text>
+    <!-- lifecycle arrows -->
+    <path d="M 1060 600 q 60 30 120 0" stroke="#6FC3FF" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="1120" y="624" fill="#6FC3FF" font-size="7.5" text-anchor="middle" stroke="none">EGG → LARVA → HARVEST (DAYS-WEEKS)</text>
+    <text x="1120" y="676" fill="#6FC3FF" font-size="12" text-anchor="middle" stroke="none">DETAIL A — REARING TRAY</text>
+    <line x1="540" y1="360" x2="1032" y2="548" stroke="#6FC3FF" stroke-width="0.9" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- ======== ACCEPTANCE PANEL ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.4">
+    <rect x="900" y="690" width="440" height="96" fill="#0E3357" stroke="#6FC3FF" stroke-width="1.4"/>
+    <text x="918" y="714" fill="#6FC3FF" font-size="11" letter-spacing="1" stroke="none">! THE HARDEST PROBLEM IS HUMAN</text>
+    <line x1="918" y1="722" x2="1322" y2="722" stroke="#6FC3FF" stroke-width="0.7"/>
+    <g fill="#DCEBFA" font-size="9" stroke="none">
+      <text x="918" y="740">WILL THE CREW EAT IT? — TAKE THIS SERIOUSLY</text>
+      <text x="918" y="758">MILL TO FLOUR, BLEND IN, HIDE THE BUG</text>
+      <text x="918" y="776" fill="#6FC3FF">A FOOD THEY WON'T EAT IS NO FOOD AT ALL</text>
+    </g>
+  </g>
+
+  <!-- ======== CALLOUTS ======== -->
+  <g stroke="#6FC3FF" stroke-width="1" fill="none">
+    <line x1="170" y1="380" x2="180" y2="800" marker-start="url(#arrow)"/>
+    <line x1="430" y1="460" x2="360" y2="800" marker-start="url(#arrow)"/>
+    <line x1="700" y1="360" x2="520" y2="800" marker-start="url(#arrow)"/>
+    <line x1="430" y1="520" x2="640" y2="800" marker-start="url(#arrow)"/>
+    <line x1="850" y1="325" x2="790" y2="800" marker-start="url(#arrow)"/>
+  </g>
+  <g fill="#DCEBFA" font-size="13">
+    <g><circle cx="180" cy="812" r="12" fill="none" stroke="#6FC3FF"/><text x="180" y="817" text-anchor="middle">1</text></g>
+    <g><circle cx="360" cy="812" r="12" fill="none" stroke="#6FC3FF"/><text x="360" y="817" text-anchor="middle">2</text></g>
+    <g><circle cx="520" cy="812" r="12" fill="none" stroke="#6FC3FF"/><text x="520" y="817" text-anchor="middle">3</text></g>
+    <g><circle cx="640" cy="812" r="12" fill="none" stroke="#6FC3FF"/><text x="640" y="817" text-anchor="middle">4</text></g>
+    <g><circle cx="790" cy="812" r="12" fill="none" stroke="#6FC3FF"/><text x="790" y="817" text-anchor="middle">5</text></g>
+  </g>
+
+  <!-- ======== PARTS LIST ======== -->
+  <g font-size="12.5" fill="#DCEBFA">
+    <rect x="50" y="832" width="640" height="124" fill="#0E3357" stroke="#6FC3FF" stroke-width="1"/>
+    <text x="66" y="856" fill="#6FC3FF" font-size="13" letter-spacing="2" font-weight="bold">PARTS &amp; SYSTEMS INDEX</text>
+    <line x1="66" y1="865" x2="674" y2="865" stroke="#6FC3FF" stroke-width="0.7"/>
+    <text x="66" y="885">1 — WASTE FEED: crop residue + scraps prepared for the colony</text>
+    <text x="66" y="905">2 — REARING REACTOR: stacked trays, sealed, climate-controlled (DETAIL A)</text>
+    <text x="66" y="925">3 — HARVEST → PROTEIN FLOUR: dried, milled, blended into the diet</text>
+    <text x="66" y="941" font-size="10.5" fill="#6FC3FF">4 — FRASS → fertilises crops · 5 — LOOP: crops feed insects, insects feed crew</text>
+  </g>
+
+  <text x="1350" y="812" fill="#6FC3FF" font-size="11" text-anchor="end" letter-spacing="1">DESIGNED BY: W.A. SANDUN PRIYANKARA WIJERATHNE · sandunwijerathne51@gmail.com · github.com/sandunwijerathne</text>
+
+  <!-- ======== TITLE BLOCK ======== -->
+  <g font-size="12" fill="#DCEBFA">
+    <rect x="710" y="832" width="640" height="124" fill="#0E3357" stroke="#DCEBFA" stroke-width="1.5"/>
+    <line x1="710" y1="866" x2="1350" y2="866" stroke="#DCEBFA"/>
+    <line x1="710" y1="900" x2="1350" y2="900" stroke="#DCEBFA"/>
+    <line x1="710" y1="934" x2="1350" y2="934" stroke="#DCEBFA"/>
+    <line x1="1040" y1="832" x2="1040" y2="956" stroke="#DCEBFA"/>
+    <text x="726" y="852" fill="#6FC3FF" letter-spacing="1">PROJECT</text>
+    <text x="726" y="862" font-size="11" font-weight="bold">OFF-WORLD TOOLKIT · VOLUME II</text>
+    <text x="1056" y="852" fill="#6FC3FF">DRAWING NO.</text>
+    <text x="1056" y="862" font-size="11" font-weight="bold">IP-1-GA-001 · REV A</text>
+    <text x="726" y="886" fill="#6FC3FF">UNIT DESIGNATION</text>
+    <text x="726" y="896" font-weight="bold" font-size="10">IP-1 "GREGOR" — GENERAL ARRANGEMENT</text>
+    <text x="1056" y="886" fill="#6FC3FF">FEED</text>
+    <text x="1056" y="896" font-weight="bold" font-size="11">HABITAT ORGANIC WASTE</text>
+    <text x="726" y="920" fill="#6FC3FF">YIELDS</text>
+    <text x="726" y="930" font-weight="bold" font-size="10.5">PROTEIN + FAT · FRASS FERTILISER</text>
+    <text x="1056" y="920" fill="#6FC3FF">CLOSES</text>
+    <text x="1056" y="930" font-weight="bold" font-size="11">FOOD + WASTE LOOPS</text>
+    <text x="726" y="944" fill="#6FC3FF">FUNCTION</text>
+    <text x="726" y="954" font-weight="bold" font-size="10.5">WASTE → PROTEIN: THE LIVESTOCK THAT FITS</text>
+    <text x="1056" y="944" fill="#6FC3FF">STATUS</text>
+    <text x="1056" y="954" font-weight="bold" font-size="10">CONCEPT — FARMED ON EARTH TODAY</text>
+  </g>
+</svg>
