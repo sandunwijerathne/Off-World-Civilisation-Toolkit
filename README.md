@@ -1,6 +1,6 @@
 # Off-World Civilisation Toolkit
 
-**Twenty-five machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials and habitats that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
+**Thirty-two machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, and food systems that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
 
 Each concept folder contains a short article; flagship concepts additionally include a full research-paper-style concept study (PDF, Harvard referencing), an engineering blueprint sheet (SVG), and detailed image-generation prompts.
 
@@ -44,6 +44,17 @@ Each concept folder contains a short article; flagship concepts additionally inc
 23. **[The Self-Healing Pressure Skin](23-self-healing-skin/)** — A hull that seals itself before anyone even knows it was pierced.
 24. **[The Basalt Fibre Spinnery](24-basalt-fibre-spinnery/)** — A steel mill for worlds with no iron industry, fed on the commonest rock in the solar system.
 25. **[The Variable-Gravity Sleep Centrifuge](25-variable-gravity-sleep-centrifuge/)** — Cheating the slow decay of weightlessness by sleeping your way back to Earth's pull, one night at a time.
+
+### Food & Life Support
+26. **[The Closed Algal Loop](26-closed-algal-loop/)** — The machines that let us live among the stars may be less like engines than like gardens. The first one is a tank of algae.
+27. **[The Aeroponic Root Tower](27-aeroponic-root-tower/)** — Carrying the farm beyond Earth means leaving behind its most basic ingredient: the soil.
+28. **[The Insect Protein Reactor](28-insect-protein-reactor/)** — Of all the livestock we might carry to other worlds, the one that fits is the one we've spent history trying to keep out of the kitchen.
+
+### Resource Extraction & Transport
+29. **[The Perchlorate Scrubber](29-perchlorate-scrubber/)** — Mars offers ground that is at once a threat and a gift: a dust that would poison you, built around an ion that is four-fifths oxygen.
+30. **[The Atmospheric Water Condenser](30-atmospheric-water-condenser/)** — The surest water is the water you don't have to travel to. On Mars, that water is in the air overhead.
+31. **[The Lunar Mass Driver](31-lunar-mass-driver/)** — The moment the Moon stops being only a destination and becomes a source — flinging its wealth outward on a beam of electric force.
+32. **[The Skyhook Tether](32-skyhook-tether/)** — The orbital sling that makes the solar system smaller — one silent, fuel-less throw at a time.
 
 ## Author
 
