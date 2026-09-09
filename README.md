@@ -1,6 +1,6 @@
 # Off-World Civilisation Toolkit
 
-**Thirty-two machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, and food systems that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
+**Thirty-four machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, and food systems that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
 
 Each concept folder contains a short article; flagship concepts additionally include a full research-paper-style concept study (PDF, Harvard referencing), an engineering blueprint sheet (SVG), and detailed image-generation prompts.
 
@@ -55,6 +55,10 @@ Each concept folder contains a short article; flagship concepts additionally inc
 30. **[The Atmospheric Water Condenser](30-atmospheric-water-condenser/)** — The surest water is the water you don't have to travel to. On Mars, that water is in the air overhead.
 31. **[The Lunar Mass Driver](31-lunar-mass-driver/)** — The moment the Moon stops being only a destination and becomes a source — flinging its wealth outward on a beam of electric force.
 32. **[The Skyhook Tether](32-skyhook-tether/)** — The orbital sling that makes the solar system smaller — one silent, fuel-less throw at a time.
+
+### Surface Infrastructure
+33. **[The Regolith Rail Grader](33-regolith-rail-grader/)** — Roads are the least celebrated and most consequential of technologies — the first thing a civilisation builds when it means to stay.
+34. **[The Lava Tube Surveyor](34-lava-tube-surveyor/)** — It would be a fine irony if the best shelter on the Moon turned out to be a hole that has been waiting there for three billion years.
 
 ## Author
 
