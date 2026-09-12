@@ -1,0 +1,182 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#16406B" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="gridMajor" width="125" height="125" patternUnits="userSpaceOnUse">
+      <rect width="125" height="125" fill="url(#grid)"/>
+      <path d="M 125 0 L 0 0 0 125" fill="none" stroke="#1E5288" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#6FC3FF"/>
+    </marker>
+    <marker id="warrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#DCEBFA"/>
+    </marker>
+    <marker id="dim" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M1,1 L9,9 M5,0 L5,10" stroke="#DCEBFA" stroke-width="1" fill="none"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="1000" fill="#0B2A4A"/>
+  <rect width="1400" height="1000" fill="url(#gridMajor)"/>
+  <rect x="20" y="20" width="1360" height="960" fill="none" stroke="#DCEBFA" stroke-width="2"/>
+  <rect x="28" y="28" width="1344" height="944" fill="none" stroke="#DCEBFA" stroke-width="0.8"/>
+
+  <text x="50" y="70" fill="#DCEBFA" font-size="27" letter-spacing="2" font-weight="bold">HOPPER FREIGHTER — HF-1 "GRASSHOPPER"</text>
+  <text x="50" y="96" fill="#6FC3FF" font-size="14" letter-spacing="2">BALLISTIC CARGO LANDER · FLIGHT PROFILE · VEHICLE ELEVATION · VOLUME II · SHEET 1 OF 5</text>
+  <line x1="50" y1="110" x2="1350" y2="110" stroke="#6FC3FF" stroke-width="1"/>
+
+  <!-- ======== FLIGHT PROFILE (main) ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="2">
+    <!-- terrain line with craters between two pads -->
+    <path d="M 90 520 L 200 520 q 40 40 80 0 L 340 520 q 60 56 120 0 L 520 520 q 30 26 60 0 L 700 520 q 50 46 100 0 L 900 520" stroke-width="1.6"/>
+    <text x="470" y="580" fill="#6FC3FF" font-size="9.5" text-anchor="middle" stroke="none">CRATERS · RILLES · BOULDER FIELDS — IMPASSABLE TO ROVERS</text>
+
+    <!-- origin pad -->
+    <rect x="110" y="512" width="80" height="10" fill="#0E3357"/>
+    <rect x="110" y="512" width="80" height="10"/>
+    <text x="150" y="546" fill="#DCEBFA" font-size="9" text-anchor="middle" stroke="none">SINTERED PAD (BASE)</text>
+
+    <!-- destination pad -->
+    <rect x="810" y="512" width="80" height="10" fill="#0E3357"/>
+    <rect x="810" y="512" width="80" height="10"/>
+    <text x="850" y="546" fill="#DCEBFA" font-size="9" text-anchor="middle" stroke="none">REMOTE SITE</text>
+
+    <!-- ballistic arc -->
+    <path d="M 150 505 C 300 200 700 200 850 505" stroke="#6FC3FF" stroke-width="1.8" stroke-dasharray="8 5"/>
+    <text x="500" y="222" fill="#6FC3FF" font-size="11" text-anchor="middle" stroke="none">BALLISTIC ARC — COAST (NO AIR, NO WEATHER)</text>
+
+    <!-- vehicle at launch -->
+    <g stroke-width="1.6">
+      <rect x="138" y="460" width="24" height="40" rx="3" fill="#0E3357"/>
+      <line x1="140" y1="500" x2="130" y2="512"/><line x1="160" y1="500" x2="170" y2="512"/>
+      <path d="M 144 502 l -4 14 M 150 502 l 0 16 M 156 502 l 4 14" stroke="#6FC3FF" stroke-width="1"/>
+    </g>
+    <text x="150" y="450" fill="#6FC3FF" font-size="8.5" text-anchor="middle" stroke="none">1 · LAUNCH BURN</text>
+
+    <!-- vehicle at apex (coasting, engine off) -->
+    <rect x="488" y="238" width="24" height="40" rx="3" fill="#0E3357"/>
+    <rect x="488" y="238" width="24" height="40" rx="3"/>
+    <text x="500" y="300" fill="#DCEBFA" font-size="8.5" text-anchor="middle" stroke="none">2 · COAST (ENGINE OFF)</text>
+
+    <!-- vehicle at landing burn, flipped -->
+    <g stroke-width="1.6">
+      <rect x="838" y="452" width="24" height="40" rx="3" fill="#0E3357"/>
+      <line x1="840" y1="492" x2="830" y2="506"/><line x1="860" y1="492" x2="870" y2="506"/>
+      <path d="M 844 494 l -4 14 M 850 494 l 0 16 M 856 494 l 4 14" stroke="#6FC3FF" stroke-width="1"/>
+    </g>
+    <text x="880" y="446" fill="#6FC3FF" font-size="8.5" stroke="none">3 · LANDING BURN</text>
+    <text x="880" y="460" fill="#DCEBFA" font-size="8" stroke="none">(no air to brake on)</text>
+
+    <!-- time comparison -->
+    <line x1="150" y1="620" x2="850" y2="620" stroke="#DCEBFA" stroke-width="1" marker-start="url(#dim)" marker-end="url(#dim)"/>
+    <text x="500" y="640" fill="#DCEBFA" font-size="10" text-anchor="middle" stroke="none">HOPPER: UNDER AN HOUR · ROVER: MONTHS, IF AT ALL</text>
+  </g>
+
+  <!-- ======== VEHICLE ELEVATION (detail A) ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.4">
+    <circle cx="1130" cy="470" r="110" stroke="#6FC3FF"/>
+    <!-- tanks -->
+    <rect x="1096" y="404" width="68" height="66" rx="6" fill="#0E3357"/>
+    <rect x="1096" y="404" width="68" height="66" rx="6"/>
+    <text x="1130" y="444" fill="#DCEBFA" font-size="8" text-anchor="middle" stroke="none">PROPELLANT</text>
+    <!-- cargo deck -->
+    <rect x="1086" y="384" width="88" height="20" rx="3"/>
+    <text x="1130" y="376" fill="#6FC3FF" font-size="8" text-anchor="middle" stroke="none">CARGO DECK (NO CREW)</text>
+    <!-- engine -->
+    <path d="M 1118 470 l -10 24 l 44 0 l -10 -24 z"/>
+    <g stroke="#6FC3FF" stroke-width="0.9"><path d="M 1122 496 l -4 18 M 1130 496 l 0 20 M 1138 496 l 4 18"/></g>
+    <text x="1130" y="530" fill="#DCEBFA" font-size="8" text-anchor="middle" stroke="none">THROTTLEABLE, RESTARTABLE</text>
+    <!-- legs -->
+    <line x1="1100" y1="468" x2="1074" y2="516"/><line x1="1160" y1="468" x2="1186" y2="516"/>
+    <line x1="1066" y1="516" x2="1082" y2="516"/><line x1="1178" y1="516" x2="1194" y2="516"/>
+    <text x="1050" y="536" fill="#6FC3FF" font-size="7.5" stroke="none">LEGS</text>
+    <!-- no wings note -->
+    <text x="1130" y="556" fill="#6FC3FF" font-size="8" text-anchor="middle" stroke="none">NO WINGS · NO HEAT SHIELD · NO STREAMLINING</text>
+    <text x="1130" y="600" fill="#6FC3FF" font-size="12" text-anchor="middle" stroke="none">DETAIL A — VEHICLE (STRIPPED TO ESSENTIALS)</text>
+    <line x1="512" y1="258" x2="1030" y2="420" stroke="#6FC3FF" stroke-width="0.9" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- ======== MODE-COMPARISON INSET ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.2">
+    <rect x="950" y="140" width="390" height="180" fill="#0E3357" stroke="#6FC3FF"/>
+    <text x="968" y="166" fill="#6FC3FF" font-size="12" letter-spacing="1" stroke="none">FIG. B — THREE MODES, THREE JOBS</text>
+    <line x1="968" y1="176" x2="1322" y2="176" stroke="#6FC3FF" stroke-width="0.7"/>
+    <g fill="#DCEBFA" font-size="9" stroke="none">
+      <text x="968" y="200">RAIL / ROAD (#33) — cheap, paved network only</text>
+      <text x="968" y="224">MASS DRIVER (#31) — cheapest, off-world only</text>
+      <text x="968" y="248" fill="#6FC3FF">HOPPER — costly, but reaches ANYWHERE</text>
+    </g>
+    <line x1="968" y1="266" x2="1322" y2="266" stroke="#16406B" stroke-width="0.7"/>
+    <text x="968" y="288" fill="#DCEBFA" font-size="9" stroke="none">ROADS CARRY THE TONNAGE.</text>
+    <text x="968" y="306" fill="#6FC3FF" font-size="9" stroke="none">THE HOPPER CARRIES THE REACH.</text>
+  </g>
+
+  <!-- ======== PROPELLANT PANEL ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.4">
+    <rect x="900" y="670" width="440" height="116" fill="#0E3357" stroke="#6FC3FF" stroke-width="1.4"/>
+    <text x="918" y="694" fill="#6FC3FF" font-size="11" letter-spacing="1" stroke="none">! IT PAYS PROPELLANT TWICE</text>
+    <line x1="918" y1="702" x2="1322" y2="702" stroke="#6FC3FF" stroke-width="0.7"/>
+    <g fill="#DCEBFA" font-size="9" stroke="none">
+      <text x="918" y="720">ONCE TO LAUNCH, ONCE TO LAND — NO AIR TO BRAKE ON</text>
+      <text x="918" y="738">UNAFFORDABLE WITHOUT LOCAL PROPELLANT PRODUCTION</text>
+      <text x="918" y="756">LANDING BLASTS DEBRIS → WANTS SINTERED PADS (#33)</text>
+      <text x="918" y="776" fill="#6FC3FF">NO RESCUE: AN ENGINE THAT WON'T RESTART LOSES ALL</text>
+    </g>
+  </g>
+
+  <!-- ======== CALLOUTS ======== -->
+  <g stroke="#6FC3FF" stroke-width="1" fill="none">
+    <line x1="150" y1="512" x2="180" y2="830" marker-start="url(#arrow)"/>
+    <line x1="150" y1="460" x2="360" y2="830" marker-start="url(#arrow)"/>
+    <line x1="500" y1="278" x2="500" y2="830" marker-start="url(#arrow)"/>
+    <line x1="850" y1="492" x2="640" y2="830" marker-start="url(#arrow)"/>
+    <line x1="850" y1="522" x2="790" y2="830" marker-start="url(#arrow)"/>
+  </g>
+  <g fill="#DCEBFA" font-size="13">
+    <g><circle cx="180" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="180" y="847" text-anchor="middle">1</text></g>
+    <g><circle cx="360" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="360" y="847" text-anchor="middle">2</text></g>
+    <g><circle cx="500" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="500" y="847" text-anchor="middle">3</text></g>
+    <g><circle cx="640" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="640" y="847" text-anchor="middle">4</text></g>
+    <g><circle cx="790" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="790" y="847" text-anchor="middle">5</text></g>
+  </g>
+
+  <!-- ======== PARTS LIST ======== -->
+  <g font-size="11.5" fill="#DCEBFA">
+    <rect x="50" y="862" width="640" height="96" fill="#0E3357" stroke="#6FC3FF" stroke-width="1"/>
+    <text x="66" y="882" fill="#6FC3FF" font-size="12.5" letter-spacing="2" font-weight="bold">PARTS &amp; SYSTEMS INDEX</text>
+    <line x1="66" y1="889" x2="674" y2="889" stroke="#6FC3FF" stroke-width="0.7"/>
+    <text x="66" y="906">1 — SINTERED PAD: prepared launch/landing apron, stops debris blasting</text>
+    <text x="66" y="924">2 — LAUNCH BURN: vertical lift onto a ballistic arc (not to orbital speed)</text>
+    <text x="66" y="942">3 — COAST: engine off, pure ballistics over impassable terrain</text>
+    <text x="66" y="954" font-size="10" fill="#6FC3FF">4 — LANDING BURN: cancels descent (no air to brake) · 5 — REMOTE SITE reached</text>
+  </g>
+
+  <text x="1350" y="842" fill="#6FC3FF" font-size="11" text-anchor="end" letter-spacing="1">DESIGNED BY: W.A. SANDUN PRIYANKARA WIJERATHNE · sandunwijerathne51@gmail.com · github.com/sandunwijerathne</text>
+
+  <!-- ======== TITLE BLOCK ======== -->
+  <g font-size="11.5" fill="#DCEBFA">
+    <rect x="710" y="862" width="640" height="96" fill="#0E3357" stroke="#DCEBFA" stroke-width="1.5"/>
+    <line x1="710" y1="890" x2="1350" y2="890" stroke="#DCEBFA"/>
+    <line x1="710" y1="918" x2="1350" y2="918" stroke="#DCEBFA"/>
+    <line x1="710" y1="940" x2="1350" y2="940" stroke="#DCEBFA"/>
+    <line x1="1040" y1="862" x2="1040" y2="958" stroke="#DCEBFA"/>
+    <text x="726" y="880" fill="#6FC3FF" letter-spacing="1">PROJECT</text>
+    <text x="726" y="888" font-size="10.5" font-weight="bold">OFF-WORLD TOOLKIT · VOLUME II</text>
+    <text x="1056" y="880" fill="#6FC3FF">DRAWING NO.</text>
+    <text x="1056" y="888" font-size="10.5" font-weight="bold">HF-1-GA-001 · REV A</text>
+    <text x="726" y="906" fill="#6FC3FF">UNIT DESIGNATION</text>
+    <text x="726" y="915" font-weight="bold" font-size="9.5">HF-1 "GRASSHOPPER" — GENERAL ARRANGEMENT</text>
+    <text x="1056" y="906" fill="#6FC3FF">FLIGHT</text>
+    <text x="1056" y="915" font-weight="bold" font-size="10">SUBORBITAL BALLISTIC HOP</text>
+    <text x="726" y="932" fill="#6FC3FF">DEPENDS ON</text>
+    <text x="726" y="938" font-weight="bold" font-size="9.5">LOCALLY MADE PROPELLANT · SINTERED PADS</text>
+    <text x="1056" y="932" fill="#6FC3FF">CARRIES</text>
+    <text x="1056" y="938" font-weight="bold" font-size="9.5">CARGO ONLY — NO CREW</text>
+    <text x="726" y="952" fill="#6FC3FF">FUNCTION</text>
+    <text x="726" y="956" font-weight="bold" font-size="9">REACHES ANYWHERE ON THE WORLD IN UNDER AN HOUR</text>
+    <text x="1056" y="952" fill="#6FC3FF">STATUS</text>
+    <text x="1056" y="956" font-weight="bold" font-size="9">CONCEPT — WAITING ON FUEL, NOT INVENTION</text>
+  </g>
+</svg>

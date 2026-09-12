@@ -1,0 +1,194 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#16406B" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="gridMajor" width="125" height="125" patternUnits="userSpaceOnUse">
+      <rect width="125" height="125" fill="url(#grid)"/>
+      <path d="M 125 0 L 0 0 0 125" fill="none" stroke="#1E5288" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#6FC3FF"/>
+    </marker>
+    <marker id="warrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#DCEBFA"/>
+    </marker>
+    <marker id="dim" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M1,1 L9,9 M5,0 L5,10" stroke="#DCEBFA" stroke-width="1" fill="none"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="1000" fill="#0B2A4A"/>
+  <rect width="1400" height="1000" fill="url(#gridMajor)"/>
+  <rect x="20" y="20" width="1360" height="960" fill="none" stroke="#DCEBFA" stroke-width="2"/>
+  <rect x="28" y="28" width="1344" height="944" fill="none" stroke="#DCEBFA" stroke-width="0.8"/>
+
+  <text x="50" y="70" fill="#DCEBFA" font-size="27" letter-spacing="2" font-weight="bold">SOLAR CONCENTRATOR KILN — SC-1 "ARCHIMEDES"</text>
+  <text x="50" y="96" fill="#6FC3FF" font-size="14" letter-spacing="2">HELIOSTAT FIELD + FIXED RECEIVER · OPTICAL PATH · KILN DETAIL · VOLUME II · SHEET 1 OF 5</text>
+  <line x1="50" y1="110" x2="1350" y2="110" stroke="#6FC3FF" stroke-width="1"/>
+
+  <!-- ======== MAIN: heliostat field + tower receiver ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="2">
+    <!-- incoming sunlight -->
+    <g stroke="#6FC3FF" stroke-width="1">
+      <path d="M 120 150 l 26 60" marker-end="url(#arrow)"/>
+      <path d="M 220 146 l 26 62" marker-end="url(#arrow)"/>
+      <path d="M 320 150 l 26 60" marker-end="url(#arrow)"/>
+      <path d="M 420 146 l 26 62" marker-end="url(#arrow)"/>
+      <path d="M 520 150 l 26 60" marker-end="url(#arrow)"/>
+    </g>
+    <text x="120" y="138" fill="#DCEBFA" font-size="10" stroke="none">FULL SOLAR FLUX — NO AIR TO ABSORB, SCATTER, OR CLOUD IT</text>
+
+    <!-- ground -->
+    <line x1="80" y1="560" x2="900" y2="560" stroke-width="1.6"/>
+    <g stroke="#6FC3FF" stroke-width="0.6"><line x1="140" y1="560" x2="128" y2="576"/><line x1="300" y1="560" x2="288" y2="576"/><line x1="470" y1="560" x2="458" y2="576"/><line x1="640" y1="560" x2="628" y2="576"/><line x1="820" y1="560" x2="808" y2="576"/></g>
+
+    <!-- heliostats (tilted mirrors on posts) -->
+    <g>
+      <line x1="150" y1="560" x2="150" y2="500" stroke-width="1.4"/>
+      <line x1="122" y1="480" x2="178" y2="512" stroke-width="2.4"/>
+      <line x1="250" y1="560" x2="250" y2="500" stroke-width="1.4"/>
+      <line x1="222" y1="478" x2="278" y2="512" stroke-width="2.4"/>
+      <line x1="350" y1="560" x2="350" y2="500" stroke-width="1.4"/>
+      <line x1="322" y1="476" x2="378" y2="512" stroke-width="2.4"/>
+      <line x1="450" y1="560" x2="450" y2="500" stroke-width="1.4"/>
+      <line x1="422" y1="474" x2="478" y2="512" stroke-width="2.4"/>
+    </g>
+    <text x="290" y="596" fill="#6FC3FF" font-size="10" text-anchor="middle" stroke="none">HELIOSTAT FIELD — ONLY THE MIRRORS TRACK THE SUN</text>
+
+    <!-- reflected beams converging on receiver -->
+    <g stroke="#6FC3FF" stroke-width="1.2">
+      <path d="M 178 496 L 690 380" marker-end="url(#arrow)"/>
+      <path d="M 278 496 L 690 385" marker-end="url(#arrow)"/>
+      <path d="M 378 496 L 690 390" marker-end="url(#arrow)"/>
+      <path d="M 478 496 L 690 396" marker-end="url(#arrow)"/>
+    </g>
+    <text x="520" y="440" fill="#DCEBFA" font-size="9" stroke="none">ALL LIGHT → ONE SMALL FOCUS</text>
+
+    <!-- tower + fixed receiver kiln -->
+    <line x1="700" y1="560" x2="700" y2="410" stroke-width="2"/>
+    <line x1="712" y1="560" x2="712" y2="410" stroke-width="1"/>
+    <rect x="666" y="352" width="80" height="60" rx="6" fill="#0E3357"/>
+    <rect x="666" y="352" width="80" height="60" rx="6"/>
+    <circle cx="694" cy="384" r="10" fill="#DCEBFA"/>
+    <text x="706" y="342" fill="#6FC3FF" font-size="10" text-anchor="middle" stroke="none">FIXED RECEIVER KILN</text>
+    <text x="790" y="384" fill="#DCEBFA" font-size="8.5" stroke="none">FURNACE STAYS STILL</text>
+    <text x="790" y="398" fill="#6FC3FF" font-size="8" stroke="none">(feed + plumbing don't move)</text>
+
+    <!-- feed in / product out -->
+    <path d="M 640 470 l 40 -40" stroke="#6FC3FF" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <text x="560" y="484" fill="#DCEBFA" font-size="9" stroke="none">FEED IN</text>
+    <path d="M 740 430 l 44 44" stroke="#6FC3FF" stroke-width="1.4" marker-end="url(#arrow)"/>
+    <text x="790" y="492" fill="#DCEBFA" font-size="9" stroke="none">PROCESSED OUT</text>
+
+    <!-- no generator note -->
+    <rect x="120" y="640" width="330" height="72" rx="4" fill="#0E3357"/>
+    <rect x="120" y="640" width="330" height="72" rx="4"/>
+    <text x="136" y="664" fill="#6FC3FF" font-size="10" stroke="none">NO FUEL · NO BOILER · NO TURBINE</text>
+    <text x="136" y="684" fill="#DCEBFA" font-size="9" stroke="none">SUNLIGHT → HEAT, DIRECTLY.</text>
+    <text x="136" y="702" fill="#6FC3FF" font-size="9" stroke="none">NO ELECTRICAL CONVERSION LOSS.</text>
+  </g>
+
+  <!-- ======== SHARED-UTILITY INSET ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.2">
+    <rect x="900" y="140" width="440" height="200" fill="#0E3357" stroke="#6FC3FF"/>
+    <text x="918" y="166" fill="#6FC3FF" font-size="12" letter-spacing="1" stroke="none">FIG. B — ONE FIELD, MOST OF THE VOLUME'S HEAT</text>
+    <line x1="918" y1="176" x2="1322" y2="176" stroke="#6FC3FF" stroke-width="0.7"/>
+    <g fill="#DCEBFA" font-size="9" stroke="none">
+      <text x="918" y="200">SINTER REGOLITH  →  dome (#21) · rail grader (#33)</text>
+      <text x="918" y="222">MELT BASALT      →  fibre spinnery (#24)</text>
+      <text x="918" y="244">BOIL METALS      →  vapour refinery (#36)</text>
+      <text x="918" y="266">MELT FEEDSTOCK   →  orbital foundry (#37)</text>
+      <text x="918" y="288">BAKE VOLATILES   →  water + gas extraction</text>
+    </g>
+    <line x1="918" y1="304" x2="1322" y2="304" stroke="#16406B" stroke-width="0.7"/>
+    <text x="918" y="328" fill="#6FC3FF" font-size="9" stroke="none">THE SHARED THERMAL UTILITY OF AN INDUSTRIAL SITE</text>
+  </g>
+
+  <!-- ======== CONCENTRATION DETAIL A ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.4">
+    <circle cx="1130" cy="530" r="96" stroke="#6FC3FF"/>
+    <!-- wide aperture arrows down to small point -->
+    <g stroke="#6FC3FF" stroke-width="0.9">
+      <path d="M 1058 472 L 1126 528" marker-end="url(#arrow)"/>
+      <path d="M 1086 466 L 1128 528" marker-end="url(#arrow)"/>
+      <path d="M 1130 464 L 1130 526" marker-end="url(#arrow)"/>
+      <path d="M 1174 466 L 1132 528" marker-end="url(#arrow)"/>
+      <path d="M 1202 472 L 1134 528" marker-end="url(#arrow)"/>
+    </g>
+    <line x1="1050" y1="458" x2="1210" y2="458" stroke-width="1.4"/>
+    <text x="1130" y="450" fill="#DCEBFA" font-size="8" text-anchor="middle" stroke="none">LARGE COLLECTING AREA</text>
+    <circle cx="1130" cy="534" r="9" fill="#DCEBFA"/>
+    <text x="1130" y="562" fill="#6FC3FF" font-size="8" text-anchor="middle" stroke="none">SMALL FOCAL AREA</text>
+    <text x="1130" y="582" fill="#DCEBFA" font-size="8" text-anchor="middle" stroke="none">RATIO = CONCENTRATION = TEMPERATURE</text>
+    <text x="1130" y="600" fill="#6FC3FF" font-size="7.5" text-anchor="middle" stroke="none">TARGET LOSES HEAT ONLY BY RADIATING</text>
+    <text x="1130" y="656" fill="#6FC3FF" font-size="12" text-anchor="middle" stroke="none">DETAIL A — CONCENTRATION</text>
+    <line x1="746" y1="382" x2="1040" y2="480" stroke="#6FC3FF" stroke-width="0.9" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- ======== NIGHT + DUST PANEL ======== -->
+  <g stroke="#DCEBFA" fill="none" stroke-width="1.4">
+    <rect x="900" y="690" width="440" height="106" fill="#0E3357" stroke="#6FC3FF" stroke-width="1.4"/>
+    <text x="918" y="714" fill="#6FC3FF" font-size="11" letter-spacing="1" stroke="none">! THE SUN SETS, AND THE DUST STAYS</text>
+    <line x1="918" y1="722" x2="1322" y2="722" stroke="#6FC3FF" stroke-width="0.7"/>
+    <g fill="#DCEBFA" font-size="9" stroke="none">
+      <text x="918" y="740">LUNAR NIGHT ≈ 14 EARTH DAYS — KILN MAKES NOTHING</text>
+      <text x="918" y="758">MIRRORS WORK ONLY WHILE CLEAN — DUST IS PERMANENT WORK</text>
+      <text x="918" y="776" fill="#6FC3FF">PAIR WITH ELECTRIC HEAT: MIRRORS BY DAY, POWER FOR PRECISION</text>
+    </g>
+  </g>
+
+  <!-- ======== CALLOUTS ======== -->
+  <g stroke="#6FC3FF" stroke-width="1" fill="none">
+    <line x1="150" y1="490" x2="180" y2="830" marker-start="url(#arrow)"/>
+    <line x1="350" y1="486" x2="360" y2="830" marker-start="url(#arrow)"/>
+    <line x1="560" y1="420" x2="500" y2="830" marker-start="url(#arrow)"/>
+    <line x1="700" y1="412" x2="640" y2="830" marker-start="url(#arrow)"/>
+    <line x1="770" y1="470" x2="790" y2="830" marker-start="url(#arrow)"/>
+  </g>
+  <g fill="#DCEBFA" font-size="13">
+    <g><circle cx="180" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="180" y="847" text-anchor="middle">1</text></g>
+    <g><circle cx="360" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="360" y="847" text-anchor="middle">2</text></g>
+    <g><circle cx="500" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="500" y="847" text-anchor="middle">3</text></g>
+    <g><circle cx="640" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="640" y="847" text-anchor="middle">4</text></g>
+    <g><circle cx="790" cy="842" r="12" fill="none" stroke="#6FC3FF"/><text x="790" y="847" text-anchor="middle">5</text></g>
+  </g>
+
+  <!-- ======== PARTS LIST ======== -->
+  <g font-size="11.5" fill="#DCEBFA">
+    <rect x="50" y="862" width="640" height="96" fill="#0E3357" stroke="#6FC3FF" stroke-width="1"/>
+    <text x="66" y="882" fill="#6FC3FF" font-size="12.5" letter-spacing="2" font-weight="bold">PARTS &amp; SYSTEMS INDEX</text>
+    <line x1="66" y1="889" x2="674" y2="889" stroke="#6FC3FF" stroke-width="0.7"/>
+    <text x="66" y="906">1 — HELIOSTAT: steerable mirror on a post; only the mirrors move</text>
+    <text x="66" y="924">2 — MIRROR FIELD: collecting area sized to the industry it serves</text>
+    <text x="66" y="942">3 — CONCENTRATED BEAM: all light onto one small focus (DETAIL A)</text>
+    <text x="66" y="954" font-size="10" fill="#6FC3FF">4 — FIXED RECEIVER KILN: crucible / cavity / continuous feed · 5 — PRODUCT OUT</text>
+  </g>
+
+  <text x="1350" y="842" fill="#6FC3FF" font-size="11" text-anchor="end" letter-spacing="1">DESIGNED BY: W.A. SANDUN PRIYANKARA WIJERATHNE · sandunwijerathne51@gmail.com · github.com/sandunwijerathne</text>
+
+  <!-- ======== TITLE BLOCK ======== -->
+  <g font-size="11.5" fill="#DCEBFA">
+    <rect x="710" y="862" width="640" height="96" fill="#0E3357" stroke="#DCEBFA" stroke-width="1.5"/>
+    <line x1="710" y1="890" x2="1350" y2="890" stroke="#DCEBFA"/>
+    <line x1="710" y1="918" x2="1350" y2="918" stroke="#DCEBFA"/>
+    <line x1="710" y1="940" x2="1350" y2="940" stroke="#DCEBFA"/>
+    <line x1="1040" y1="862" x2="1040" y2="958" stroke="#DCEBFA"/>
+    <text x="726" y="880" fill="#6FC3FF" letter-spacing="1">PROJECT</text>
+    <text x="726" y="888" font-size="10.5" font-weight="bold">OFF-WORLD TOOLKIT · VOLUME II</text>
+    <text x="1056" y="880" fill="#6FC3FF">DRAWING NO.</text>
+    <text x="1056" y="888" font-size="10.5" font-weight="bold">SC-1-GA-001 · REV A</text>
+    <text x="726" y="906" fill="#6FC3FF">UNIT DESIGNATION</text>
+    <text x="726" y="915" font-weight="bold" font-size="9.5">SC-1 "ARCHIMEDES" — GENERAL ARRANGEMENT</text>
+    <text x="1056" y="906" fill="#6FC3FF">SUPPLIES</text>
+    <text x="1056" y="915" font-weight="bold" font-size="10">DIRECT PROCESS HEAT (NO GENERATOR)</text>
+    <text x="726" y="932" fill="#6FC3FF">EXPLOITS</text>
+    <text x="726" y="938" font-weight="bold" font-size="9.5">NO AIR TO BLUR LIGHT · NO CONVECTIVE LOSS</text>
+    <text x="1056" y="932" fill="#6FC3FF">SERVES</text>
+    <text x="1056" y="938" font-weight="bold" font-size="9.5">#21 · #24 · #33 · #36 · #37</text>
+    <text x="726" y="952" fill="#6FC3FF">FUNCTION</text>
+    <text x="726" y="956" font-weight="bold" font-size="9">THE SHARED FURNACE BEHIND HALF THIS VOLUME</text>
+    <text x="1056" y="952" fill="#6FC3FF">STATUS</text>
+    <text x="1056" y="956" font-weight="bold" font-size="9">CONCEPT — SOLAR FURNACES ARE OLD TECHNOLOGY</text>
+  </g>
+</svg>
