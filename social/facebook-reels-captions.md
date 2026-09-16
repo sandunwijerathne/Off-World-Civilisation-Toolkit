@@ -1,12 +1,12 @@
 # Facebook Reels — Captions & Hashtags
-### Off-World Civilisation Toolkit · 34 concepts
+### Off-World Civilisation Toolkit · 40 concepts
 
 **How to use:** copy the caption block, paste into the Reel. Put the GitHub link in the
 **first comment**, not the caption — Facebook throttles reach on posts with external links
 in the body. Pin that comment.
 
 **Hashtags:** 5–8 is the sweet spot on Facebook (unlike Instagram). Each concept below has
-its own mix so you are not posting an identical block 34 times — repeated identical hashtag
+its own mix so you are not posting an identical block 40 times — repeated identical hashtag
 walls get flagged as spam and suppressed.
 
 **Pinned first-comment template:**
@@ -605,16 +605,133 @@ Only exploration. 🔦
 
 ---
 
+## Off-World Industry (Volume II)
+
+### 35 · The Hopper Freighter
+
+Every settlement discovers its roads end long before its ambitions do.
+
+Rovers on the Moon crawl at walking pace and cover tens of kilometres over years. This
+uncrewed freighter does not drive across the ground — it jumps over it. Lift off, burn onto a
+ballistic arc, coast over craters and canyons, flip, burn again, land. Cargo out, refuel, next
+leg.
+
+A journey a rover would need months for — if it could make it at all — in under an hour.
+
+No wings. No heat shield. No weather. On an airless world a freighter is just tanks, engines,
+legs, and the flight path of a thrown stone. 🚀
+
+#SpaceLogistics #Rocketry #Moon #BallisticFlight #LunarBase #SpaceTech #Engineering
+
+---
+
+### 36 · The Vacuum Vapour Refinery
+
+The alchemists could never make a good enough vacuum. The Moon has one for free.
+
+Industry needs metals — iron, aluminium, titanium — pulled out of rock. On Earth that takes
+carbon, acids and rivers of water. Off Earth, every one of those has to be imported, and a
+refinery that runs on imports is capped by its supply line.
+
+So distil the rock instead. In hard vacuum, materials boil far below their usual temperatures.
+Heat crushed regolith in stages and each metal vaporises in turn, condensing on its own cooler
+plate further down the line.
+
+Inputs: ore and energy. Nothing else is consumed. ⚗️
+
+#Metallurgy #Distillation #ISRU #SpaceMining #MaterialsScience #SpaceTech
+
+---
+
+### 37 · The Orbital Foundry Ring
+
+Every casting on Earth carries the fingerprints of its mould — and the weight it had to bear
+while it cooled.
+
+In orbit, both disappear. Molten metal floats, held away from every wall by electromagnetic or
+acoustic fields. Nothing to contaminate it. Nothing to sink or settle. Nothing to sag.
+
+So alloys that separate under gravity stay perfectly mixed, spheres come out near-flawlessly
+round — and you can cast things no planet allows: enormous thin-walled shells, slender booms,
+metal foams that would collapse under their own weight while still soft.
+
+The great structures of a spacefaring civilisation will be cast where nothing weighs anything. 🔥
+
+#InSpaceManufacturing #Metallurgy #Microgravity #MaterialsScience #Manufacturing #SpaceTech #Engineering
+
+---
+
+### 38 · The Solar Concentrator Kiln
+
+Sunlight is the one thing a settlement never has to mine, make or carry.
+
+Sintering domes, fusing roads, melting basalt, boiling metals apart — nearly every industrial
+machine in this catalogue runs on the same thing: heat. Lots of it, very hot.
+
+Turning sunlight into electricity and back into heat throws most of it away. So skip the
+middle. A field of small steerable mirrors aims the Sun at one fixed spot — hot enough to melt
+rock.
+
+And the Moon does this better than Earth: no haze to blur the light, no air to carry the heat
+away.
+
+No fuel. No turbine. No generator. Just mirrors. 🪞
+
+#SolarThermal #ConcentratedSolar #CleanEnergy #ISRU #SpaceTech #Engineering
+
+---
+
+### 39 · The Isotope Sorting Column
+
+The hard part of this machine was never the physics. It is who gets to run it.
+
+Isotopes are the same element at a slightly different mass — chemically identical, so the only
+way to sort them is by that tiny difference. That makes it slow, hard and energy-hungry, and
+that difficulty has been one of the main barriers to nuclear proliferation for eighty years.
+
+The Moon has a legitimate reason to want one: helium-3, a potential fusion fuel, implanted in
+lunar soil by the solar wind over billions of years.
+
+So this study is deliberately incomplete. No build details. Just the principle, the motive —
+and the argument that the institutions have to exist before the machine does. ⚖️
+
+#Helium3 #FusionEnergy #Nonproliferation #SpaceGovernance #Physics #SpaceTech
+
+---
+
+### 40 · The Recycling Cascade
+
+At one end of my catalogue, a starship pushed by light. At the other, a machine that sorts
+rubbish.
+
+On Earth, "throwing away" means moving something somewhere else. In a sealed settlement there
+is no somewhere else. Every gram in the bin is a gram gone from everything the colony will ever
+have.
+
+Discarding is not disposal. It is loss.
+
+So material falls through five stages — sort, repair, reform, break down, and finally boil
+apart into elements — and leaves at the earliest stage it can. A repaired pump keeps all the
+work that went into making it. A melted one keeps only the metal.
+
+The rubbish sorter is the more important machine.
+
+Which of the 40 would you build first? 👇
+
+#CircularEconomy #Recycling #ZeroWaste #Sustainability #SpaceColony #SpaceTech #Engineering
+
+---
+
 ## Posting notes
 
 - **Hook = first line.** Facebook truncates the caption after roughly one line on mobile;
   every caption above is written so the cut lands after the hook.
 - **Link in the pinned first comment**, never in the caption body.
 - **One concept per Reel**, in catalogue order, builds a series people can follow. Say
-  "Concept 12 of 34" in the video itself, not the caption — it saves caption space and still
+  "Concept 12 of 40" in the video itself, not the caption — it saves caption space and still
   reads as a series.
 - **Ask a question at the end.** Several captions above do; comments are the strongest
   ranking signal on Reels.
 - **Rotate hashtags** — the per-concept sets above are already varied. Do not paste one
-  master block onto all 34.
+  master block onto all 40.
 - If a Reel underperforms, add 3–4 broad fillers: #Space #Science #Technology #Innovation.

@@ -1,5 +1,5 @@
 # Facebook Posts — Copy & Paste
-### Off-World Civilisation Toolkit · all 34 concepts
+### Off-World Civilisation Toolkit · all 40 concepts
 
 Each concept below is rewritten as a **native Facebook text post**. The repo articles are
 Markdown — headings, `**bold**`, `[links](url)` — none of which Facebook renders, so pasting
@@ -24,7 +24,7 @@ nothing to reformat.
 > github.com/sandunwijerathne/Off-World-Civilisation-Toolkit
 > Concept #N — [name]
 
-**Pacing:** one concept every 2–3 days, in catalogue order. 34 posts is roughly three months
+**Pacing:** one concept every 2–3 days, in catalogue order. 40 posts is roughly three to four months
 of material. Post them faster than that and you burn the catalogue before the audience builds.
 
 ---
@@ -48,7 +48,7 @@ What has never existed is the weaver itself. An autonomous machine that spins, s
 
 That is a robotics problem, not a physics problem. Which is exactly why I think a first version is plausible within about twenty years of a funded start.
 
-Concept 1 of 34 in my Off-World Civilisation Toolkit. Which one should I break down next?
+Concept 1 of 40 in my Off-World Civilisation Toolkit. Which one should I break down next?
 
 Full concept study, blueprint and paper — link in the first comment.
 
@@ -1129,6 +1129,234 @@ Full concept study, blueprint and paper — link in the first comment.
 
 ---
 
+## Off-World Industry
+
+### 35 · The Hopper Freighter
+
+```
+Every settlement eventually discovers that its roads end long before its ambitions do.
+
+A rover on the Moon or Mars has to negotiate craters, boulder fields, soft dust, rilles and scarps — and it has to do all of it slowly, because a stuck or overturned vehicle is unrecoverable. Real planetary rovers have covered tens of kilometres over years.
+
+Sintered roads fix the busiest routes. But paving is slow, and it will only ever cover a sliver of a world. Meanwhile the settlement needs an ice deposit at a distant pole, a lava tube skylight spotted from orbit, a stranded outpost a thousand kilometres away.
+
+For those journeys the answer is not a better rover. It is going over the ground instead of across it.
+
+The HF-1 "Grasshopper" is an uncrewed cargo lander built for repeated point-to-point hops. It lifts off vertically, burns just long enough to put itself on a ballistic arc, coasts over the terrain, then flips and burns again to settle onto its legs at the destination. Cargo out, refuel, next leg.
+
+Ground a rover could not cross in months takes under an hour.
+
+With no air, the vehicle needs no wings, no streamlining and no heat shield. It can be a bare frame of tanks, engines, legs and cargo mounts, flying a trajectory no weather will ever disturb.
+
+Here is the catch that makes it different from Earth: every hop pays for its speed twice. Once to launch, and once to stop — because without an atmosphere there is nothing to brake against. That makes the hopper thirsty, and it only becomes affordable once propellant is made on site from local ice.
+
+Its niche is sharply defined by the alternatives. Rail on a sintered bed is far cheaper for fixed routes. A mass driver is cheaper still for exports. The hopper is for everything neither can reach: an arbitrary point on the surface, fast, with nothing waiting at the far end.
+
+Roads carry the tonnage. The hopper carries the reach.
+
+Landing is the dangerous part — autonomous, precise, often on unprepared ground, blasting debris outward as it comes down. And there is no rescue if an engine fails to relight mid-arc.
+
+None of it needs new physics. This is a vehicle waiting on a fuel supply, not on an invention.
+
+Where would you send the first hop?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#LunarBase #Rocketry #SpaceLogistics #Moon #ISRU #Engineering #SpaceTech
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 36 · The Vacuum Vapour Refinery
+
+```
+The emptiness the alchemists could never achieve is simply lying around on the Moon.
+
+A serious off-world industry needs metals — iron, aluminium, titanium, magnesium — pulled out of the rock they are locked into. On Earth we do that with chemistry: carbon for smelting, acids for leaching, molten salts for electrolysis, all backed by rivers of water and reagents.
+
+Off Earth, every one of those inputs is a problem. Carbon is scarce on the Moon. Acids have to be imported and contained. Water is needed for people. A refinery that eats imported chemistry is capped by its resupply — exactly the dependency local industry exists to escape.
+
+So the real question is whether there is a separation process whose only inputs are ore and energy.
+
+There is. Distillation. And in vacuum it becomes unusually practical.
+
+The VR-1 "Alembic" heats crushed feedstock in a crucible open to ambient vacuum, in stages. As the temperature climbs, each constituent in turn vaporises and travels down a train of collector surfaces held at falling temperatures. Each species condenses where the temperature suits it, so the vapours sort themselves along the train.
+
+What comes out is a set of separated deposits. Nothing is consumed but power. No acid, no flux, no water to recycle.
+
+The whole trick is pressure. A material boils when its vapour pressure matches the pressure around it — which is why water boils cooler on a mountain. In hard vacuum the surrounding pressure is effectively zero, so rock and metal vaporise far below their familiar boiling points. Vacuum metallurgy on Earth spends heavily to create that condition. The Moon simply supplies it.
+
+It doubles as a recycler too. A jumble of mixed scrap is an excellent feedstock: the same still that refines ore can boil broken alloys back into sorted metals.
+
+The honest limits are real. It only sorts what will boil — some of the most useful structural metals, locked up as stubborn oxides, resist vaporisation unless taken to extreme temperatures, so this complements other extraction routes rather than replacing them. Energy caps throughput, so a settlement will refine slowly for a long time. And vapour coats everything it touches, including the things you wish it would not.
+
+But this is the machine that turns a place where people survive into a place where people can build.
+
+What would you refine first?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#Metallurgy #VacuumDistillation #MoonMining #ISRU #MaterialsScience #SpaceTech
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 37 · The Orbital Foundry Ring
+
+```
+Every casting ever made on Earth carries the fingerprints of the mould that held it.
+
+Metallurgy on Earth is a fight with gravity, and gravity wins three ways.
+
+The melt has to sit in a container, and the container's walls dissolve into the metal or seed crystals at its surface. The purity of a casting is limited by the vessel that made it.
+
+Inside the melt, heavy elements sink and light ones rise. An alloy that was uniform as a liquid can come out layered.
+
+And anything large cast on a planet must be strong enough, while still soft, to hold up its own weight. That rules out the most slender and open shapes entirely.
+
+Orbit removes all three at once.
+
+The OF-1 "Hephaestus" is a ring of containerless casting bays. Metal stock — from a lunar refinery, a mass driver, or orbital scrap — is melted by induction, electron beam or concentrated sunlight, then held away from every wall by a levitation field while it is worked.
+
+A melt that touches nothing does something strange. Solidification normally starts at the container wall. Remove the wall, and a melt can be cooled well below its freezing point while staying liquid, then made to solidify very fast — producing microstructures ordinary casting cannot reach.
+
+Some products are simply better made up there: alloys free of crucible contamination, mixtures gravity would have sorted into layers, near-perfect spheres for bearings, metallic glasses.
+
+Others can only be made up there. Enormous thin-walled reflector shells. Long slender booms. Open lattices and metal foams that would collapse under their own weight on any surface.
+
+That second group is the strategic point. Solar collectors, radiators, antenna dishes, station trusses — all large, all thin, all destined for zero gravity anyway. Building them on a planet means designing them for a launch they will never see again.
+
+Ship raw material, not finished hardware.
+
+The honest difficulties: in vacuum a melt loses heat only by radiating it, so cooling is slow and the foundry needs large radiators just to throw its waste heat away. Holding a large mass of molten metal steady in a field is far harder than holding a droplet — and up there, a spill does not fall to the floor. Every containerless experiment so far has handled small samples. The step to structural masses is a big one.
+
+What would you build in the sky that could never stand up on the ground?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#SpaceManufacturing #Microgravity #Metallurgy #MaterialsScience #InSpaceManufacturing #SpaceTech
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 38 · The Solar Concentrator Kiln
+
+```
+Sunlight is the one thing an off-world settlement never has to make, mine, or carry.
+
+Read the industrial machines in this catalogue together and one dependency keeps surfacing.
+
+The sinter dome needs heat to fuse regolith. The rail grader needs heat to pave. The basalt spinnery needs heat to melt rock. The vapour refinery needs heat to boil metals apart. The orbital foundry needs heat to melt its stock.
+
+Heat, not cleverness, is what paces off-world industry.
+
+The default answer is solar panels driving electric heaters. It works, and it is the right choice for precise control or night work. But it is a roundabout route: sunlight becomes electricity at modest efficiency, then electricity becomes heat again, and most of the energy is lost along the way.
+
+If a process just wants heat, there is a far more direct path. Catch sunlight over a large area with mirrors, and point all of it at one small place.
+
+The SC-1 "Archimedes" is a solar furnace for a world with no weather. A field of small steerable mirrors — heliostats — redirects sunlight onto a fixed receiver: a crucible of regolith, a bed of soil to sinter, a charge of metal to boil. The heavy furnace stays still. Only the light mirrors track the sun.
+
+No fuel. No boiler. No turbine. No generator.
+
+The Moon is unusually kind to it. With no atmosphere, the full solar flux reaches the mirror and focuses sharply — solar furnaces on Earth lose substantially to haze and cloud. And with no air, the target loses heat only by radiating, never by convection, so a well-designed cavity holds its heat far better than the same furnace here.
+
+That makes it the natural shared thermal utility of an industrial site, the way a steam plant once was — every machine drawing process heat from one solar source instead of carrying its own furnace.
+
+The honest problems are the night and the dust. A lunar night lasts about fourteen Earth days, and a purely solar kiln produces nothing through it — so processes pause, store heat, or fall back on electricity. And mirrors only work while they are clean, on a world made of clinging, abrasive dust.
+
+Regolith simulant has already been melted with concentrated sunlight in the lab. This is old technology in a place that suits it.
+
+It runs on the only fuel in the solar system that arrives, unasked, every morning.
+
+Mirrors or panels — which would you bet on?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#SolarThermal #ConcentratedSolar #LunarBase #ISRU #CleanEnergy #Engineering #SpaceTech
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 39 · The Isotope Sorting Column
+
+```
+The hard part of this machine was never the separation. It is the question of who is allowed to run it.
+
+Every refinery in this catalogue so far separates one element from another. This one separates atoms of the same element from each other.
+
+Isotopes of an element are chemically almost identical. They differ only in the number of neutrons, and therefore in mass. No chemical process can reliably tell them apart, so they have to be sorted by that tiny mass difference alone — and the effect of any single pass is minute. That is why separation is so laborious and so energy-hungry.
+
+I want to be upfront about something: this concept study is deliberately incomplete.
+
+Isotope separation is dual-use technology of the most consequential kind. The capability that enriches a fusion fuel or a medical tracer is, in its essentials, the capability that enriches material for a weapon — and the sheer difficulty of building it has been one of the main practical barriers to nuclear proliferation for eighty years. So the study covers the textbook principle, why a settlement might want it, and the institutions that would have to exist first. Nothing about how to build one.
+
+Why want it at all? The Moon has a distinctive reason. Helium-3, a rare isotope of long-standing interest as a fusion fuel, is implanted in lunar soil by the solar wind at concentrations far above anything on Earth. Separating it from vastly more common helium-4 is an isotope-sorting problem. Beyond that: deuterium for fusion research, stable isotope tracers for medicine and biology, and purified materials for specialised detectors.
+
+Now the real problem.
+
+On Earth this is among the most closely watched activities in all of industry — the Non-Proliferation Treaty, IAEA safeguards, material accounting, inspections, export control. Imperfect, but real, and it has caught clandestine programmes.
+
+None of it extends, in any tested way, to a facility on another world. The Outer Space Treaty of 1967 bans nuclear weapons in space and reserves the Moon for peaceful purposes — but it has no safeguards mechanism, no inspection protocol, and no answer to who verifies what an operator is doing three days' travel away.
+
+So my conclusion is that the institutional work has to come before the engineering. Off-world safeguards, remote monitoring, audited inventories and inspection rights, negotiated before the first plant exists — not after.
+
+And honestly, the helium-3 economics have been contested for decades. The concentrations are high by Earth standards but tiny in absolute terms, and the fusion reactors that would burn it do not exist yet.
+
+Of all forty machines, this is the one whose limiting factor is most clearly not physics, but trust.
+
+Who should get to decide whether it is built?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#Helium3 #Nonproliferation #SpaceLaw #OuterSpaceTreaty #FusionEnergy #Physics #SpaceTech
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 40 · The Recycling Cascade
+
+```
+Forty concepts in, the most important machine in this catalogue is the one that sorts rubbish.
+
+The word "waste" hides an assumption about geography.
+
+On Earth, throwing something away means moving it beyond the edge of your own system, where planetary reservoirs so vast they seem infinite dilute and absorb it. Waste is not a state. It is a place.
+
+A closed habitat on the Moon or Mars has no such place. Its total stock of metal, polymer, water, carbon and nutrient is whatever it arrived with, plus whatever it has made locally. Every gram that goes in a bin is a gram gone from that stock.
+
+Discarding is not disposal. It is loss.
+
+That flips the economics. On Earth, recycling competes against cheap virgin material and cheap landfill. Off Earth, it competes against launching a replacement from a planet, or running the entire mining, refining and manufacturing chain again. Against either, recovering what you already hold wins overwhelmingly.
+
+The RC-1 "Ouroboros" runs material down a cascade of increasingly aggressive stages, pulling out anything recoverable before the rest moves on. Sort it. Repair and reuse it. Reform it — remachine, remould, recast. Break it down into nutrients and gases for the algae and the crop towers. And only at the very bottom, boil the residue apart into sorted elements in the vacuum refinery.
+
+The order is the entire idea, because every step down destroys embodied work. A working pump that gets repaired keeps all the effort that designed, machined and assembled it. The same pump melted down keeps only the value of its metal.
+
+Repair before remake. Remake before reform. Reduce only when nothing else will serve.
+
+It is the return path for everything else in the catalogue. A settlement with the other thirty-nine machines and no recycling is quietly consuming itself. With the cascade, material moves round instead of through. That is not an efficiency gain. It is the difference between an expedition and a place people live.
+
+And the one dishonesty I will not allow here: it never fully closes. Every process loses a little to dust, vapour, oxidation, and mixtures too messy to recover. A real cascade approaches complete recycling and never arrives, so a settlement still needs a slow trickle of new material to make up the losses.
+
+The best part is that the first step is not hardware at all. It is a design rule: every component sent to a settlement should be repairable, easy to disassemble and labelled by material, and every crew should be equipped to fix rather than discard.
+
+This is the last of forty. It ends, fittingly, with the machine that makes the word "waste" obsolete.
+
+Which of the forty would you build first?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#CircularEconomy #Recycling #ClosedLoop #Sustainability #LifeSupport #SpaceTech
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
 ## Posting notes
 
 - **The hook is the whole game.** Facebook shows roughly two lines before "See more". Every
@@ -1140,7 +1368,7 @@ Full concept study, blueprint and paper — link in the first comment.
 - **Two hashtag lines, and they do different jobs.** The top line is the discovery set —
   varied per concept, 5–7 tags, which is the sweet spot on Facebook (unlike Instagram). The
   bottom line is the fixed series signature: `#offworld #offworldCivilisation
-  #offworldCivilisationtoolkit`. It is identical on all 34 on purpose, so the catalogue is
+  #offworldCivilisationtoolkit`. It is identical on all 40 on purpose, so the catalogue is
   browsable as one body of work and readers can pull up every concept from any single post.
   Never let the discovery line become a repeated master block as well — varied top line plus
   fixed signature reads as a series; two identical blocks read as spam and get suppressed.

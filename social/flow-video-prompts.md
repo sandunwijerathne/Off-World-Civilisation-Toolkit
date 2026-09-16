@@ -1,5 +1,5 @@
 # Google Flow — Video Prompts (9:16 Vertical)
-### Off-World Civilisation Toolkit · 34 concepts
+### Off-World Civilisation Toolkit · 40 concepts
 
 Three shots per concept, ~8 seconds each, cut together into a ~24-second vertical reel.
 Every shot tells Flow exactly how to use your uploaded reference images.
@@ -80,7 +80,7 @@ with each concept.
 
 ## Audio policy
 
-Veo generates native audio. Two rules keep it consistent and physically honest across all 34:
+Veo generates native audio. Two rules keep it consistent and physically honest across all 40:
 
 - **In vacuum:** the audio is a *structure-borne* recording — sound conducted through the
   machine's own frame, as a contact microphone would hear it. No air, so no whoosh, no roar,
@@ -1558,6 +1558,280 @@ drone along the cable toward the mouth of the pit far above, where a hard shaft 
 enters and lights a slice of wall and a column of hanging dust motes, the opening a small bright
 irregular hole in absolute darkness. Audio: the winch hum drops away to almost nothing, one faint
 cable creak, then silence. No dialogue.
+```
+
+---
+---
+
+# Off-World Industry (Volume II)
+
+> Concept 39 is dual-use and the source study treats it at textbook-principle level only — no plant,
+> no apparatus, no hardware prompt. Its shots are a governance museum exhibit instead, the same
+> convention as 17 and 18. Keep that framing.
+
+## 35 · The Hopper Freighter "Grasshopper"
+
+**Upload:** `hopper_freighter_blueprint.png` · `hopper_freighter_render.png`
+**Ingredient label:** `Hopper 01 uncrewed cargo hopper`
+**Hook:** *Every settlement discovers its roads end long before its ambitions do.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine
+white and cyan linework, faint drafting grid, monospaced title block reading HF-1 GRASSHOPPER. The
+camera pushes in along the long dashed ballistic arc drawn over scalloped crater rims, following
+it down to the small lander figure at the landing end. The linework glows and lifts off the page
+into three dimensions; the grid dissolves into a remote grey lunar plain under a black sky, and the
+wireframe fills with real material — spherical propellant tanks in gold and white blanketing on an
+exposed metal frame, four splayed legs, a cargo container strapped on top — becoming exactly the
+hopper in the final frame. One continuous move, no cut, and the finished hardware does not morph.
+Audio: paper rustle, drafting-pen scratch, a rising tone settling into a deep engine rumble.
+No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact machine: match its geometry, proportions, colour, tank
+layout, leg design, cargo container and stencilled markings precisely. Do not redesign, restyle, or
+add hardware that is not in the reference. The Hopper 01 cargo hopper descends the last few metres
+onto a dark sintered landing pad, its single throttled engine firing a pale, almost invisible
+translucent plume. Grey dust sprays outward from the pad in a flat radial fan of straight ballistic
+streaks that fly far and fall without billowing — no air to hold them up. The four splayed legs
+flex as the footpads touch; the engine cuts instantly and the plume vanishes. The camera holds a
+low three-quarter angle, descending with the vehicle. Harsh low sunlight, long knife-edged shadows,
+black star-dusted sky. Audio: structure-borne — deep engine rumble conducted through the frame,
+RCS thruster ticks, a heavy leg-strut clunk, then abrupt silence. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same hopper, matched exactly to the reference image. The engine relights and the
+hopper lifts cleanly off the pad, pitching over onto a long ballistic arc. The camera stays on the
+ground and tilts up to follow as it climbs over a distant crater rim and shrinks to a bright point
+against the black sky, the plume barely visible. On the pad, the last of the dust settles straight
+down. Audio: the rumble fades with distance through the ground to nothing, then silence.
+No dialogue.
+```
+
+---
+
+## 36 · The Vacuum Vapour Refinery "Alembic"
+
+**Upload:** `vapour_refinery_blueprint.png` · `vapour_refinery_render.png`
+**Ingredient label:** `Vapour Refinery 01 solar vacuum distillation unit`
+**Hook:** *The alchemists could never make a good enough vacuum. The Moon has one for free.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine
+white and cyan linework, faint drafting grid, monospaced title block reading VR-1 ALEMBIC. The
+camera pushes in on the drawn heated crucible and the row of four collector plates running from hot
+to cold. The linework glows and lifts off the page into three dimensions; the grid dissolves into a
+lunar industrial yard under a black sky, and the wireframe fills with real material — a squat
+gold-blanketed furnace vessel, a polished parabolic concentrator above it, an insulated manifold
+leading to four finned collector drums — becoming exactly the refinery in the final frame. One
+continuous move, no cut. Audio: paper rustle, drafting-pen scratch, a rising tone settling into a
+low crucible hum. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact machine: match its geometry, proportions, colour,
+concentrator, manifold, collector drum sizes, fin pattern and stencilled markings precisely. Do not
+redesign or add hardware that is not in the reference. The polished parabolic concentrator of
+Vapour Refinery 01 focuses a blinding point of sunlight onto the crucible port; the beam itself is
+invisible in the vacuum, only the focal point blazes. Through the small inspection window the
+crucible interior brightens from dull red to fierce orange. The camera tracks slowly along the
+insulated manifold from the hot furnace past each progressively smaller collector drum to the last,
+where an open access hatch reveals a bright metallic film condensed on the inner wall, catching the
+light. No heat shimmer — there is no air. Harsh sunlight, long sharp shadows. Audio:
+structure-borne — a deep crucible hum, rhythmic thermal ticking of expanding flanges, actuator
+clicks. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same refinery, matched exactly to the reference image. A slow rack focus from the
+metallic film inside the open collector drum across to the pallet beside the unit, stacked with
+gleaming recovered metal ingots, then a gentle pull back to show the whole refinery on its sintered
+pad, the concentrator's focal glow lighting nearby surfaces against a black star-dusted sky. Audio:
+the hum steadies, one soft cooling tick. No dialogue.
+```
+
+---
+
+## 37 · The Orbital Foundry Ring "Hephaestus"
+
+**Upload:** `foundry_ring_blueprint.png` · `foundry_ring_render.png`
+**Ingredient label:** `Casting Bay 03 containerless levitation chamber`
+**Hook:** *Every casting on Earth carries the fingerprints of its mould — and the weight it had to bear while it cooled.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine
+white and cyan linework, faint drafting grid, monospaced title block reading OF-1 HEPHAESTUS. The
+camera pushes past the drawn foundry ring into the magnified detail circle of a containerless bay:
+levitation coils above and below, a sphere suspended in the gap touching nothing. The linework
+glows and lifts off the page into three dimensions; the grid dissolves into a heavy ribbed
+industrial chamber, and the drawn sphere fills with molten orange-white metal floating between
+copper coils — becoming exactly the casting bay in the final frame. One continuous move, no cut.
+Audio: paper rustle, drafting-pen scratch, a rising tone settling into a deep electromagnetic hum.
+No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact chamber: match its wall ribbing, coil placement, sphere
+size, manipulator arm, viewport, sensor booms and stencilled markings precisely. Do not redesign or
+add hardware that is not in the reference. Inside Casting Bay 03, a beach-ball-sized sphere of
+molten metal floats perfectly still in the exact centre, touching nothing. Slow waves ripple across
+its shimmering orange-white surface and settle; surface tension pulls it back to a near-perfect
+sphere. The copper levitation coils above and below pulse faintly, and the sphere stretches
+gently into an ellipse, then holds. The robotic manipulator arm with its heat-shielded gripper eases
+closer but never makes contact. The camera orbits slowly around the sphere. The molten metal is the
+only warm light, against cool blue-white instrument lighting. Audio: a deep steady coil hum rising
+in pitch as the field shapes the melt, servo whine, pyrometer ticks. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same chamber, matched exactly to the reference image. The camera drifts backward
+past the floating glowing sphere toward the rear window, keeping the sphere large and warm in the
+foreground while the view through the glass resolves: the grey curve of a moon, black star-dusted
+space, and a glimpse of the station's long radiator panels. Audio: the coil hum settles to one
+sustained low tone. No dialogue.
+```
+
+---
+
+## 38 · The Solar Concentrator Kiln "Archimedes"
+
+**Upload:** `concentrator_kiln_blueprint.png` · `concentrator_kiln_render.png`
+**Ingredient label:** `Solar Kiln 01 tracking concentrator dish`
+**Hook:** *Sunlight is the one thing a settlement never has to mine, make or carry.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine
+white and cyan linework, faint drafting grid, monospaced title block reading SC-1 ARCHIMEDES. The
+camera pushes in along the drawn reflected beams converging from the mirrors onto one bright focal
+point. The linework glows and lifts off the page into three dimensions; the grid dissolves into a
+level grey lunar plain under a black sky, and the wireframe fills with real material — a polished
+faceted parabolic dish on a motorised two-axis tracking frame, a ceramic receiver head just above
+glowing regolith — becoming exactly the kiln in the final frame. One continuous move, no cut.
+Audio: paper rustle, drafting-pen scratch, a rising tone settling into a low tracking-motor hum.
+No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact machine: match dish size, faceted mirror segments,
+tracking frame, receiver arm, control box and stencilled markings precisely. Do not redesign or add
+hardware that is not in the reference. The Solar Kiln 01 dish tracks a fraction of a degree on its
+two-axis frame, keeping the low brilliant sun centred. The focused beam is invisible in the vacuum —
+only the focal point shows, where the regolith beneath the ceramic receiver head glows a searing
+orange-white. The receiver arm advances slowly, and behind it the finished strip of dark glassy
+sintered pavement grows by a hand's width. Grey dust dulls the lower edges of the mirror. The camera
+moves low along the ground toward the glowing focus, the dish looming above. Harsh sunlight,
+knife-edged shadows. Audio: structure-borne — actuator motor whine, a faint crackle of fusing rock,
+thermal ticking. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same machine, matched exactly to the reference image. The camera pulls back and
+rises to a wide view: the single dish on the level plain, its focal glow a small intense point, the
+dark sintered strip running away behind it, a habitat module in the far distance. The sun sits very
+low and every shadow stretches long across the regolith, the dish still tracking. Black star-dusted
+sky. Audio: the motor hum steadies into a single low tone. No dialogue.
+```
+
+---
+
+## 39 · The Isotope Sorting Column "Aston"
+
+**Upload:** `isotope_column_blueprint.png` · `isotope_column_render.png`
+**Ingredient label:** `dual-use governance museum exhibit`
+**Hook:** *The hard part of this machine was never the physics. It is who gets to run it.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: principle sheet → exhibit render)*
+```
+Vertical 9:16. Opens on a cyanotype principle sheet filling the frame — prussian-blue paper, fine
+white linework, faint drafting grid, monospaced title block. The camera pushes in on the simple
+physics diagram of two curved particle paths of different radii. No machine forms. Instead the
+sheet recedes and resolves into a large softly lit wall panel in a quiet museum gallery, the same
+blue drawing of two curved paths now printed behind glass, with a display case and a low bench in
+the foreground under cool museum track lighting. One continuous move, no cut, no apparatus of any
+kind appears. Audio: paper rustle, drafting-pen scratch, a rising tone resolving into hushed gallery
+room tone. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact exhibit: match the display case, the antique
+instrument, the wall panels, the gallery architecture and lighting precisely. Do not add equipment,
+machinery or apparatus of any kind. A slow dolly move past a softly lit display case holding a
+historical 1920s brass-and-glass mass spectrograph tube on a velvet mount, warm light catching the
+brass, reflections sliding across the glass as the camera passes. Behind it, a large wall panel
+carries a diagram of two curved particle paths of different radii and blocks of printed treaty
+typography, soft and unreadable at this distance. Two visitors stand reading, seen from behind,
+small against the panels. Polished floor with soft reflections, dust motes in the light beams.
+Contemplative and restrained. Audio: hushed gallery room tone, soft footsteps, a faint HVAC hum.
+No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same exhibit, matched exactly to the reference image. The camera leaves the display
+case and pushes slowly toward a second wall panel showing a simple horizontal timeline of
+institutional markers that runs steadily along — and then stops, leaving a long conspicuous empty
+stretch with no markers at all. The camera comes to rest on that empty gap. A visitor's silhouette
+pauses in front of it. Audio: room tone, one set of footsteps stopping, then near-silence.
+No dialogue.
+```
+
+---
+
+## 40 · The Recycling Cascade "Ouroboros"
+
+**Upload:** `recycling_cascade_blueprint.png` · `recycling_cascade_render.png`
+**Ingredient label:** `Reclamation Bay 01 repair-first workshop`
+**Hook:** *At one end of my catalogue, a starship pushed by light. At the other, a machine that sorts rubbish.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine
+white and cyan linework, faint drafting grid, monospaced title block reading RC-1 OUROBOROS. The
+camera pushes in and follows the drawn cascade downward through its five stacked stage boxes,
+settling on the small residue box at the bottom. The linework glows and lifts off the page into
+three dimensions; the grid dissolves into the cool light of a habitat workshop, and the wireframe
+fills with real material — sorting bins along a wall, a workbench with a half-disassembled pump, a
+regrind machine, a small crucible — becoming exactly the reclamation bay in the final frame. One
+continuous move, no cut. Audio: paper rustle, drafting-pen scratch, a rising tone settling into
+workshop room tone and an extraction fan. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact workshop: match bin layout, bench, pump parts, regrind
+machine, crucible, wall screen, placards and stencilled markings precisely. Do not redesign or add
+equipment that is not in the reference. In Reclamation Bay 01, a technician's gloved hands — no face
+in frame — sweep a handheld material scanner over a scrap part, then drop it into the correct
+sorting bin. The hands turn to the bench and seat a tagged part back into the half-disassembled
+pump. The camera tracks slowly along the bench past the regrind machine, its hopper taking a
+trickle of shredded polymer flake, to the compact induction crucible where a freshly cast ingot
+cools with a warm glow. Clean, orderly, purposeful. Cool even workshop lighting. Audio: scanner
+beep, the clink of a part into a metal bin, a regrind whirr, extraction fan, a low crucible hum.
+No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same workshop, matched exactly to the reference image. The camera pulls back to show
+the whole reclamation wall — four sorting bins neatly filled, the bench, the wall screen with its
+material-flow diagram, the cooling ingot — then settles slowly on the residue bin, which is almost
+empty. Hold on it. Audio: workshop room tone and the fan, one soft scanner beep, then quiet.
+No dialogue.
 ```
 
 ---

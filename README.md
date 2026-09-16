@@ -1,6 +1,6 @@
 # Off-World Civilisation Toolkit
 
-**Thirty-four machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, and food systems that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
+**Forty machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, food systems, and industry that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
 
 Each concept folder contains a short article; flagship concepts additionally include a full research-paper-style concept study (PDF, Harvard referencing), an engineering blueprint sheet (SVG), and detailed image-generation prompts.
 
@@ -59,6 +59,14 @@ Each concept folder contains a short article; flagship concepts additionally inc
 ### Surface Infrastructure
 33. **[The Regolith Rail Grader](33-regolith-rail-grader/)** — Roads are the least celebrated and most consequential of technologies — the first thing a civilisation builds when it means to stay.
 34. **[The Lava Tube Surveyor](34-lava-tube-surveyor/)** — It would be a fine irony if the best shelter on the Moon turned out to be a hole that has been waiting there for three billion years.
+
+### Off-World Industry
+35. **[The Hopper Freighter](35-hopper-freighter/)** — Every settlement eventually discovers that its roads end long before its ambitions do.
+36. **[The Vacuum Vapour Refinery](36-vacuum-vapour-refinery/)** — The alembic is among the oldest instruments in human hands. What changes on the Moon is that the emptiness the alchemists could never achieve is simply there for the taking.
+37. **[The Orbital Foundry Ring](37-orbital-foundry-ring/)** — Every casting ever made on Earth carries the fingerprints of the mould that held it and the weight it had to bear while it cooled.
+38. **[The Solar Concentrator Kiln](38-solar-concentrator-kiln/)** — Sunlight is the one thing an off-world settlement never has to make, mine, or carry. A mirror is the simplest machine there is for making it fierce.
+39. **[The Isotope Sorting Column](39-isotope-sorting-column/)** — The hard part of this machine was never the separation. It's the answer to the question of who is allowed to run it.
+40. **[The Recycling Cascade](40-recycling-cascade/)** — These two volumes began with a probe pushed along by light and end with a machine that sorts rubbish. The second is the more important of the two.
 
 ## Author
 
