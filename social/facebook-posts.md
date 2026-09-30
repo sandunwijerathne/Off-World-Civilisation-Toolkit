@@ -1,5 +1,5 @@
 # Facebook Posts — Copy & Paste
-### Off-World Civilisation Toolkit · all 40 concepts
+### Off-World Civilisation Toolkit · all 42 concepts
 
 Each concept below is rewritten as a **native Facebook text post**. The repo articles are
 Markdown — headings, `**bold**`, `[links](url)` — none of which Facebook renders, so pasting
@@ -24,7 +24,7 @@ nothing to reformat.
 > github.com/sandunwijerathne/Off-World-Civilisation-Toolkit
 > Concept #N — [name]
 
-**Pacing:** one concept every 2–3 days, in catalogue order. 40 posts is roughly three to four months
+**Pacing:** one concept every 2–3 days, in catalogue order. 42 posts is roughly three to four months
 of material. Post them faster than that and you burn the catalogue before the audience builds.
 
 ---
@@ -48,7 +48,7 @@ What has never existed is the weaver itself. An autonomous machine that spins, s
 
 That is a robotics problem, not a physics problem. Which is exactly why I think a first version is plausible within about twenty years of a funded start.
 
-Concept 1 of 40 in my Off-World Civilisation Toolkit. Which one should I break down next?
+Concept 1 of 42 in my Off-World Civilisation Toolkit. Which one should I break down next?
 
 Full concept study, blueprint and paper — link in the first comment.
 
@@ -1306,7 +1306,7 @@ So my conclusion is that the institutional work has to come before the engineeri
 
 And honestly, the helium-3 economics have been contested for decades. The concentrations are high by Earth standards but tiny in absolute terms, and the fusion reactors that would burn it do not exist yet.
 
-Of all forty machines, this is the one whose limiting factor is most clearly not physics, but trust.
+Of all forty-two machines, this is the one whose limiting factor is most clearly not physics, but trust.
 
 Who should get to decide whether it is built?
 
@@ -1339,19 +1339,77 @@ The order is the entire idea, because every step down destroys embodied work. A 
 
 Repair before remake. Remake before reform. Reduce only when nothing else will serve.
 
-It is the return path for everything else in the catalogue. A settlement with the other thirty-nine machines and no recycling is quietly consuming itself. With the cascade, material moves round instead of through. That is not an efficiency gain. It is the difference between an expedition and a place people live.
+It is the return path for everything else in the catalogue. A settlement with the other forty-one machines and no recycling is quietly consuming itself. With the cascade, material moves round instead of through. That is not an efficiency gain. It is the difference between an expedition and a place people live.
 
 And the one dishonesty I will not allow here: it never fully closes. Every process loses a little to dust, vapour, oxidation, and mixtures too messy to recover. A real cascade approaches complete recycling and never arrives, so a settlement still needs a slow trickle of new material to make up the losses.
 
 The best part is that the first step is not hardware at all. It is a design rule: every component sent to a settlement should be repairable, easy to disassemble and labelled by material, and every crew should be equipped to fix rather than discard.
 
-This is the last of forty. It ends, fittingly, with the machine that makes the word "waste" obsolete.
+This closes Volume II, fittingly, with the machine that makes the word "waste" obsolete.
 
-Which of the forty would you build first?
+Which of the forty-two would you build first?
 
 Full concept study, blueprint and paper — link in the first comment.
 
 #CircularEconomy #Recycling #ClosedLoop #Sustainability #LifeSupport #SpaceTech
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+## Off-World Logistics
+
+### 41 · The Orbital Tug Pool
+
+```
+Every shipper in orbit builds its own ship, sails it once, and either scuttles it or leaves it parked. No two vessels share a fitting, so nobody can borrow anybody else's.
+
+That's roughly how spaceflight logistics works today — and it's a fine arrangement only while flights are rare.
+
+The moment traffic becomes routine — mass drivers throwing cargo off the Moon, depots stocking propellant, foundries waiting on feedstock — what the economy needs isn't better rockets. It needs taxis instead of private cars.
+
+The OT-1 "Mule" is deliberately the dullest machine in my whole catalogue: no wings, no heat shield, no landing legs, because it never touches a surface. Tanks, thrusters, a standard docking ring at each end, and enough autonomy to find its own rendezvous. It collects a payload at one orbit, carries it to another, and goes to its next job.
+
+The tug is unremarkable on purpose. The pool is the concept — a shared fleet dispatched against demand, the way a haulage company dispatches lorries, instead of every operator owning a stage that sits idle between flights.
+
+Moving between orbits is priced in delta-v, not distance — Hohmann worked out the maths in 1925. Chemical tugs deliver it fast and thirsty. Electric tugs deliver it slow and lean. A real pool carries both.
+
+The honest catch: refuelling a tug in free fall — especially cryogenic propellant, which won't settle in a tank without gravity — has been studied far more than it's been practised. Get that working, and a modest fleet of dull, reusable vehicles moves more mass more cheaply than a sky full of stages each waiting on its owner's next launch.
+
+Should orbital transfer be something you buy, or something you build?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#OrbitalLogistics #SpaceEconomy #InSpaceTransportation #ReusableSpacecraft #SpaceTech #Engineering
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 42 · The Ballistic Cargo Capsule
+
+```
+Every machine in this catalogue that moves cargo has been about going up. Mass drivers, skyhooks, tugs, hoppers — all of them spending electricity or propellant to buy velocity, because velocity is the expensive thing.
+
+Coming down is a completely different economy, and most people get it backwards.
+
+A vehicle arriving somewhere has to shed an enormous amount of kinetic energy before it can land. It can burn an engine to do that — propellant hauled all the way from somewhere else, spent purely on slowing down. Or, if the destination has an atmosphere, it can let the air do it for free, in unlimited quantity, forever.
+
+The cheapest brake in the solar system is made of air.
+
+The BC-1 "Trebuchet's Child" has no propulsion of its own. A blunt heat shield up front, a cargo shell behind it, parachutes or a steerable parafoil, a crushable base. No engine, no wings, no landing legs, no ability to change its mind once it's released. It's the child of whatever threw it — the launcher does the hard part, this just survives the trip.
+
+Here's the counterintuitive bit: blunt beats sharp. A pointed shape holds its shock wave tight against the hull and cooks it. A blunt shape forces the shock to stand off in front, dumping the heat into the air instead — the principle behind every capsule that's ever come home, since Allen and Eggers worked it out in 1958.
+
+Earth: the atmosphere does almost the whole job. Titan: even easier. The Moon and asteroids: the trick doesn't apply at all — no air, no free brake. Mars is the awkward one — just enough atmosphere to burn you, not nearly enough to stop you.
+
+This is the most flight-proven concept in the whole volume. What doesn't exist yet is the capsule as a commodity — cheap, mass-produced, handled like a shipping container instead of a spacecraft.
+
+Which world do you think gets this right first?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#AtmosphericEntry #SpaceLogistics #Aerospace #MarsMission #SpaceTech #Engineering
 #offworld #offworldCivilisation #offworldCivilisationtoolkit
 ```
 
@@ -1368,7 +1426,7 @@ Full concept study, blueprint and paper — link in the first comment.
 - **Two hashtag lines, and they do different jobs.** The top line is the discovery set —
   varied per concept, 5–7 tags, which is the sweet spot on Facebook (unlike Instagram). The
   bottom line is the fixed series signature: `#offworld #offworldCivilisation
-  #offworldCivilisationtoolkit`. It is identical on all 40 on purpose, so the catalogue is
+  #offworldCivilisationtoolkit`. It is identical on all 42 on purpose, so the catalogue is
   browsable as one body of work and readers can pull up every concept from any single post.
   Never let the discovery line become a repeated master block as well — varied top line plus
   fixed signature reads as a series; two identical blocks read as spam and get suppressed.

@@ -1,5 +1,5 @@
 # Google Flow — Video Prompts (9:16 Vertical)
-### Off-World Civilisation Toolkit · 40 concepts
+### Off-World Civilisation Toolkit · 42 concepts
 
 Three shots per concept, ~8 seconds each, cut together into a ~24-second vertical reel.
 Every shot tells Flow exactly how to use your uploaded reference images.
@@ -80,7 +80,7 @@ with each concept.
 
 ## Audio policy
 
-Veo generates native audio. Two rules keep it consistent and physically honest across all 40:
+Veo generates native audio. Two rules keep it consistent and physically honest across all 42:
 
 - **In vacuum:** the audio is a *structure-borne* recording — sound conducted through the
   machine's own frame, as a contact microphone would hear it. No air, so no whoosh, no roar,
@@ -1835,6 +1835,54 @@ No dialogue.
 ```
 
 ---
+---
+
+# Off-World Logistics
+
+## 41 · The Orbital Tug Pool "Mule"
+
+**Upload:** `tug_pool_blueprint.png` · `tug_pool_render.png`
+**Ingredient label:** `Tug 04 reusable orbital tug`
+**Hook:** *Every shipper in orbit builds its own ship, flies it once, and scuttles it.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading OT-1 MULE. The camera pushes in along the dashed transfer ellipse linking two concentric orbit rings around a banded planetary body, following it to the small tug-and-payload icon riding the ellipse. The linework glows and lifts off the page into three dimensions; the grid dissolves into the black of cislunar space, and the wireframe fills with real material — a squat cylindrical core in gold and white thermal blanketing, two spherical propellant tanks, a cluster of attitude thrusters, a docking ring at the bow — becoming exactly the tug in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into a low electrical hum. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact machine: match its geometry, proportions, tank layout, thruster placement, docking ring and stencilled markings precisely. Do not redesign, restyle, or add hardware that is not in the reference. The Tug 04 reusable orbital tug closes the last few centimetres on a propellant depot in high orbit, a boxy cargo container clamped to its mid-section on standardised hardpoints. Fine attitude thrusters fire tiny corrective puffs; alignment guides on the docking ring line up with the depot's matching ring. The camera holds a slow three-quarter orbit around the pair as contact is made, a soft mechanical latch visible at the ring. Distant grey cratered moon below, black star-dusted sky, hard sunlight with a rim of light along the hull. Audio: structure-borne — faint thruster ticks conducted through the frame, a mechanical clunk of capture, then quiet. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same tug, matched exactly to the reference image. The camera pulls back to reveal the wider scene: three more tugs of the same design holding position nearby at different distances from the depot, one departing on a long outward spiral, one arriving from below, one idle and refuelling — a small fleet, not a lone vehicle. The depot's radiator panel catches the sunlight. Hold on the wide view. Audio: the mechanical hum fades to the quiet room tone of vacuum, then silence. No dialogue.
+```
+
+---
+
+## 42 · The Ballistic Cargo Capsule "Trebuchet's Child"
+
+**Upload:** `cargo_capsule_blueprint.png` · `cargo_capsule_render.png`
+**Ingredient label:** `Cargo 17 ballistic entry capsule`
+**Hook:** *A catalogue full of elaborate machines for going up deserves one honest, stupid machine for coming down.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading BC-1 TREBUCHET'S CHILD. The camera pushes in along the bold entry-corridor trajectory drawn between two dashed atmosphere arcs above a curved planetary horizon, following it down to the small blunt capsule icon with its detached bow shock. The linework glows and lifts off the page into three dimensions; the grid dissolves into a high, thin desert sky, and the wireframe fills with real material — a squat truncated-cone shield in charred dark grey, scuffed white thermal blanketing above it, a packed parafoil at the crown — becoming exactly the capsule in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into a thin high-altitude wind. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact machine: match its geometry, proportions, heat-shield shape, blanketing, parafoil and stencilled markings precisely. Do not redesign, restyle, or add hardware that is not in the reference. The Cargo 17 ballistic entry capsule descends under its open grey ram-air parafoil a few hundred metres above a wide flat recovery zone, its underside still faintly glowing at the seams and streaked with scorch marks from entry. Control-line actuators at the risers twitch, steering it gently toward a marked landing target visible far below. The camera holds a slow diagonal tracking shot alongside the canopy, low sun throwing long shadows across the desert floor. Audio: structure-borne creak of the risers, thin wind past the canopy fabric, no engine, no dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same capsule, matched exactly to the reference image. It settles onto the crushable base with a soft compression and topples gently onto its side; the parafoil collapses and drifts down over the ground beside it. The camera stays low and wide, holding the small dust plume kicked up at touchdown as a distant recovery vehicle begins moving toward it across the flat desert. Hold on the still capsule, scorched and intact. Audio: a soft crushing thud, canopy fabric settling, then quiet ambient wind. No dialogue.
+```
+
 ---
 
 # Troubleshooting

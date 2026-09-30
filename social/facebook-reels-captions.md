@@ -1,12 +1,12 @@
 # Facebook Reels — Captions & Hashtags
-### Off-World Civilisation Toolkit · 40 concepts
+### Off-World Civilisation Toolkit · 42 concepts
 
 **How to use:** copy the caption block, paste into the Reel. Put the GitHub link in the
 **first comment**, not the caption — Facebook throttles reach on posts with external links
 in the body. Pin that comment.
 
 **Hashtags:** 5–8 is the sweet spot on Facebook (unlike Instagram). Each concept below has
-its own mix so you are not posting an identical block 40 times — repeated identical hashtag
+its own mix so you are not posting an identical block 42 times — repeated identical hashtag
 walls get flagged as spam and suppressed.
 
 **Pinned first-comment template:**
@@ -716,9 +716,47 @@ work that went into making it. A melted one keeps only the metal.
 
 The rubbish sorter is the more important machine.
 
-Which of the 40 would you build first? 👇
+Which of the 42 would you build first? 👇
 
 #CircularEconomy #Recycling #ZeroWaste #Sustainability #SpaceColony #SpaceTech #Engineering
+
+---
+
+## Off-World Logistics
+
+### 41 · The Orbital Tug Pool
+
+Every shipper in orbit builds its own ship, flies it once, then scuttles it.
+
+That's the current model — fine while flights are rare. The moment traffic becomes routine, it collapses under its own waste.
+
+The fix isn't a better rocket. It's taxis instead of private cars: a shared fleet of reusable tugs, dispatched against demand, refuelled instead of thrown away.
+
+The tug itself is deliberately boring — tanks, thrusters, a standard docking ring. The pool is the whole idea.
+
+Moving between orbits is priced in delta-v, not distance. Chemical tugs are fast and thirsty. Electric tugs are slow and lean. A real fleet carries both.
+
+The least glamorous machine in my catalogue. Possibly the most consequential. 🚀
+
+#OrbitalLogistics #SpaceEconomy #ReusableSpacecraft #SpaceTech #InSpaceTransportation #Engineering
+
+---
+
+### 42 · The Ballistic Cargo Capsule
+
+Every machine in this catalogue that moves cargo has been about going up.
+
+Coming down is a different economy entirely — and the cheapest brake in the solar system is made of air.
+
+The Trebuchet's Child has no engine, no wings, no landing legs. Just a blunt heat shield, a cargo shell, and a parachute. It can't steer. It doesn't need to — the atmosphere does the braking for free.
+
+Blunt beats sharp: a pointed shape cooks itself on its own shock wave, a blunt one pushes the shock away and dumps the heat into the air instead.
+
+Earth: easy. Titan: even easier. The Moon: doesn't work at all — no air, no free lunch.
+
+The most flight-proven idea in the whole volume. 🪂
+
+#AtmosphericEntry #SpaceLogistics #Aerospace #SpaceTech #Engineering #ConceptDesign
 
 ---
 
@@ -728,10 +766,10 @@ Which of the 40 would you build first? 👇
   every caption above is written so the cut lands after the hook.
 - **Link in the pinned first comment**, never in the caption body.
 - **One concept per Reel**, in catalogue order, builds a series people can follow. Say
-  "Concept 12 of 40" in the video itself, not the caption — it saves caption space and still
+  "Concept 12 of 42" in the video itself, not the caption — it saves caption space and still
   reads as a series.
 - **Ask a question at the end.** Several captions above do; comments are the strongest
   ranking signal on Reels.
 - **Rotate hashtags** — the per-concept sets above are already varied. Do not paste one
-  master block onto all 40.
+  master block onto all 42.
 - If a Reel underperforms, add 3–4 broad fillers: #Space #Science #Technology #Innovation.

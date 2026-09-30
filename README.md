@@ -1,6 +1,6 @@
 # Off-World Civilisation Toolkit
 
-**Forty machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, food systems, and industry that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
+**Forty-two machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, food systems, and industry that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
 
 Each concept folder contains a short article; flagship concepts additionally include a full research-paper-style concept study (PDF, Harvard referencing), an engineering blueprint sheet (SVG), and detailed image-generation prompts.
 
@@ -67,6 +67,10 @@ Each concept folder contains a short article; flagship concepts additionally inc
 38. **[The Solar Concentrator Kiln](38-solar-concentrator-kiln/)** — Sunlight is the one thing an off-world settlement never has to make, mine, or carry. A mirror is the simplest machine there is for making it fierce.
 39. **[The Isotope Sorting Column](39-isotope-sorting-column/)** — The hard part of this machine was never the separation. It's the answer to the question of who is allowed to run it.
 40. **[The Recycling Cascade](40-recycling-cascade/)** — These two volumes began with a probe pushed along by light and end with a machine that sorts rubbish. The second is the more important of the two.
+
+### Off-World Logistics
+41. **[The Orbital Tug Pool](41-orbital-tug-pool/)** — Cities didn't solve urban transport by giving everyone a better car.
+42. **[The Ballistic Cargo Capsule](42-ballistic-cargo-capsule/)** — A catalogue full of elaborate machines for going up deserves one honest, stupid machine for coming down.
 
 ## Author
 
