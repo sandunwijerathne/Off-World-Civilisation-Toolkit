@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" width="1400" height="1000">
+<defs>
+  <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+    <path d="M25 0 L0 0 0 25" fill="none" stroke="#1B4470" stroke-width="0.5"/>
+  </pattern>
+  <pattern id="gridMajor" width="125" height="125" patternUnits="userSpaceOnUse">
+    <rect width="125" height="125" fill="url(#grid)"/>
+    <path d="M125 0 L0 0 0 125" fill="none" stroke="#24578A" stroke-width="1"/>
+  </pattern>
+  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#E86F6F" stroke-width="1.5" opacity="0.55"/>
+  </pattern>
+  <pattern id="filt" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#DCEBFA" stroke-width="1.2"/>
+  </pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#6FC3FF"/>
+  </marker>
+  <marker id="warrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#DCEBFA"/>
+  </marker>
+  <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#7FD1A8"/>
+  </marker>
+  <marker id="amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#E8A33D"/>
+  </marker>
+  <marker id="dim" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M2 1 L2 9" stroke="#8FB6DB" stroke-width="1.4" fill="none"/>
+  </marker>
+  <clipPath id="detClip"><circle cx="1200" cy="470" r="126"/></clipPath>
+</defs>
+
+<rect width="1400" height="1000" fill="#0B2A4A"/>
+<rect width="1400" height="1000" fill="url(#gridMajor)"/>
+<rect x="18" y="18" width="1364" height="964" fill="none" stroke="#DCEBFA" stroke-width="2"/>
+<rect x="28" y="28" width="1344" height="944" fill="none" stroke="#4E86B8" stroke-width="0.8"/>
+
+<!-- ================= HEADER ================= -->
+<text x="48" y="62" font-family="monospace" font-size="27" fill="#DCEBFA" letter-spacing="2">MYCELIAL DIGESTION VAT &#8212; MY-1 &#8220;SAPROPHYTE&#8221;</text>
+<text x="48" y="82" font-family="monospace" font-size="12.5" fill="#6FC3FF" letter-spacing="1.4">TWO-TRAIN FUNGAL SOLIDS PLANT &#183; CONTAINMENT &amp; PROCESS ARRANGEMENT</text>
+<text x="1352" y="58" text-anchor="end" font-family="monospace" font-size="12.5" fill="#8FB6DB">SHEET 1 OF 1 &#183; REV A</text>
+<text x="1352" y="76" text-anchor="end" font-family="monospace" font-size="12.5" fill="#8FB6DB">REF. MY-BP-050</text>
+<line x1="48" y1="93" x2="1352" y2="93" stroke="#4E86B8" stroke-width="1"/>
+
+<!-- ================= CONTAINMENT SHELL ================= -->
+<rect x="55" y="122" width="885" height="526" rx="10" fill="#0C2F52" stroke="#DCEBFA" stroke-width="2.4"/>
+<text x="66" y="140" font-family="monospace" font-size="9.5" fill="#DCEBFA">CONTAINMENT SHELL &#183; NEGATIVE PRESSURE &#183; GOWNED ENTRY ONLY</text>
+
+<!-- feedstock in (train A) -->
+<path d="M30 197 L172 197" fill="none" stroke="#6FC3FF" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="60" y="190" font-family="monospace" font-size="7.5" fill="#6FC3FF">RESIDUE &#183; PAPER &#183; SCRAPS</text>
+<!-- crew in -->
+<path d="M30 277 L66 277" fill="none" stroke="#DCEBFA" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#warrow)"/>
+<text x="30" y="270" font-family="monospace" font-size="7.5" fill="#8FB6DB">CREW</text>
+<!-- solids in (train B) -->
+<path d="M30 435 L172 435" fill="none" stroke="#8FB6DB" stroke-width="2" marker-end="url(#warrow)"/>
+<text x="60" y="428" font-family="monospace" font-size="7.5" fill="#8FB6DB">HUMAN SOLIDS &#183; SOILED</text>
+
+<!-- ===== TRAIN A ===== -->
+<text x="172" y="154" font-family="monospace" font-size="10" fill="#7FD1A8">TRAIN A &#8212; FOOD</text>
+
+<rect x="172" y="160" width="100" height="74" fill="#0E3559" stroke="#7FD1A8" stroke-width="1.7"/>
+<text x="180" y="178" font-family="monospace" font-size="10.5" fill="#7FD1A8">A1 PREP</text>
+<text x="180" y="194" font-family="monospace" font-size="8.2" fill="#9FC4E4">CHOP + WET</text>
+<text x="180" y="206" font-family="monospace" font-size="8.2" fill="#9FC4E4">TO WORKING</text>
+<text x="180" y="218" font-family="monospace" font-size="8.2" fill="#9FC4E4">MOISTURE</text>
+
+<path d="M272 197 L284 197" fill="none" stroke="#7FD1A8" stroke-width="1.8" marker-end="url(#green)"/>
+<rect x="284" y="160" width="100" height="74" fill="#0E3559" stroke="#7FD1A8" stroke-width="1.7"/>
+<text x="292" y="178" font-family="monospace" font-size="10.5" fill="#7FD1A8">A2 PAST.</text>
+<text x="292" y="194" font-family="monospace" font-size="8.2" fill="#E8A33D">65 &#176;C / 4 h</text>
+<text x="292" y="206" font-family="monospace" font-size="8.2" fill="#9FC4E4">NOT STERILE &#8212;</text>
+<text x="292" y="218" font-family="monospace" font-size="8.2" fill="#9FC4E4">RIVALS REMAIN</text>
+
+<path d="M384 197 L396 197" fill="none" stroke="#7FD1A8" stroke-width="1.8" marker-end="url(#green)"/>
+<rect x="396" y="160" width="100" height="74" fill="#0E3559" stroke="#7FD1A8" stroke-width="1.7"/>
+<text x="404" y="178" font-family="monospace" font-size="10.5" fill="#7FD1A8">A3 INOC.</text>
+<text x="404" y="194" font-family="monospace" font-size="8.2" fill="#9FC4E4">CLEAN SIDE</text>
+<text x="404" y="206" font-family="monospace" font-size="8.2" fill="#9FC4E4">SPAWN MIXED</text>
+<text x="404" y="218" font-family="monospace" font-size="8.2" fill="#9FC4E4">SLEEVE CLOSED</text>
+
+<path d="M496 197 L508 197" fill="none" stroke="#7FD1A8" stroke-width="1.8" marker-end="url(#green)"/>
+<rect x="508" y="160" width="100" height="74" fill="#0E3559" stroke="#7FD1A8" stroke-width="1.7"/>
+<text x="516" y="178" font-family="monospace" font-size="10.5" fill="#7FD1A8">A4 COLON.</text>
+<text x="516" y="194" font-family="monospace" font-size="8.2" fill="#9FC4E4">DARK, 18 d</text>
+<text x="516" y="206" font-family="monospace" font-size="8.2" fill="#9FC4E4">WHITE FRONT</text>
+<text x="516" y="218" font-family="monospace" font-size="8.2" fill="#9FC4E4">READ BY EYE</text>
+
+<!-- GATE -->
+<path d="M608 197 L614 197" fill="none" stroke="#7FD1A8" stroke-width="1.8"/>
+<path d="M634 173 L660 197 L634 221 L608 197 z" fill="#0E3559" stroke="#E86F6F" stroke-width="1.8"/>
+<text x="634" y="195" text-anchor="middle" font-family="monospace" font-size="8" fill="#E86F6F">GATE</text>
+<text x="634" y="206" text-anchor="middle" font-family="monospace" font-size="8" fill="#E86F6F">d18</text>
+<path d="M634 221 L634 246" fill="none" stroke="#E86F6F" stroke-width="1.6" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+<text x="560" y="262" font-family="monospace" font-size="8.4" fill="#E86F6F">UNEVEN BLOCK &#8594; INCINERATE.</text>
+<text x="560" y="274" font-family="monospace" font-size="8.4" fill="#E86F6F">NEVER RESCUED, NEVER RE-RACKED.</text>
+<path d="M660 197 L672 197" fill="none" stroke="#7FD1A8" stroke-width="1.8" marker-end="url(#green)"/>
+
+<rect x="672" y="160" width="100" height="74" fill="#0E3559" stroke="#7FD1A8" stroke-width="1.7"/>
+<text x="680" y="178" font-family="monospace" font-size="10.5" fill="#7FD1A8">A5 FRUIT</text>
+<text x="680" y="194" font-family="monospace" font-size="8.2" fill="#9FC4E4">SHOCK: COOL,</text>
+<text x="680" y="206" font-family="monospace" font-size="8.2" fill="#9FC4E4">HUMID, LIGHT</text>
+<text x="680" y="218" font-family="monospace" font-size="8.2" fill="#E86F6F">SPORE RISK</text>
+
+<path d="M772 197 L784 197" fill="none" stroke="#7FD1A8" stroke-width="1.8" marker-end="url(#green)"/>
+<rect x="784" y="160" width="100" height="74" fill="#0E3559" stroke="#7FD1A8" stroke-width="1.7"/>
+<text x="792" y="178" font-family="monospace" font-size="10.5" fill="#7FD1A8">A6 HARV.</text>
+<text x="792" y="194" font-family="monospace" font-size="8.2" fill="#9FC4E4">BEFORE CAPS</text>
+<text x="792" y="206" font-family="monospace" font-size="8.2" fill="#9FC4E4">FLATTEN &#8212; BEST</text>
+<text x="792" y="218" font-family="monospace" font-size="8.2" fill="#9FC4E4">TO EAT, SAFEST</text>
+
+<!-- spawn bank -->
+<rect x="382" y="252" width="132" height="48" fill="#0E3559" stroke="#6FC3FF" stroke-width="1.3" stroke-dasharray="5 3"/>
+<text x="390" y="270" font-family="monospace" font-size="9" fill="#6FC3FF">CRYO SPAWN BANK</text>
+<text x="390" y="283" font-family="monospace" font-size="7.8" fill="#9FC4E4">GENERATION LIMIT</text>
+<text x="390" y="294" font-family="monospace" font-size="7.8" fill="#9FC4E4">HELD BY INVENTORY</text>
+<path d="M448 252 L448 236" fill="none" stroke="#6FC3FF" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+<!-- anteroom -->
+<rect x="66" y="252" width="104" height="48" fill="#0E3559" stroke="#DCEBFA" stroke-width="1.4"/>
+<text x="74" y="270" font-family="monospace" font-size="9" fill="#DCEBFA">GOWN ANTEROOM</text>
+<text x="74" y="285" font-family="monospace" font-size="7.8" fill="#9FC4E4">ONE TRAIN PER SHIFT</text>
+
+<!-- edible yield out -->
+<path d="M834 234 L834 252" fill="none" stroke="#7FD1A8" stroke-width="2" marker-end="url(#green)"/>
+<rect x="752" y="252" width="168" height="48" fill="#0E3559" stroke="#7FD1A8" stroke-width="1.4" stroke-dasharray="6 3"/>
+<text x="760" y="270" font-family="monospace" font-size="9.5" fill="#7FD1A8">EDIBLE YIELD &#8594; GALLEY</text>
+<text x="760" y="285" font-family="monospace" font-size="7.8" fill="#9FC4E4">WEIGHED AGAINST SUBSTRATE IN</text>
+
+<!-- ===== THE AIR GAP ===== -->
+<rect x="66" y="314" width="862" height="54" fill="url(#hatch)" stroke="#E86F6F" stroke-width="2"/>
+<rect x="66" y="314" width="862" height="54" fill="#0B2A4A" opacity="0.45"/>
+<text x="497" y="337" text-anchor="middle" font-family="monospace" font-size="13" fill="#E86F6F" letter-spacing="1.5">AIR GAP &#8212; NO PIPE, NO DUCT, NO FITTING, NO SHARED AIR HANDLING</text>
+<text x="497" y="356" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#DCEBFA">A VALVE CAN BE OPENED. A GAP CANNOT. THIS IS THE DESIGN.</text>
+
+<!-- ===== TRAIN B ===== -->
+<text x="172" y="392" font-family="monospace" font-size="10" fill="#8FB6DB">TRAIN B &#8212; MINERAL (NEVER EATEN)</text>
+
+<rect x="172" y="398" width="124" height="74" fill="#0E3559" stroke="#8FB6DB" stroke-width="1.7"/>
+<text x="180" y="416" font-family="monospace" font-size="10.5" fill="#DCEBFA">B1 STERILISE</text>
+<text x="180" y="432" font-family="monospace" font-size="8.2" fill="#E8A33D">121 &#176;C, PRESSURE</text>
+<text x="180" y="444" font-family="monospace" font-size="8.2" fill="#9FC4E4">NOT PASTEURISE &#8212;</text>
+<text x="180" y="456" font-family="monospace" font-size="8.2" fill="#9FC4E4">NOT NEGOTIABLE</text>
+
+<path d="M296 435 L308 435" fill="none" stroke="#8FB6DB" stroke-width="1.8" marker-end="url(#warrow)"/>
+<rect x="308" y="398" width="124" height="74" fill="#0E3559" stroke="#8FB6DB" stroke-width="1.7"/>
+<text x="316" y="416" font-family="monospace" font-size="10.5" fill="#DCEBFA">B2 MIN. BED</text>
+<text x="316" y="432" font-family="monospace" font-size="8.2" fill="#9FC4E4">FUNGAL, SEPARATE</text>
+<text x="316" y="444" font-family="monospace" font-size="8.2" fill="#9FC4E4">TOOLS AND GLOVES</text>
+<text x="316" y="456" font-family="monospace" font-size="8.2" fill="#9FC4E4">OUTPUT NOT FOOD</text>
+
+<path d="M432 435 L444 435" fill="none" stroke="#8FB6DB" stroke-width="1.8" marker-end="url(#warrow)"/>
+<rect x="444" y="398" width="124" height="74" fill="#0E3559" stroke="#8FB6DB" stroke-width="1.7"/>
+<text x="452" y="416" font-family="monospace" font-size="10.5" fill="#DCEBFA">B3 2nd PASS</text>
+<text x="452" y="432" font-family="monospace" font-size="8.2" fill="#E8A33D">THERMAL, AGAIN</text>
+<text x="452" y="444" font-family="monospace" font-size="8.2" fill="#9FC4E4">BEFORE ANYTHING</text>
+<text x="452" y="456" font-family="monospace" font-size="8.2" fill="#9FC4E4">LEAVES THE TRAIN</text>
+
+<path d="M568 435 L580 435" fill="none" stroke="#8FB6DB" stroke-width="1.8" marker-end="url(#warrow)"/>
+<rect x="580" y="398" width="124" height="74" fill="#0E3559" stroke="#8FB6DB" stroke-width="1.7"/>
+<text x="588" y="416" font-family="monospace" font-size="10.5" fill="#DCEBFA">B4 BLEND</text>
+<text x="588" y="432" font-family="monospace" font-size="8.2" fill="#9FC4E4">+ MINERAL CAKE</text>
+<text x="588" y="444" font-family="monospace" font-size="8.2" fill="#9FC4E4">FROM UW-1 (49)</text>
+<text x="588" y="456" font-family="monospace" font-size="8.2" fill="#9FC4E4">MASS LOGGED OUT</text>
+
+<path d="M704 435 L740 435" fill="none" stroke="#8FB6DB" stroke-width="2" marker-end="url(#warrow)"/>
+<rect x="740" y="398" width="180" height="74" fill="#0E3559" stroke="#8FB6DB" stroke-width="1.4" stroke-dasharray="6 3"/>
+<text x="748" y="418" font-family="monospace" font-size="9.5" fill="#DCEBFA">TO GROWING MEDIUM</text>
+<text x="748" y="434" font-family="monospace" font-size="9" fill="#9FC4E4">ROOT TOWER (26)</text>
+<text x="748" y="450" font-family="monospace" font-size="8.2" fill="#E86F6F">NEVER ENTERS TRAIN A</text>
+<text x="748" y="463" font-family="monospace" font-size="8.2" fill="#9FC4E4">NO SHARED HANDLING</text>
+
+<!-- ===== SEPARATE EXHAUSTS ===== -->
+<!-- train A air -->
+<path d="M722 160 L722 146 L920 146 L920 180" fill="none" stroke="#6FC3FF" stroke-width="1.5" stroke-dasharray="5 3"/>
+<rect x="916" y="180" width="38" height="44" fill="url(#filt)" stroke="#DCEBFA" stroke-width="1.6"/>
+<path d="M954 202 L1012 202" fill="none" stroke="#6FC3FF" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="956" y="194" font-family="monospace" font-size="7.5" fill="#6FC3FF">EXHAUST A</text>
+<text x="956" y="216" font-family="monospace" font-size="7.5" fill="#6FC3FF">HEPA + SPORE</text>
+<text x="956" y="226" font-family="monospace" font-size="7.5" fill="#6FC3FF">TRAP, CONT.</text>
+
+<!-- train B air -->
+<path d="M370 398 L370 376 L920 376 L920 414" fill="none" stroke="#8FB6DB" stroke-width="1.5" stroke-dasharray="5 3"/>
+<rect x="916" y="414" width="38" height="44" fill="url(#filt)" stroke="#DCEBFA" stroke-width="1.6"/>
+<path d="M954 436 L1012 436" fill="none" stroke="#8FB6DB" stroke-width="1.8" marker-end="url(#warrow)"/>
+<text x="956" y="428" font-family="monospace" font-size="7.5" fill="#8FB6DB">EXHAUST B</text>
+<text x="956" y="450" font-family="monospace" font-size="7.5" fill="#8FB6DB">SEPARATE</text>
+<text x="956" y="460" font-family="monospace" font-size="7.5" fill="#8FB6DB">STACK</text>
+
+<!-- pressure note -->
+<line x1="80" y1="524" x2="912" y2="524" stroke="#8FB6DB" stroke-width="1" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="497" y="518" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#8FB6DB">PLANT ENVELOPE 14.5 m &#183; SERVES A SETTLEMENT OF 24 AT ONE BLOCK PER DAY</text>
+<text x="497" y="548" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#E8A33D">SHELL HELD AT &#8722;25 Pa RELATIVE TO HABITAT</text>
+<text x="497" y="565" text-anchor="middle" font-family="monospace" font-size="9" fill="#9FC4E4">ALL AIR LEAVES THROUGH FILTERS. NONE RETURNS UNFILTERED. AIR ALWAYS FLOWS INWARD AT THE DOOR.</text>
+<text x="497" y="586" text-anchor="middle" font-family="monospace" font-size="9" fill="#E86F6F">RESIDUAL HAZARD: A FUNGUS IS BEING CULTIVATED INSIDE THE ONLY ATMOSPHERE THE SETTLEMENT HAS.</text>
+<text x="497" y="602" text-anchor="middle" font-family="monospace" font-size="8.6" fill="#8FB6DB">CONTAINMENT IS THE GATING UNKNOWN &#8212; SEE &#167;5 AND &#167;6 PHASE B OF THE CONCEPT STUDY.</text>
+<text x="497" y="628" text-anchor="middle" font-family="monospace" font-size="8.6" fill="#9FC4E4">CARBON NOTE: WHITE ROT MINERALISES SOLID CARBON TO CO2. THIS PLANT IS A NODE IN THE CARBON LOOP, NOT A SINK.</text>
+
+<!-- ================= FIG. B : BLOCK TIMELINE ================= -->
+<rect x="1026" y="104" width="326" height="212" fill="#0A2542" stroke="#6FC3FF" stroke-width="1.4"/>
+<text x="1036" y="122" font-family="monospace" font-size="11" fill="#6FC3FF">FIG. B &#8212; LIFE OF ONE BLOCK</text>
+<text x="1036" y="135" font-family="monospace" font-size="8.2" fill="#8FB6DB">40 DAYS. THE DIGESTER TAKES DAYS.</text>
+
+<g font-family="monospace" font-size="7.2" fill="#9FC4E4">
+  <text x="1036" y="155">PREP/PAST d0</text>
+  <text x="1036" y="172">COLONISE 18d</text>
+  <text x="1036" y="189">GATE d18</text>
+  <text x="1036" y="206">FRUIT d18-22</text>
+  <text x="1036" y="223">FLUSH 1 d22-26</text>
+  <text x="1036" y="240">FLUSH 2 d33-36</text>
+  <text x="1036" y="257">RETIRE d40</text>
+</g>
+<rect x="1130" y="148" width="7" height="9" fill="#6FC3FF"/>
+<rect x="1135" y="165" width="90" height="9" fill="#7FD1A8"/>
+<path d="M1225 182 L1232 188.5 L1225 195 L1218 188.5 z" fill="#0A2542" stroke="#E86F6F" stroke-width="1.5"/>
+<rect x="1225" y="199" width="21" height="9" fill="#6FC3FF"/>
+<rect x="1246" y="216" width="21" height="9" fill="#7FD1A8"/>
+<rect x="1304" y="233" width="16" height="9" fill="#7FD1A8"/>
+<rect x="1337" y="250" width="7" height="9" fill="#8FB6DB"/>
+<!-- axis -->
+<line x1="1130" y1="274" x2="1344" y2="274" stroke="#8FB6DB" stroke-width="1"/>
+<g font-family="monospace" font-size="7" fill="#8FB6DB">
+  <text x="1127" y="286">0</text><text x="1177" y="286">10</text><text x="1230" y="286">20</text>
+  <text x="1283" y="286">30</text><text x="1335" y="286">40</text>
+</g>
+<text x="1036" y="304" font-family="monospace" font-size="8.2" fill="#E86F6F">SLOW ON PURPOSE &#8212; SEE DETAIL A.</text>
+
+<!-- ================= DETAIL A : ENZYMATIC COMBUSTION ================= -->
+<circle cx="1200" cy="470" r="126" fill="#0A2542" stroke="#DCEBFA" stroke-width="2"/>
+<g clip-path="url(#detClip)">
+  <rect x="1074" y="344" width="252" height="252" fill="url(#grid)" opacity="0.5"/>
+  <!-- hypha -->
+  <rect x="1070" y="432" width="84" height="20" rx="9" fill="#16466F" stroke="#7FD1A8" stroke-width="1.6"/>
+  <line x1="1104" y1="432" x2="1104" y2="452" stroke="#7FD1A8" stroke-width="1.1"/>
+  <line x1="1130" y1="432" x2="1130" y2="452" stroke="#7FD1A8" stroke-width="1.1"/>
+  <!-- secreted oxidases -->
+  <g fill="#7FD1A8">
+    <circle cx="1166" cy="428" r="3.2"/><circle cx="1176" cy="444" r="3.2"/>
+    <circle cx="1163" cy="458" r="3.2"/><circle cx="1188" cy="432" r="3.2"/>
+    <circle cx="1184" cy="462" r="3.2"/>
+  </g>
+  <!-- lignin tangle -->
+  <g stroke="#6FC3FF" stroke-width="1.5" fill="none">
+    <path d="M1212 420 L1238 436 L1226 462 L1250 478 L1232 500 L1262 508"/>
+    <path d="M1238 436 L1266 428 L1286 448 L1272 470 L1250 478"/>
+    <path d="M1286 448 L1306 466 L1292 492 L1262 508"/>
+    <path d="M1212 420 L1206 448 L1226 462"/>
+    <path d="M1272 470 L1292 492"/>
+  </g>
+  <g stroke="#6FC3FF" stroke-width="1.1" fill="none">
+    <path d="M1238 430 l5 -3 l5 3 l0 6 l-5 3 l-5 -3 z"/>
+    <path d="M1266 462 l5 -3 l5 3 l0 6 l-5 3 l-5 -3 z"/>
+    <path d="M1222 480 l5 -3 l5 3 l0 6 l-5 3 l-5 -3 z"/>
+    <path d="M1288 440 l5 -3 l5 3 l0 6 l-5 3 l-5 -3 z"/>
+  </g>
+  <!-- radical bursts -->
+  <g stroke="#E8A33D" stroke-width="1.8">
+    <path d="M1226 446 l-8 -8 M1226 446 l8 8 M1226 446 l8 -8 M1226 446 l-8 8"/>
+    <path d="M1258 486 l-8 -8 M1258 486 l8 8 M1258 486 l8 -8 M1258 486 l-8 8"/>
+    <path d="M1288 462 l-7 -7 M1288 462 l7 7 M1288 462 l7 -7 M1288 462 l-7 7"/>
+  </g>
+</g>
+<text x="1200" y="620" text-anchor="middle" font-family="monospace" font-size="11" fill="#DCEBFA">DETAIL A &#8212; ENZYMATIC COMBUSTION</text>
+<text x="1200" y="635" text-anchor="middle" font-family="monospace" font-size="8.4" fill="#8FB6DB">MOLECULAR SCHEMATIC &#183; NOT TO SCALE</text>
+<text x="1092" y="422" font-family="monospace" font-size="8" fill="#7FD1A8">HYPHA</text>
+<text x="1150" y="408" font-family="monospace" font-size="7.4" fill="#7FD1A8">SECRETED OXIDASES</text>
+<text x="1150" y="418" font-family="monospace" font-size="7.4" fill="#7FD1A8">LiP &#183; MnP &#183; LACCASE</text>
+<text x="1130" y="534" font-family="monospace" font-size="8" fill="#6FC3FF">LIGNIN &#8212; NO REPEATING BOND</text>
+<text x="1130" y="548" font-family="monospace" font-size="7.4" fill="#E8A33D">SO: RADICALS, UNGUIDED, OUTSIDE CELL</text>
+
+<!-- ================= PARTS INDEX ================= -->
+<rect x="48" y="690" width="520" height="268" fill="#0A2542" stroke="#DCEBFA" stroke-width="1.4"/>
+<text x="60" y="710" font-family="monospace" font-size="12" fill="#DCEBFA">PARTS INDEX &#8212; MY-1</text>
+<line x1="60" y1="718" x2="556" y2="718" stroke="#4E86B8" stroke-width="0.8"/>
+<g font-family="monospace" font-size="9.4" fill="#9FC4E4">
+  <text x="60" y="736">01  SHREDDER / WETTING AUGER, 40 kg BATCH</text>
+  <text x="60" y="752">02  PASTEURISATION VESSEL, 65 &#176;C JACKET, FILTERED COOL-DOWN</text>
+  <text x="60" y="768">03  LAMINAR-FLOW INOCULATION BENCH (CLEAN SIDE)</text>
+  <text x="60" y="784">04  GAS-PERMEABLE SLEEVES + PRINTED COLONISATION SCALE</text>
+  <text x="60" y="800">05  COLONISATION RACK, DARK, 24 &#176;C, 60 BLOCK POSITIONS</text>
+  <text x="60" y="816">06  FRUITING ROOM: CHILLER, HUMIDIFIER, LAMP BANK, AIR CHANGE</text>
+  <text x="60" y="832">07  HEPA + SPORE TRAP, TRAIN A &#8212; CONTINUOUS DUTY</text>
+  <text x="60" y="848">08  AUTOCLAVE, TRAIN B, 121 &#176;C SATURATED STEAM</text>
+  <text x="60" y="864">09  MINERAL BED, TRAIN B &#8212; DEDICATED TOOLS, COLOUR-CODED</text>
+  <text x="60" y="880">10  SECOND-PASS THERMAL TREATER, TRAIN B OUTLET</text>
+  <text x="60" y="896">11  HEPA + SPORE TRAP, TRAIN B &#8212; SEPARATE STACK</text>
+  <text x="60" y="912">12  CRYO SPAWN BANK, LN2 DEWAR + GENERATION REGISTER</text>
+  <text x="60" y="928">13  GOWNING ANTEROOM, INTERLOCKED DOORS, ONE TRAIN PER SHIFT</text>
+  <text x="60" y="944">14  BLOCK INCINERATOR FOR GATE REJECTS (NO RECOVERY PATH)</text>
+</g>
+
+<!-- ================= TITLE BLOCK ================= -->
+<rect x="590" y="690" width="762" height="268" fill="#0A2542" stroke="#DCEBFA" stroke-width="1.4"/>
+<line x1="590" y1="738" x2="1352" y2="738" stroke="#4E86B8" stroke-width="0.9"/>
+<line x1="590" y1="846" x2="1352" y2="846" stroke="#4E86B8" stroke-width="0.9"/>
+<line x1="590" y1="900" x2="1352" y2="900" stroke="#4E86B8" stroke-width="0.9"/>
+<line x1="971" y1="738" x2="971" y2="846" stroke="#4E86B8" stroke-width="0.9"/>
+
+<text x="602" y="720" font-family="monospace" font-size="15" fill="#DCEBFA" letter-spacing="1.2">OFF-WORLD CIVILISATION TOOLKIT &#183; VOL. III &#183; CONCEPT 50</text>
+<text x="1340" y="720" text-anchor="end" font-family="monospace" font-size="10" fill="#8FB6DB">LIFE SUPPORT &amp; AGRICULTURE</text>
+
+<g font-family="monospace" font-size="9.4" fill="#9FC4E4">
+  <text x="602" y="756">DESIGNATION</text>
+  <text x="602" y="772" font-size="11" fill="#DCEBFA">MY-1 &#8220;SAPROPHYTE&#8221;</text>
+  <text x="602" y="792">ORGANISM</text>
+  <text x="602" y="806" fill="#7FD1A8">WHITE-ROT BASIDIOMYCETE</text>
+  <text x="602" y="824">CYCLE TIME</text>
+  <text x="602" y="838" fill="#E8A33D">40 DAYS / BLOCK (A DIGESTER: DAYS)</text>
+
+  <text x="983" y="756">READINESS</text>
+  <text x="983" y="772" fill="#DCEBFA">PHASE 1 &#8212; THE BIOLOGY IS ROUTINE COMMERCIAL</text>
+  <text x="983" y="786" fill="#DCEBFA">PRACTICE ON EARTH. CONTAINING A DELIBERATELY</text>
+  <text x="983" y="800" fill="#DCEBFA">CULTIVATED FUNGUS INSIDE A SEALED HABITAT IS</text>
+  <text x="983" y="814" fill="#DCEBFA">UNPROVEN, AND THAT SINGLE UNKNOWN GATES THE</text>
+  <text x="983" y="828" fill="#DCEBFA">WHOLE CONCEPT.</text>
+  <text x="983" y="842" fill="#E86F6F">LIMITING BARRIER: SPORE CONTAINMENT.</text>
+</g>
+
+<text x="602" y="866" font-family="monospace" font-size="9.4" fill="#8FB6DB">DEPENDENCIES &#183; FEED FROM ROOT TOWER (26) &#183; MINERAL CAKE FROM UW-1 (49) &#183; CO2 TO ALGAL LOOP (25) / SABATIER (51)</text>
+<text x="602" y="882" font-family="monospace" font-size="9.4" fill="#8FB6DB">WHY NOT A BACTERIAL DIGESTER: LIGNIN HAS NO REPEATING BOND, AND A SEALED TANK CANNOT BE READ BY EYE.</text>
+
+<text x="602" y="920" font-family="monospace" font-size="10" fill="#DCEBFA">DESIGNED BY: W.A. SANDUN PRIYANKARA WIJERATHNE &#183; sandunwijerathne51@gmail.com &#183; github.com/sandunwijerathne</text>
+<text x="602" y="938" font-family="monospace" font-size="9" fill="#8FB6DB">CONCEPT STUDY &#8212; GROUNDED IN KNOWN PHYSICS. NO PHYSICAL LAW IS VIOLATED BY THIS DESIGN.</text>
+<text x="1340" y="938" text-anchor="end" font-family="monospace" font-size="9" fill="#8FB6DB">DRAWN 2026 &#183; CC BY 4.0</text>
+</svg>
