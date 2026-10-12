@@ -1,6 +1,6 @@
 # Off-World Civilisation Toolkit
 
-**Forty-two machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, food systems, and industry that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
+**Fifty machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, food systems, and industry that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
 
 Each concept folder contains a short article; flagship concepts additionally include a full research-paper-style concept study (PDF, Harvard referencing), an engineering blueprint sheet (SVG), and detailed image-generation prompts.
 
@@ -71,6 +71,18 @@ Each concept folder contains a short article; flagship concepts additionally inc
 ### Off-World Logistics
 41. **[The Orbital Tug Pool](41-orbital-tug-pool/)** — Cities didn't solve urban transport by giving everyone a better car.
 42. **[The Ballistic Cargo Capsule](42-ballistic-cargo-capsule/)** — A catalogue full of elaborate machines for going up deserves one honest, stupid machine for coming down.
+43. **[The Regolith Paved Airstrip](43-regolith-paved-airstrip/)** — A patch of fused regolith is a construction outcome. A facility is a promise.
+44. **[The Subsurface Freight Line](44-subsurface-freight-line/)** — The lava had no idea where we'd want to go — but it dug the tunnels anyway.
+
+### Settlement Systems
+45. **[The Dust-Storm Seal Gate](45-dust-storm-seal-gate/)** — The hull will hold. The door is where the planet gets in.
+46. **[The Buried Greenhouse Vault](46-buried-greenhouse-vault/)** — The picture everyone carries of farming on another world is the one arrangement a radiation environment forbids.
+47. **[The Modular Pressure Spine](47-modular-pressure-spine/)** — Pressure vessels don't fail in the middle of a wall. They fail where the wall stops being a wall.
+48. **[The Thermal Mass Battery Wall](48-thermal-mass-battery/)** — A settlement's first need through a fourteen-day night isn't power. It's not freezing.
+
+### Life Support & Agriculture
+49. **[The Urine-to-Water Cascade](49-urine-to-water-cascade/)** — Most machines in this catalogue are hard because physics is hard. This one is hard because people are.
+50. **[The Mycelial Digestion Vat](50-the-mycelial-digestion/)** — The water plant takes the liquid. This one takes what's left.
 
 ## Author
 
