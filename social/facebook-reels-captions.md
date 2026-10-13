@@ -1,12 +1,12 @@
 # Facebook Reels — Captions & Hashtags
-### Off-World Civilisation Toolkit · 42 concepts
+### Off-World Civilisation Toolkit · 50 concepts
 
 **How to use:** copy the caption block, paste into the Reel. Put the GitHub link in the
 **first comment**, not the caption — Facebook throttles reach on posts with external links
 in the body. Pin that comment.
 
 **Hashtags:** 5–8 is the sweet spot on Facebook (unlike Instagram). Each concept below has
-its own mix so you are not posting an identical block 42 times — repeated identical hashtag
+its own mix so you are not posting an identical block 50 times — repeated identical hashtag
 walls get flagged as spam and suppressed.
 
 **Pinned first-comment template:**
@@ -716,7 +716,7 @@ work that went into making it. A melted one keeps only the metal.
 
 The rubbish sorter is the more important machine.
 
-Which of the 42 would you build first? 👇
+Which of the 50 would you build first? 👇
 
 #CircularEconomy #Recycling #ZeroWaste #Sustainability #SpaceColony #SpaceTech #Engineering
 
@@ -760,16 +760,142 @@ The most flight-proven idea in the whole volume. 🪂
 
 ---
 
+### 43 · The Regolith Paved Airstrip
+
+The word "airstrip" is wrong.
+
+No air means no lift. Nothing will ever roll down this and take off. Every vehicle that arrives lands vertically, under thrust, on legs.
+
+So what is it? A landing facility — and that's a specification, not a machine. Flat enough. Strong enough. Surveyed, certified, and re-measured on a schedule.
+
+The proof is Apollo 12. It landed near Surveyor III, and the parts brought home had been sandblasted by the lunar module's own plume.
+
+The pavement isn't the product. The promise that it's still in tolerance is. 📐
+
+#LunarBase #SpaceInfrastructure #Apollo12 #Standards #SpaceTech #Engineering
+
+---
+
+### 44 · The Subsurface Freight Line
+
+In rail engineering, the tunnel is the budget.
+
+On the Moon, geology already dug it. Lava tubes — hollow passages left when molten rock crusted over and drained away.
+
+The catch nobody expects is the wheel. A wagon keeps its mass on the Moon but loses five-sixths of its weight — so the same force to accelerate, one sixth the grip to supply it. Inertia stays. Grip vanishes.
+
+So the wheels just carry the load, and linear motors do the pushing and the stopping.
+
+The tube gives you the hole. It gives you none of the alignment. 🚂
+
+#LavaTubes #Railways #LinearMotor #Moon #SpaceInfrastructure #Engineering
+
+---
+
+## Settlement Systems
+
+### 45 · The Dust-Storm Seal Gate
+
+The hull will hold. The door is where the planet gets in.
+
+Dust on the Moon and Mars is fine, sharp and electrically charged, which is exactly why it clings. Apollo crews were out for days and still called it one of their worst problems.
+
+Brushing just drives it deeper into the fabric. So the Janus gate does the opposite: electrodes under the floor send a wave of electric field along the surface that charges the grains and marches them off. No brushes. No moving parts.
+
+Stack it with magnets and outward airflow and you still never reach zero. You hold a budget.
+
+The best gate is the one nobody walks through. 🚪
+
+#MarsMission #DustMitigation #Airlock #Apollo #SpaceTech #Engineering
+
+---
+
+### 46 · The Buried Greenhouse Vault
+
+A glass dome full of crops on Mars is a picture of a radiation hole.
+
+Plants need light. Light needs a window. A window is a hole in your shelter.
+
+So take the window apart. It does two jobs: gather light, and deliver it. Do them in different places. Collect on the surface, pipe it down a narrow shaft, and release it inside a vault buried under two metres of regolith.
+
+The dirt shields the crew, steadies the temperature, and holds the roof down against the pressure.
+
+You lose the view. You keep the people. 🌱
+
+#MarsMission #SpaceFarming #Greenhouse #RadiationShielding #SpaceTech #Engineering
+
+---
+
+### 47 · The Modular Pressure Spine
+
+Pressure vessels don't fail in the middle of a wall. They fail where the wall stops being a wall.
+
+Cut a hole in a stressed plate and the stress at its rim climbs to about three times the stress far away. Sharp corners make it worse.
+
+Two de Havilland Comets broke up in 1954. Investigators cycled a whole fuselage in a water tank until it failed, and the cracks started at the corners of the openings.
+
+So the Vertebra uses one port. Rounded, reinforced, and broken on purpose, once, in a tank — instead of fifty improvised joints discovered in service. 🔩
+
+#Engineering #DeHavillandComet #StructuralEngineering #SpaceHabitat #SpaceTech #Fatigue
+
+---
+
+### 48 · The Thermal Mass Battery Wall
+
+A settlement's first need through a fourteen-day lunar night isn't power. It's not freezing.
+
+Batteries big enough would be vast, heavy to import, and weakened by the cold. So bank the afternoon in stone instead — the Romans heated their bathhouse floors that way.
+
+Here's the lucky part: loose regolith in vacuum is a superb insulator, and fused regolith conducts. Same dirt, two states. A dense core where heat has to move. A loose jacket where it has to stay.
+
+A hot rock in a heap of cold dust. 🔥
+
+#LunarBase #ThermalStorage #Regolith #LunarNight #SpaceTech #Engineering
+
+---
+
+## Life Support & Agriculture
+
+### 49 · The Urine-to-Water Cascade
+
+Recovering drinking water from urine is flight hardware. It's already running in orbit.
+
+So this study doesn't argue about the main process. It's about the parts nobody solved, and one of them isn't chemistry.
+
+Hold the feed at pH 2 and the nitrogen becomes an ion. Ions can't evaporate, so the ammonia never reaches your water. Dry the leftover brine to a cake with waste heat and recovery goes from roughly 75% to roughly 97%.
+
+But testing clean and being believed clean are two different things. So the last stage is a glass carafe in the galley, with every test result displayed above it.
+
+The water forgets. The ledger must not. 💧
+
+#WaterRecycling #LifeSupport #Chemistry #SpaceHabitat #SpaceTech #Engineering
+
+---
+
+### 50 · The Mycelial Digestion Vat
+
+The water plant takes the liquid. This one takes what's left.
+
+Lignin, the stubborn part of plant waste, has no repeating bond for an enzyme to cut. White-rot fungi don't try. They secrete oxidative enzymes and let radical chemistry tear it apart — "enzymatic combustion". The result is oyster mushrooms.
+
+It's slower than a bacterial digester on purpose. A mycelial block is legible on sight: an even white mat is healthy, green is contamination. No training needed.
+
+The catch: it grows a fungus inside the only air the settlement has. 🍄
+
+#Mycology #WasteRecycling #SpaceFarming #LifeSupport #SpaceTech #Engineering
+
+---
+
 ## Posting notes
 
 - **Hook = first line.** Facebook truncates the caption after roughly one line on mobile;
   every caption above is written so the cut lands after the hook.
 - **Link in the pinned first comment**, never in the caption body.
 - **One concept per Reel**, in catalogue order, builds a series people can follow. Say
-  "Concept 12 of 42" in the video itself, not the caption — it saves caption space and still
+  "Concept 12 of 50" in the video itself, not the caption — it saves caption space and still
   reads as a series.
 - **Ask a question at the end.** Several captions above do; comments are the strongest
   ranking signal on Reels.
 - **Rotate hashtags** — the per-concept sets above are already varied. Do not paste one
-  master block onto all 42.
+  master block onto all 50.
 - If a Reel underperforms, add 3–4 broad fillers: #Space #Science #Technology #Innovation.

@@ -1,5 +1,5 @@
 # Google Flow — Video Prompts (9:16 Vertical)
-### Off-World Civilisation Toolkit · 42 concepts
+### Off-World Civilisation Toolkit · 50 concepts
 
 Three shots per concept, ~8 seconds each, cut together into a ~24-second vertical reel.
 Every shot tells Flow exactly how to use your uploaded reference images.
@@ -80,7 +80,7 @@ with each concept.
 
 ## Audio policy
 
-Veo generates native audio. Two rules keep it consistent and physically honest across all 42:
+Veo generates native audio. Two rules keep it consistent and physically honest across all 50:
 
 - **In vacuum:** the audio is a *structure-borne* recording — sound conducted through the
   machine's own frame, as a contact microphone would hear it. No air, so no whoosh, no roar,
@@ -1881,6 +1881,194 @@ Vertical 9:16. Reference image is the exact machine: match its geometry, proport
 **Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
 ```
 Vertical 9:16. Same capsule, matched exactly to the reference image. It settles onto the crushable base with a soft compression and topples gently onto its side; the parafoil collapses and drifts down over the ground beside it. The camera stays low and wide, holding the small dust plume kicked up at touchdown as a distant recovery vehicle begins moving toward it across the flat desert. Hold on the still capsule, scorched and intact. Audio: a soft crushing thud, canopy fabric settling, then quiet ambient wind. No dialogue.
+```
+
+---
+
+## 43 · The Regolith Paved Airstrip "Runway"
+
+**Upload:** `airstrip_blueprint.png` · `airstrip_render.png`
+**Ingredient label:** `Pad 01 certified landing pad`
+**Hook:** *A patch of fused regolith is a construction outcome. A facility is a promise.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading RA-1 RUNWAY. The camera pushes in on the concentric site plan, travelling inward through the dashed exclusion ring and the bold bound-area circle to the cross-shaped touchdown marking at the centre. The linework glows and lifts off the page into three dimensions; the grid dissolves into a grey lunar plain under a black sky, and the wireframe fills with real material — a broad circular apron of dark glassy sintered regolith, a high-contrast cross marking with a bright centre target, squat survey monuments topped with retroreflectors at the corners, a cargo lander on four splayed legs at the centre — becoming exactly the pad in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into near silence. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact landing pad: match its apron geometry, sintered surface, cross marking, pad identifier, survey monuments, placards and lander precisely. Do not redesign, restyle, or add hardware that is not in the reference. The cargo lander settles the last metre onto the pad centre, its throttled engine firing a pale, almost invisible plume. Beyond the pad's edge, loose grey regolith is scoured into flat, straight ballistic streaks that fly outward and fall without billowing — no air to hold them up — while on the fused pad itself nothing lifts. Four splayed legs flex as the footpads touch the crust; the engine cuts instantly and the plume vanishes. The camera holds a low three-quarter angle on the sharp edge where fused pad meets loose ground. Harsh low sunlight, long knife-edged shadows, black star-dusted sky. Audio: structure-borne — deep engine rumble conducted through the frame, RCS thruster ticks, a heavy leg-strut clunk, then abrupt silence. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same pad, matched exactly to the reference image. The camera rises slowly and pulls back until the whole concentric arrangement is visible from above — the dark circular apron, the cross marking, the four monuments at its corners, a short paved track leading toward a distant habitat, the lander small at the centre. Outside the pad edge, the last of the dust settles straight down. Hold on the wide view. Audio: the rumble fades with distance through the ground to nothing, then silence. No dialogue.
+```
+
+---
+
+## 44 · The Subsurface Freight Line "Cuniculus"
+
+**Upload:** `freight_line_blueprint.png` · `freight_line_render.png`
+**Ingredient label:** `Freight 04 lava-tube freight train`
+**Hook:** *The lava had no idea where we'd want to go — but it dug the tunnels anyway.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading SF-1 CUNICULUS. The camera pushes in on the long geological section, dropping down a skylight shaft with its hoist line into the cavern and following the double-line track between the two stations to the small train. The linework glows and lifts off the page into three dimensions; the grid dissolves into the total darkness of a lava tube, and the wireframe fills with real material — a low flatbed rail vehicle carrying two sealed grey containers, steel rails on a graded basalt floor, a flat reaction rail between them, work lights switching on — becoming exactly the train in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into a low electrical hum. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact train: match its geometry, proportions, container layout, coil housings, work lights and stencilled markings precisely. Do not redesign, restyle, or add hardware that is not in the reference. The Freight 04 train glides along its rails through the lava tube, hard white work lights throwing beams down the tunnel and picking out the rough, ropy texture of the frozen-lava walls and the curved ceiling far above; beyond the beams the cave falls into total blackness. Large fallen breakdown blocks pass at the edge of the light, on the untouched floor beyond the graded track bed. The camera tracks low alongside at a three-quarter angle, matching the train's slow, steady speed. Audio: structure-borne — a low linear-motor hum conducted through the rails, a soft tick of the wheels over rail joints, nothing else. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same train, matched exactly to the reference image. It passes the camera and recedes down the tube, its tail lamp shrinking to a point in the blackness. Far ahead, a single shaft of pale sunlight falls through a skylight onto the cave floor, lighting hanging dust and a station platform with a hoist frame. Hold on the shaft of light. Audio: the hum fades with distance through the rails to nothing, then silence. No dialogue.
+```
+
+---
+
+# Settlement Systems
+
+## 45 · The Dust-Storm Seal Gate "Janus"
+
+**Upload:** `seal_gate_blueprint.png` · `seal_gate_render.png`
+**Ingredient label:** `Seal Gate 02 dust decontamination vestibule`
+**Hook:** *The hull will hold. The door is where the planet gets in.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading SG-1 JANUS. The camera pushes in along the horizontal section, starting among the scattered dust dots at the dirty left end and travelling through three chambers separated by bold door lines, past the row of electrode ticks beneath the floor of Zone 2, toward the clean habitat at the right. The linework glows and lifts off the page into three dimensions; the grid dissolves into cool clinical interior light, and the wireframe fills with real material — matte white composite walls, a floor of dark grey dielectric panels with fine electrode traces, a high-voltage drive cabinet with status lights, a sealed inner hatch with a viewport — becoming exactly the vestibule in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into a low electrical hum. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact vestibule: match its wall panels, dielectric floor, drive cabinet, grilles, hatch, placards and stencilled markings precisely. Do not redesign, restyle, or add hardware that is not in the reference. A dusty ochre-red Mars suit stands motionless on the floor panels facing the inner hatch, its boots and lower legs caked in fine rust-coloured dust. The sweep activates: a faint drift of dust lifts from the panel surface and travels in a slow wave toward the floor-level grille at the outer end, leaving the panel visibly cleaner behind it. Status lights on the drive cabinet pulse and the readout updates. The camera holds a low three-quarter angle at boot height, then rises slowly. Cool clinical interior lighting, with warm dusty orange light through the outer hatch window. Audio: a low electrical hum with a faint crackle, soft airflow into the return grilles. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same vestibule, matched exactly to the reference image. The camera pulls back to take in the whole chamber — the swept floor, the suit now noticeably cleaner at the boots, the drive cabinet, the sealed inner hatch — and settles on the outer hatch window, where a dust-hazed pink-orange sky and rusty terrain glow. Hold on the window. Audio: the hum fades to quiet ventilation room tone. No dialogue.
+```
+
+---
+
+## 46 · The Buried Greenhouse Vault "Demeter"
+
+**Upload:** `greenhouse_vault_blueprint.png` · `greenhouse_vault_render.png`
+**Ingredient label:** `Grow Vault 01 buried salad vault`
+**Hook:** *A glass dome full of crops is a radiation hole with a farm in it.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading GV-1 DEMETER. The camera pushes in on the vertical section, starting at the surface collector and the small sun above it and following the narrow shielded light duct down through the banded layer of overburden into the pressurised vault with its stacked growing racks. The linework glows and lifts off the page into three dimensions; the grid dissolves into a saturated pink-violet glow, and the wireframe fills with real material — windowless pale composite walls, an arched ceiling, vertical racks of lettuce and herbs beneath slim LED bars, a narrow ceiling duct carrying optical fibre to a diffuser panel — becoming exactly the vault in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into ventilation fans and a faint drip. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact vault: match its rack layout, LED bars, ceiling arch, duct, diffuser panel, placards and stencilled markings precisely. Do not redesign, restyle, or add equipment that is not in the reference. The camera tracks slowly down the central aisle past the stacked racks, vivid green lettuce and herbs saturated by the magenta glow of the LED bars above each shelf. Nutrient drip lines glisten, faint condensation clings to cool panels, and a technician in soft work clothes — back to camera, no face in frame — lifts a tray to inspect it. At the far end the ceiling duct's diffuser panel glows natural white, a clear contrast against the pink light. Humid, still air. Audio: ventilation fans, the soft drip of nutrient lines, a quiet tray scrape. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same vault, matched exactly to the reference image. The camera pulls back and rises to show the whole space — the full aisle of racks glowing magenta, the arched ceiling, the technician small among the crops — then settles on the single white daylight panel at the far end. Hold on it. Audio: fans and drips fade to quiet room tone. No dialogue.
+```
+
+---
+
+## 47 · The Modular Pressure Spine "Vertebra"
+
+**Upload:** `pressure_spine_blueprint.png` · `pressure_spine_render.png`
+**Ingredient label:** `MP-1 qualification article 01`
+**Hook:** *Pressure vessels don't fail in the middle of a wall. They fail where the wall stops being a wall.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading MP-1 VERTEBRA. The camera pushes in along the plan of the five-segment corridor with modules plugged in above and below, travelling down to the magnified detail circle of the single reinforced port. The linework glows and lifts off the page into three dimensions; the grid dissolves into a vast aerospace test hall, and the wireframe fills with real material — a thick-walled aluminium cylinder with two large circular side ports, each ringed by a thickened machined collar with rounded edges, slung inside an open steel water tank — becoming exactly the test article in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into industrial hall ambience and a pump hum. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact test article: match its cylinder, port collars, water tank, strain-gauge wiring, gantry, data racks and stencilled markings precisely. Do not redesign, restyle, or add equipment that is not in the reference. Inside the test hall the MP-1 qualification article hangs in its tank as the pressure controller cycles, the water surface shivering faintly with each pulse. On the gantry a screen's cycle counter ticks upward. The camera tracks slowly along the gantry past bundles of strain-gauge wiring toward a port rim where marker lines and a dye-penetrant stain circle one corner. An engineer's gloved hand — no face in frame — points at a trace on a screen. Harsh industrial lighting reflecting off the water. Audio: a pump thump on each pressure cycle, hydraulic hiss, relay clicks, low hall reverb. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same test article, matched exactly to the reference image. The camera pulls back and rises over the tank until the whole hall is in frame — the suspended segment, the gantry, the data racks — then settles on the cycle counter rolling over another digit. Hold on it. Audio: a pump thump on each cycle, fading into hall tone. No dialogue.
+```
+
+---
+
+## 48 · The Thermal Mass Battery Wall "Hypocaust"
+
+**Upload:** `thermal_battery_blueprint.png` · `thermal_battery_render.png`
+**Ingredient label:** `Heat Store 01 survival heat store`
+**Hook:** *A settlement's first need through a fourteen-day night isn't power. It's not freezing.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework with amber accents marking heat flow, faint drafting grid, monospaced title block reading TB-1 HYPOCAUST. The camera pushes in on the vertical section, following the bold amber arrow from the concentrator dish at the surface down into the loose regolith jacket and the dense coursed core with its winding serpentine heat pipes. The linework glows and lifts off the page into three dimensions; the grid dissolves into a lunar late afternoon under a black sky, and the wireframe fills with real material — dark sintered regolith blocks laid in neat courses, copper-coloured heat-pipe manifolds in insulated conduit, a heaped jacket of pale loose regolith, a small tracking dish — becoming exactly the heat store in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into near silence. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact heat store: match its block courses, copper manifolds, conduit, data-logger box, placard, excavator rover and dish precisely. Do not redesign, restyle, or add hardware that is not in the reference. The blade of a small excavator rover spills pale loose regolith over the exposed top of the dark block; the grains fly in short, flat ballistic arcs and fall straight back down without billowing. Copper manifolds glint against the dark masonry, and the small data-logger readout holds steady. The sun is very low on the horizon, throwing extremely long, sharp shadows. The camera holds a three-quarter angle and dollies slowly along the block face. Audio: structure-borne — the rover's motor hum conducted through the ground, soft grain ticks against the conduit. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same installation, matched exactly to the reference image. As the sun touches the horizon, the camera pulls back to show the jacket now a smooth mound beside the habitat, the concentrator dish dark, and the habitat's warm window lights glowing as the long shadows merge into night. Hold on the lit windows. Audio: the hum fades to nothing, then silence. No dialogue.
+```
+
+---
+
+# Life Support & Agriculture
+
+## 49 · The Urine-to-Water Cascade "Lethe"
+
+**Upload:** `lethe_blueprint.png` · `lethe_render.png`
+**Ingredient label:** `Brine crystalliser assembly UW-1 Phase A`
+**Hook:** *Most machines are hard because physics is hard. This one is hard because people are.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading UW-1 LETHE. The camera pushes in along the descending staircase of six equipment boxes, past the long red dashed return line beneath them, and settles on the third box, the brine crystalliser. The linework glows and lifts off the page into three dimensions; the grid dissolves into the even light of a clean-room assembly bay, and the wireframe fills with real material — a white aluminium rack with its front panel removed, a shallow stainless-steel drying tray with a scraper blade inside a copper heat-exchange jacket, a small vacuum pump, white-labelled valves, tidy PTFE tubing — becoming exactly the module in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into clean-room fan hum. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact module: match its rack, drying tray, scraper, copper jacket, pump, valves, tubing, front display and identification plate precisely. Do not redesign, restyle, or add hardware that is not in the reference. The crystalliser runs: the motorised scraper blade makes a slow pass across the stainless drying tray, lifting a pale grey-white crust into curled plates. The recovery percentage and mass figure on the front bezel display tick steadily upward, and a faint heat shimmer hangs over the copper jacket. The camera tracks slowly across the open rack at a three-quarter angle. Soft, even clean-room lighting. Audio: the motorised scraper's whir, a vacuum pump hum, a click of a solenoid valve. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same module, matched exactly to the reference image. The camera settles close on the open dish beside the rack, where the dried mineral cake lies cracked into plates like dried mud, blue-gloved fingertips resting at the edge of frame for scale, then pulls back to the whole rack with its display reading steadily. Hold. Audio: the pump winds down to quiet, one last valve click. No dialogue.
+```
+
+---
+
+## 50 · The Mycelial Digestion Vat "Saprophyte"
+
+**Upload:** `saprophyte_blueprint.png` · `saprophyte_render.png`
+**Ingredient label:** `Colonisation rack Train A food stream`
+**Hook:** *The water plant takes the liquid. This one takes what's left.*
+
+**Shot A — Blueprint ignition** *(Frames to Video: blueprint → render)*
+```
+Vertical 9:16. Opens on a cyanotype blueprint sheet filling the frame — prussian-blue paper, fine white and cyan linework, faint drafting grid, monospaced title block reading MY-1 SAPROPHYTE. The camera pushes in across the two process trains inside the containment shell, passing over the bold red-hatched air-gap band, and settles on the dark colonisation rack in the upper train. The linework glows and lifts off the page into three dimensions; the grid dissolves into the cool even light of a sealed research facility, and the wireframe fills with real material — a stainless-steel rack holding twelve translucent gas-permeable sleeves on perforated shelves, packed with straw-coloured residue as white mycelium creeps through it — becoming exactly the rack in the final frame. One continuous move, no cut, and the finished hardware does not morph. Audio: paper rustle, drafting-pen scratch, a rising tone settling into the hum of a filtered air handler. No dialogue.
+```
+
+**Shot B — Hero action** *(Ingredients to Video)*
+```
+Vertical 9:16. Reference image is the exact rack: match its shelf layout, translucent sleeves, mycelium coverage, paper scale strips, batch cards, pressure gauge, filter housing and laminated sign precisely. Do not redesign, restyle, or add equipment that is not in the reference. The camera tracks slowly up the face of the rack, past sleeves that run from almost solid even white at the bottom to pale brown substrate with a creeping white front at the top, the printed scale strips and handwritten batch cards in frame. A gloved technician's hand — no face in frame — enters and rests lightly on one sleeve without opening it. On the wall behind, the differential pressure gauge hovers slightly below zero. Cool, even LED lighting, quiet and clinical. Audio: the hum of the filtered air handler, a faint rustle of a glove on a sleeve. No dialogue.
+```
+
+**Shot C — Payoff / scale** *(Ingredients to Video, or Extend Shot B)*
+```
+Vertical 9:16. Same rack, matched exactly to the reference image. The camera pulls back to show the whole room — the rack, the sealed epoxy floor, the filter housing at the ceiling line, the laminated sign on the rack end — then settles on the even white mat of the lowest sleeves. Hold. Audio: the air handler's hum fades to quiet room tone. No dialogue.
 ```
 
 ---

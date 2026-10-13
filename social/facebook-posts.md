@@ -1,5 +1,5 @@
 # Facebook Posts — Copy & Paste
-### Off-World Civilisation Toolkit · all 42 concepts
+### Off-World Civilisation Toolkit · all 50 concepts
 
 Each concept below is rewritten as a **native Facebook text post**. The repo articles are
 Markdown — headings, `**bold**`, `[links](url)` — none of which Facebook renders, so pasting
@@ -24,7 +24,7 @@ nothing to reformat.
 > github.com/sandunwijerathne/Off-World-Civilisation-Toolkit
 > Concept #N — [name]
 
-**Pacing:** one concept every 2–3 days, in catalogue order. 42 posts is roughly three to four months
+**Pacing:** one concept every 2–3 days, in catalogue order. 50 posts is roughly four to five months
 of material. Post them faster than that and you burn the catalogue before the audience builds.
 
 ---
@@ -48,7 +48,7 @@ What has never existed is the weaver itself. An autonomous machine that spins, s
 
 That is a robotics problem, not a physics problem. Which is exactly why I think a first version is plausible within about twenty years of a funded start.
 
-Concept 1 of 42 in my Off-World Civilisation Toolkit. Which one should I break down next?
+Concept 1 of 50 in my Off-World Civilisation Toolkit. Which one should I break down next?
 
 Full concept study, blueprint and paper — link in the first comment.
 
@@ -1306,7 +1306,7 @@ So my conclusion is that the institutional work has to come before the engineeri
 
 And honestly, the helium-3 economics have been contested for decades. The concentrations are high by Earth standards but tiny in absolute terms, and the fusion reactors that would burn it do not exist yet.
 
-Of all forty-two machines, this is the one whose limiting factor is most clearly not physics, but trust.
+Of all fifty machines, this is the one whose limiting factor is most clearly not physics, but trust.
 
 Who should get to decide whether it is built?
 
@@ -1321,7 +1321,7 @@ Full concept study, blueprint and paper — link in the first comment.
 ### 40 · The Recycling Cascade
 
 ```
-Forty concepts in, the most important machine in this catalogue is the one that sorts rubbish.
+Fifty concepts in, the most important machine in this catalogue is the one that sorts rubbish.
 
 The word "waste" hides an assumption about geography.
 
@@ -1339,7 +1339,7 @@ The order is the entire idea, because every step down destroys embodied work. A 
 
 Repair before remake. Remake before reform. Reduce only when nothing else will serve.
 
-It is the return path for everything else in the catalogue. A settlement with the other forty-one machines and no recycling is quietly consuming itself. With the cascade, material moves round instead of through. That is not an efficiency gain. It is the difference between an expedition and a place people live.
+It is the return path for everything else in the catalogue. A settlement with the other forty-nine machines and no recycling is quietly consuming itself. With the cascade, material moves round instead of through. That is not an efficiency gain. It is the difference between an expedition and a place people live.
 
 And the one dishonesty I will not allow here: it never fully closes. Every process loses a little to dust, vapour, oxidation, and mixtures too messy to recover. A real cascade approaches complete recycling and never arrives, so a settlement still needs a slow trickle of new material to make up the losses.
 
@@ -1347,7 +1347,7 @@ The best part is that the first step is not hardware at all. It is a design rule
 
 This closes Volume II, fittingly, with the machine that makes the word "waste" obsolete.
 
-Which of the forty-two would you build first?
+Which of the fifty would you build first?
 
 Full concept study, blueprint and paper — link in the first comment.
 
@@ -1415,6 +1415,232 @@ Full concept study, blueprint and paper — link in the first comment.
 
 ---
 
+### 43 · The Regolith Paved Airstrip
+
+```
+The word "airstrip" is wrong. On the Moon there is no air, so there is no lift, so nothing will ever roll down this and take off.
+
+Every vehicle in my catalogue that arrives at a surface — the hopper freighter, a lander, a returning payload — comes down vertically, under thrust, on legs. So what a settlement actually needs isn't a runway. It's a landing facility. And what makes it a facility, rather than a patch of sintered ground, is four measurable things: a bound area wide enough that a descending plume doesn't excavate the ground, a crust strong enough to carry a loaded footpad, a slope shallow enough that nothing tips, and a geometry somebody has surveyed and will certify.
+
+Why the bound area has to be big is on the record, not in a simulation. Apollo 12 landed near Surveyor III, which had been sitting on the Moon since 1967. Parts brought back to Earth showed erosion and pitting from the lunar module's own plume. With no air to slow them, the grains travelled on long, flat paths at high speed. A landing sandblasts its neighbours.
+
+So the RA-1 "Runway" is a specification, not a machine: flatness, slope, bearing capacity, bound-area radius, exclusion radius, markings and a re-survey interval — every number set by the vehicle that has to use the place. With no GPS off Earth, the site carries its own network of surveyed monuments, re-measured on a schedule.
+
+The facility's real product isn't the pavement. It's the assurance, periodically renewed, that the pavement is still within tolerance.
+
+There's an awkward circularity at the heart of it: the spec can't be written until the fleet exists, and the fleet can't be certified until the spec exists.
+
+This is one of the least romantic ideas in my catalogue and one of the most necessary. The near-term step is a document, not a device. Write the standard before the first pad goes in the ground, and early sites stop being bespoke.
+
+Who should write the first landing standard for another world?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#LunarBase #SpaceInfrastructure #Apollo12 #Standards #SpaceTech #Engineering
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 44 · The Subsurface Freight Line
+
+```
+In rail engineering, the tunnel is the budget. Boring through rock is slow, dangerous and expensive — which is why railways go around mountains where they can.
+
+An off-world settlement has none of the machinery, workforce or energy to bore anything. And yet the Moon and Mars appear to be threaded with tunnels that geology excavated for free, billions of years ago.
+
+Lava tubes form where a river of molten rock crusts over and the liquid beneath drains away. GRAIL gravity data supports large empty tubes under the lunar maria — and in lunar gravity they could be far bigger than anything on Earth.
+
+The SF-1 "Cuniculus" is a freight railway laid along a tube floor between two points a settlement connects again and again — a mine and a refinery, a refinery and a launcher. Cargo rides in sealed containers on unpressurised flatbeds, because pressurising kilometres of cavern isn't worth it.
+
+The surprising problem isn't the tunnel. It's the wheel. Mass doesn't change on the Moon, so a loaded wagon needs exactly the same force to accelerate — but weight drops to a sixth, and traction depends on weight. Inertia stays. Grip vanishes. And you can't stop on friction you don't have.
+
+So the wheels only support and guide, and linear motors do the pushing and the braking, reacting against a rail instead of gripping it. It's the mass driver's principle, run gently and continuously.
+
+What the roof gives you for free: radiation shielding, no micrometeorites, no fourteen-day thermal swing to wreck the rails, no dust. What it won't give you is alignment. The tube follows wherever the lava went, and it owes you nothing.
+
+This concept is downstream of the Lava Tube Surveyor. Nobody can design the line until something has gone down and come back with a map.
+
+Where would you lay the first line?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#LavaTubes #Railways #LinearMotor #Moon #SpaceInfrastructure #Engineering
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+## Settlement Systems
+
+### 45 · The Dust-Storm Seal Gate
+
+```
+The hull will hold. The door is where the planet gets in.
+
+An airlock is usually described as a pressure device. On a dusty world it's something else too, and the something else is harder. Every person, tool, wheel and container passing through carries the surface with it — and lunar and Martian dust is fine, clinging, abrasive, and on Mars chemically hostile. Apollo crews were out for days and still ranked dust among their worst practical problems. A settlement cycling airlocks many times a day lives with that forever.
+
+The SG-1 "Janus" is a graded transition, each zone dirtier than the next, with dust never allowed to travel backwards. Zone 1 knocks off the gross debris. Zone 2 does the fine removal that actually matters. Zone 3 is the pressure lock — the only part a terrestrial engineer would recognise as an airlock. Airflow, drainage and slopes all run outward, so whatever is dislodged goes back to the planet instead of deeper in.
+
+Brushing and wiping are the wrong tools: they drive sharp grains into fabric and seals. What works exploits the same charge that makes dust stick. Electrodes beneath a surface, driven with multi-phase voltage, make a field that travels along the surface as a wave. It charges the grains and marches them off — no moving parts, no contact. Mars hands you a second handle: its dust is strongly magnetic, so a magnet can catch what the sweep releases.
+
+And no mechanism reaches zero. The goal isn't a clean transition. It's a budget: dust admitted has to stay below dust removed.
+
+The best gate is the one nobody walks through. A suit that docks to the outside of the hull and is entered from within never brings its dusty exterior indoors at all.
+
+What this concept needs most isn't invention. It's measurement.
+
+A better door, or a suit that never comes inside — which would you build first?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#MarsMission #DustMitigation #Airlock #Apollo #SpaceTech #Engineering
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 46 · The Buried Greenhouse Vault
+
+```
+The popular image of a farm on another world is a glass dome full of green under an alien sky. It's also a radiation hole with crops in it — and the crew tending it are standing in the one part of the settlement that was left open on purpose.
+
+Every other habitat concept in my catalogue works in one direction: put mass between the crew and the sky. Agriculture asks for the opposite, because plants need light, and light means transparency.
+
+Here's the way out. A window does two separate jobs. It gathers light outside and it delivers that light inside, and it only has to be a hole because both happen in the same place. Split them. Collect on the surface, where nobody stands. Carry the light down a narrow penetration. Release it into a fully buried volume.
+
+That's the GV-1 "Demeter": a pressurised grow vault under about two metres of regolith, with no transparent roof and no view of the sky. The overburden pays three times. It shields the crew and the seed stock. It's thermal mass against the surface's enormous swing. And it's ballast, holding the roof down against the pressure pushing up.
+
+Plants also don't want all the light you'd give them. They absorb blue and red and reflect green, which is why they look green. Piped daylight keeps light as light but delivers the whole spectrum, heat included. Lamps tuned to the useful bands pay a conversion penalty but waste nothing. A real vault uses both.
+
+The catch is arithmetic. Energy, not excavation, limits how much you can grow — and on the Moon you have to get through a fourteen-day night.
+
+The glazed dome photographs beautifully and shields nothing. The vault is darker and less romantic. It's also the version where people can stand among the crops for years instead of hours.
+
+Would you trade the view for the shielding?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#MarsMission #SpaceFarming #Greenhouse #RadiationShielding #SpaceTech #Engineering
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 47 · The Modular Pressure Spine
+
+```
+Pressure vessels don't fail in the middle of a wall. They fail where the wall stops being a wall.
+
+A smooth shell under pressure carries its load evenly, and you can design that with confidence. The danger is wherever continuity breaks: a door, a window, a pipe, a bolted joint. And a settlement built from modules is mostly discontinuities. Every connection is a hole in two pressure vessels at once.
+
+If every module designer invents their own, a fifty-module settlement contains dozens of distinct joint designs, each needing its own analysis, each a place where somebody's assumption becomes a breach.
+
+The MP-1 "Vertebra" is a central pressurised corridor built from identical segments, each with the same standard port. Modules never connect to each other. They connect to the spine, which carries people, air, power, water and data. Bulkheads isolate a breach. Every port is reinforced to one qualified standard. That means the modules themselves can be light, specialised, even experimental, because the risk goes where it can be controlled.
+
+Why a hole is worse than it looks: cut a circular hole in a stressed plate and the stress at its rim climbs to roughly three times the stress far away. Kirsch worked that out in 1898. Sharp corners make it worse.
+
+Then add repetition. In 1954, two de Havilland Comet airliners broke up in flight. Investigators put a complete fuselage in a water tank and pressurised it over and over until it failed — and the cracks started at the corners of openings. Two rules came out of it: round every corner, and break a real one before you trust it.
+
+So the spine's single port gets cycled to destruction once, in a tank, on purpose.
+
+The catch: a standard freezes a decision. A port chosen too small becomes a permanent constraint on growth.
+
+One standard joint, or fifty clever ones — which would you rather live inside?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#Engineering #DeHavillandComet #StructuralEngineering #SpaceHabitat #SpaceTech #Fatigue
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 48 · The Thermal Mass Battery Wall
+
+```
+A settlement's first need through a fourteen-day night isn't power. It's not freezing.
+
+The Moon's day and night each last about fourteen Earth days. The sun delivers everything for two weeks, then nothing, and with no air to hold warmth the surface radiates its heat straight to space. Almost every concept in my catalogue runs into that night. The kiln stops. The greenhouse goes dark. Solar vanishes at sunset.
+
+Chemical batteries big enough to carry a settlement through two weeks are vast, heavy to import, and degraded by the very cold they exist to defeat. What you want is a store that's cheap in mass, made locally and indifferent to temperature. Heat in rock is all three. The Romans heated their bathhouse floors that way, and the name comes from them.
+
+The TB-1 "Hypocaust" is a block of sintered regolith beside the habitat. Through the day, heat from a concentrator or waste heat from the kiln flows in through embedded heat pipes. Through the night it flows back out, keeping the habitat, the water and the crops above the temperatures where they fail.
+
+Here's the lucky physics. Loose regolith in vacuum is an extraordinary insulator: no air between the grains, so heat can only cross at tiny contact points. The Apollo heat-flow experiments found the surface swing is gone within about a metre of depth. Fuse that same regolith and it conducts. So: dense where heat has to move, loose where heat has to stay. You build the store and its insulation out of the dirt you're standing on.
+
+The limit is that heat wants to stay heat. It's superb at supplying warmth and mediocre at supplying electricity. It doesn't replace electrical storage — it removes the biggest load from it.
+
+For not freezing through a fourteen-day night, there is no cheaper answer than a hot rock in a heap of cold dust.
+
+What would you keep warm first?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#LunarBase #ThermalStorage #Regolith #LunarNight #SpaceTech #Engineering
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+## Life Support & Agriculture
+
+### 49 · The Urine-to-Water Cascade
+
+```
+Most machines in my catalogue are hard because physics is hard. This one is hard because people are.
+
+Recovering drinking water from urine isn't a frontier. It's flight hardware, and it has been running in orbit for years. So this study concedes the main process up front and spends its pages on the parts nobody solved. There are four. Three are chemical.
+
+Urea: bacteria split it into ammonia, and ammonia rides the steam straight into your product water. The escape is one number. Below pH 6 that nitrogen is an ion, and ions can't evaporate. So pH isn't a quality reading here, it's a switch. Hold the feed at pH 2 and the still has nothing volatile to carry.
+
+Small organics: distillation throws out the salts, then hands you water that looks pristine and conducts like pure water, while carrying molecules about as volatile as water itself. Conductivity is blind to them. They have to be burned off over a catalyst.
+
+Gypsum: urine is already close to saturated in calcium sulfate. Concentrate it and it scales the hottest surface in the machine. That caps recovery and strands about a quarter of the water in brine — unless you dry the brine to a solid cake using waste heat from the thermal mass battery. Recovery goes from roughly 75% to roughly 97%.
+
+The fourth problem is that a test result is not the same thing as being believed.
+
+Research on recycled water found that rejection is driven by contagion reasoning, not risk estimates. The water stays repellent even to people who accept it's chemically pure. So the last stage, the Witness, contains no novel instrument. It designs a sightline: a glass carafe in the galley, the last twenty-four hours of every channel displayed above it, failures alarmed by name, and a vial from every batch frozen for the awkward question in year four.
+
+The water forgets. The ledger must not.
+
+Would you drink it?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#WaterRecycling #LifeSupport #Chemistry #SpaceHabitat #SpaceTech #Engineering
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
+### 50 · The Mycelial Digestion Vat
+
+```
+The water plant takes the liquid. This one takes what's left.
+
+Every machine in my catalogue that grows something also makes something nobody can eat: stems, roots, husks, plus paper, wipes, food scraps and the solids the water plant won't touch. On a station you bag it and let it burn up with a departing cargo vehicle. At a settlement that isn't a call, it's a leak. Every kilogram of carbon and nitrogen that leaves is a kilogram someone has to launch again.
+
+The obvious answer is a bacterial digester. The MY-1 "Saprophyte" turns it down, and the real reason is about people. Lignin, the stubborn part of plant waste, has no repeating bond for a specific enzyme to cleave. White-rot fungi get around it by giving up on specificity: they secrete oxidative enzymes outside the cell and let radical chemistry tear the network apart. Kirk and Farrell called it "enzymatic combustion", and meant it literally.
+
+And the output is food. The oyster mushroom is among the most widely cultivated edible mushrooms in the world.
+
+But the deciding criterion is legibility. A digester's health is inferred from gas and pH numbers by whoever is paying attention that week. A mycelial block is legible on sight. An even white mat is healthy. Green is contamination. A stalled block announces itself by colour and smell to someone with no training at all. That's why it's slower on purpose: forty days a block.
+
+Two trains and an air gap. Food-stream waste on one side, human solids on the other, with no pipe, duct or fitting between them — because a valve can be opened and a gap can't.
+
+The honest part: it cultivates a fungus inside the only atmosphere the settlement has. No containment engineering makes that untrue. A settlement that decides the risk is unacceptable has made a defensible call.
+
+Would you keep a fungus alive in your air to close the loop?
+
+Full concept study, blueprint and paper — link in the first comment.
+
+#Mycology #WasteRecycling #SpaceFarming #LifeSupport #SpaceTech #Engineering
+#offworld #offworldCivilisation #offworldCivilisationtoolkit
+```
+
+---
+
 ## Posting notes
 
 - **The hook is the whole game.** Facebook shows roughly two lines before "See more". Every
@@ -1426,7 +1652,7 @@ Full concept study, blueprint and paper — link in the first comment.
 - **Two hashtag lines, and they do different jobs.** The top line is the discovery set —
   varied per concept, 5–7 tags, which is the sweet spot on Facebook (unlike Instagram). The
   bottom line is the fixed series signature: `#offworld #offworldCivilisation
-  #offworldCivilisationtoolkit`. It is identical on all 42 on purpose, so the catalogue is
+  #offworldCivilisationtoolkit`. It is identical on all 50 on purpose, so the catalogue is
   browsable as one body of work and readers can pull up every concept from any single post.
   Never let the discovery line become a repeated master block as well — varied top line plus
   fixed signature reads as a series; two identical blocks read as spam and get suppressed.
