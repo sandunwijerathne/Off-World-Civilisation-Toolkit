@@ -90,8 +90,11 @@ Each concept folder contains a short article, a full research-paper-style concep
 Email: sandunwijerathne51@gmail.com
 LinkedIn: https://www.linkedin.com/in/sandun-wijerathne/
 GitHub: https://github.com/sandunwijerathne/
+Facebook: https://www.facebook.com/people/Off-World-Civilization/61593927464458/
 
 If any of these concepts interests you — as a collaborator, researcher, employer, or fellow dreamer — contact me.
+
+New concepts are posted to the [Off-World Civilization](https://www.facebook.com/people/Off-World-Civilization/61593927464458/) page as they are drawn.
 
 ## License
 
