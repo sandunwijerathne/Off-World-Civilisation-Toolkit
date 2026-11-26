@@ -2,7 +2,7 @@
 
 **Fifty machines that do not exist — yet.** A catalogue of concept studies for spacecraft, off-world infrastructure, black-hole-era instruments, defense systems, AI robots, and the materials, habitats, food systems, and industry that hold it all together. Every concept is constrained to known physics: nothing here breaks a law of nature, only the current limits of engineering, materials, and budgets.
 
-Each concept folder contains a short article; flagship concepts additionally include a full research-paper-style concept study (PDF, Harvard referencing), an engineering blueprint sheet (SVG), and detailed image-generation prompts.
+Each concept folder contains a short article, a full research-paper-style concept study (PDF, Harvard referencing), an engineering blueprint sheet (SVG), and detailed image-generation prompts.
 
 ## The Catalogue
 

@@ -1321,7 +1321,7 @@ Full concept study, blueprint and paper — link in the first comment.
 ### 40 · The Recycling Cascade
 
 ```
-Fifty concepts in, the most important machine in this catalogue is the one that sorts rubbish.
+Forty concepts in, the most important machine in this catalogue is the one that sorts rubbish.
 
 The word "waste" hides an assumption about geography.
 

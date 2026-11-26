@@ -278,7 +278,7 @@ No dialogue.
 
 ---
 
-## 05 · The Orbital Propellant Depot
+## 05 · The Orbital Propellant Kelp Farm
 
 **Upload:** `propellant_depot_blueprint.png` · `propellant_depot_render.png`
 **Ingredient label:** `Orbital Depot Demo 1 cryogenic propellant station`
