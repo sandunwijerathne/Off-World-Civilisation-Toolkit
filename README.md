@@ -86,7 +86,7 @@ Each concept folder contains a short article, a full research-paper-style concep
 
 ## Author
 
-**Wijerathne Arachchilage Sandun Priyankara Wijerathne**
+**Sandun Wijerathne**
 Email: sandunwijerathne51@gmail.com
 LinkedIn: https://www.linkedin.com/in/sandun-wijerathne/
 GitHub: https://github.com/sandunwijerathne/
